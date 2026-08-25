@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "modules/pnp-end-game/art/portraits/scamp_squirrel.png"
+      "src": "modules/pnp-end-game/art/tokens/scamp_squirrel.png"
     }
   },
   "_key": "!actors!0c1b326f39bb277d"

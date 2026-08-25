@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "modules/pnp-end-game/art/portraits/sir_finnian.png"
+      "src": "modules/pnp-end-game/art/tokens/sir_finnian.png"
     }
   },
   "_key": "!actors!5b4d496cc81a50b5"

@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "modules/pnp-end-game/art/portraits/diana.png"
+      "src": "modules/pnp-end-game/art/tokens/diana.png"
     }
   },
   "_key": "!actors!4dc69a9732ce36df"

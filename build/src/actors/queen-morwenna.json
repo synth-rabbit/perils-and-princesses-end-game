@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "modules/pnp-end-game/art/portraits/queen_morwenna.png"
+      "src": "modules/pnp-end-game/art/tokens/queen_morwenna.png"
     }
   },
   "_key": "!actors!efbad3ce9d2dabc4"

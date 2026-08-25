@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "modules/pnp-end-game/art/portraits/sir_damon.png"
+      "src": "modules/pnp-end-game/art/tokens/sir_damon.png"
     }
   },
   "_key": "!actors!a1b6970b5f96b557"

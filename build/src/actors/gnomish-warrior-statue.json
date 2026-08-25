@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "modules/pnp-end-game/art/portraits/gnomish_warrior_statues.png"
+      "src": "modules/pnp-end-game/art/tokens/gnomish_warrior_statues.png"
     }
   },
   "_key": "!actors!afce5d1a516c36c3"

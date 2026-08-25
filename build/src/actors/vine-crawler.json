@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "modules/pnp-end-game/art/portraits/vine_crawler.png"
+      "src": "modules/pnp-end-game/art/tokens/vine_crawler.png"
     }
   },
   "_key": "!actors!5e5161ac358f70e4"

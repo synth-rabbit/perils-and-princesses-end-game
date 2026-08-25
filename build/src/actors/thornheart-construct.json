@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "modules/pnp-end-game/art/portraits/thornheart_construct.png"
+      "src": "modules/pnp-end-game/art/tokens/thornheart_construct.png"
     }
   },
   "_key": "!actors!863d1a9185e85ea8"

@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "modules/pnp-end-game/art/portraits/tifa.png"
+      "src": "modules/pnp-end-game/art/tokens/tifa.png"
     }
   },
   "_key": "!actors!6c421f52937e4869"

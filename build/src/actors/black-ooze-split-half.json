@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "modules/pnp-end-game/art/portraits/black_ooze.png"
+      "src": "modules/pnp-end-game/art/tokens/black_ooze.png"
     }
   },
   "_key": "!actors!54e2ba98187c559d"

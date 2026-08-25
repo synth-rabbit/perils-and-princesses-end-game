@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "modules/pnp-end-game/art/portraits/grumbold_troll.png"
+      "src": "modules/pnp-end-game/art/tokens/grumbold_troll.png"
     }
   },
   "_key": "!actors!4f45ef14bfaf5f1f"

@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "modules/pnp-end-game/art/portraits/robin_squire.png"
+      "src": "modules/pnp-end-game/art/tokens/robin_squire.png"
     }
   },
   "_key": "!actors!c8db2857654543b2"

@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "modules/pnp-end-game/art/portraits/deadly_serpents.png"
+      "src": "modules/pnp-end-game/art/tokens/deadly_serpents.png"
     }
   },
   "_key": "!actors!511f4917b1591909"

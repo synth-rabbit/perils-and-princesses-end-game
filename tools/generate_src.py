@@ -21,6 +21,8 @@ def slug(name):
 def npc(name, hp, save, armor, art, notes, level=1):
     i = did(name, "actor")
     img = f"modules/{MODULE_ID}/art/portraits/{art}" if art else "icons/svg/mystery-man.svg"
+    # sheets show the square portrait; tokens use the round bordered version
+    token_img = f"modules/{MODULE_ID}/art/tokens/{art}" if art else "icons/svg/mystery-man.svg"
     return {
         "_id": i,
         "name": name,
@@ -45,7 +47,7 @@ def npc(name, hp, save, armor, art, notes, level=1):
             "displayName": 20,
             "displayBars": 40,
             "bar1": {"attribute": "hp"},
-            "texture": {"src": img},
+            "texture": {"src": token_img},
         },
         "_key": f"!actors!{i}",
     }
@@ -260,5 +262,10 @@ if __name__ == "__main__":
                if a["img"].startswith("modules/") and
                not os.path.exists(os.path.join(ROOT, "build", "art", "portraits", os.path.basename(a["img"])))]
     assert not missing, f"missing art: {missing}"
+    no_token = [a["name"] for a in ACTORS
+                if a["prototypeToken"]["texture"]["src"].startswith("modules/") and
+                not os.path.exists(os.path.join(ROOT, "build", "art", "tokens",
+                                                os.path.basename(a["prototypeToken"]["texture"]["src"])))]
+    assert not no_token, f"missing tokens (run tools/make_tokens.py): {no_token}"
     emit(ACTORS, "actors")
     emit(SCENES, "scenes")

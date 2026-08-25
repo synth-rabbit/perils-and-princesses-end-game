@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "modules/pnp-end-game/art/portraits/morwenna_frost_crowned.png"
+      "src": "modules/pnp-end-game/art/tokens/morwenna_frost_crowned.png"
     }
   },
   "_key": "!actors!ba5afdd867654271"

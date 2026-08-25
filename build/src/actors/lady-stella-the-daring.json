@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "modules/pnp-end-game/art/portraits/lady_stella.png"
+      "src": "modules/pnp-end-game/art/tokens/lady_stella.png"
     }
   },
   "_key": "!actors!66fa4b5a51490b15"

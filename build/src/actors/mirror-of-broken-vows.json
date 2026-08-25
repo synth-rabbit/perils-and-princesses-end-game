@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "modules/pnp-end-game/art/portraits/mirror_of_broken_vows.png"
+      "src": "modules/pnp-end-game/art/tokens/mirror_of_broken_vows.png"
     }
   },
   "_key": "!actors!a84a8b2c495d8eeb"

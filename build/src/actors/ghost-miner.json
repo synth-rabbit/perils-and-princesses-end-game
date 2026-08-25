@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "modules/pnp-end-game/art/portraits/ghost_miners.png"
+      "src": "modules/pnp-end-game/art/tokens/ghost_miners.png"
     }
   },
   "_key": "!actors!75f3598b2f3b2ec5"

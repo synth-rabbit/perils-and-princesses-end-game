@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "modules/pnp-end-game/art/portraits/echo_of_a_luminary.png"
+      "src": "modules/pnp-end-game/art/tokens/echo_of_a_luminary.png"
     }
   },
   "_key": "!actors!bc542089c3cb8e63"

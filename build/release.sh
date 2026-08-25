@@ -5,6 +5,7 @@
 # Then: ./build/release.sh && git add -A && git commit && git push
 set -e
 cd "$(dirname "$0")/.."
+python3 tools/make_tokens.py
 python3 tools/generate_src.py
 sh build/build_packs.sh
 sh build/make_zip.sh

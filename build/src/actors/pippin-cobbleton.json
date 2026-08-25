@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "modules/pnp-end-game/art/portraits/pippin_cobbleton.png"
+      "src": "modules/pnp-end-game/art/tokens/pippin_cobbleton.png"
     }
   },
   "_key": "!actors!87ad7c19cda317ad"

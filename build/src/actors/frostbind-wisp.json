@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "modules/pnp-end-game/art/portraits/frostbind_wisp.png"
+      "src": "modules/pnp-end-game/art/tokens/frostbind_wisp.png"
     }
   },
   "_key": "!actors!bab3acfcc2084623"

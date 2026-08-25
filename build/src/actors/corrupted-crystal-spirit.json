@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "modules/pnp-end-game/art/portraits/corrupted_spirits.png"
+      "src": "modules/pnp-end-game/art/tokens/corrupted_spirits.png"
     }
   },
   "_key": "!actors!5fa3507ef894bf8b"

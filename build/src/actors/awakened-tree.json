@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "modules/pnp-end-game/art/portraits/awakened_tree.png"
+      "src": "modules/pnp-end-game/art/tokens/awakened_tree.png"
     }
   },
   "_key": "!actors!b948ef4b652142b5"

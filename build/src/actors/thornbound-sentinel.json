@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "modules/pnp-end-game/art/portraits/thornbound_sentinel.png"
+      "src": "modules/pnp-end-game/art/tokens/thornbound_sentinel.png"
     }
   },
   "_key": "!actors!18d01849660be0de"

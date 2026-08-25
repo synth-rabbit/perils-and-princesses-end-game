@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "modules/pnp-end-game/art/portraits/corruption_bloom.png"
+      "src": "modules/pnp-end-game/art/tokens/corruption_bloom.png"
     }
   },
   "_key": "!actors!62c098ed949f45ad"

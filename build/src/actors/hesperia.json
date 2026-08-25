@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "modules/pnp-end-game/art/portraits/hesperia.png"
+      "src": "modules/pnp-end-game/art/tokens/hesperia.png"
     }
   },
   "_key": "!actors!79e0dc8cbaae01bb"

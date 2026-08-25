@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "modules/pnp-end-game/art/portraits/thistledown.png"
+      "src": "modules/pnp-end-game/art/tokens/thistledown.png"
     }
   },
   "_key": "!actors!be34807ba0cd994b"

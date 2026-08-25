@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "modules/pnp-end-game/art/portraits/magus_ulrik.png"
+      "src": "modules/pnp-end-game/art/tokens/magus_ulrik.png"
     }
   },
   "_key": "!actors!9136786d7c1dd5d2"

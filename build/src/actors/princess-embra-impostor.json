@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "modules/pnp-end-game/art/portraits/princess_embra.png"
+      "src": "modules/pnp-end-game/art/tokens/princess_embra.png"
     }
   },
   "_key": "!actors!bcf7ff3097428ee3"

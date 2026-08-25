@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "modules/pnp-end-game/art/portraits/wish_fish.png"
+      "src": "modules/pnp-end-game/art/tokens/wish_fish.png"
     }
   },
   "_key": "!actors!93c1981c0e191fa5"

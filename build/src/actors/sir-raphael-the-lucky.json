@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "modules/pnp-end-game/art/portraits/sir_raphael.png"
+      "src": "modules/pnp-end-game/art/tokens/sir_raphael.png"
     }
   },
   "_key": "!actors!b71f496a108e185d"

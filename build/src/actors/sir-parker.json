@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "modules/pnp-end-game/art/portraits/sir_parker.png"
+      "src": "modules/pnp-end-game/art/tokens/sir_parker.png"
     }
   },
   "_key": "!actors!9f815b40de6fa230"

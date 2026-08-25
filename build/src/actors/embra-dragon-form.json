@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "modules/pnp-end-game/art/portraits/dragon_amy.png"
+      "src": "modules/pnp-end-game/art/tokens/dragon_amy.png"
     }
   },
   "_key": "!actors!09bd474826c355be"

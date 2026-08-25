@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "modules/pnp-end-game/art/portraits/crystal_wolf.png"
+      "src": "modules/pnp-end-game/art/tokens/crystal_wolf.png"
     }
   },
   "_key": "!actors!85efeedd0097fcc8"

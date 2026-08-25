@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "modules/pnp-end-game/art/portraits/briar_hound.png"
+      "src": "modules/pnp-end-game/art/tokens/briar_hound.png"
     }
   },
   "_key": "!actors!7c15ddd6345826b4"

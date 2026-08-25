@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "modules/pnp-end-game/art/portraits/generic_guard.png"
+      "src": "modules/pnp-end-game/art/tokens/generic_guard.png"
     }
   },
   "_key": "!actors!515d8902e07eddee"

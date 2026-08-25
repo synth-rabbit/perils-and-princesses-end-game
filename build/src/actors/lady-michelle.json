@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "modules/pnp-end-game/art/portraits/lady_michelle.png"
+      "src": "modules/pnp-end-game/art/tokens/lady_michelle.png"
     }
   },
   "_key": "!actors!ef922601c8d5be97"

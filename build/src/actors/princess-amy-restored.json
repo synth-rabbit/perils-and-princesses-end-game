@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "modules/pnp-end-game/art/portraits/princess_amy.png"
+      "src": "modules/pnp-end-game/art/tokens/princess_amy.png"
     }
   },
   "_key": "!actors!6e61f5eeba789ab0"
