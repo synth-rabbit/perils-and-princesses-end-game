@@ -2,7 +2,7 @@
   "_id": "5e807bbe8a2f022d",
   "name": "Beck",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/pnp-end-game/art/portraits/beck.png",
   "system": {
     "virtues": {
       "resolve": {
@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "modules/pnp-end-game/art/portraits/beck.png"
     }
   },
   "_key": "!actors!5e807bbe8a2f022d"

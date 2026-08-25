@@ -144,18 +144,18 @@ ACTORS = [
         "<strong>Attacks twice: Sword (d8).</strong> A busker knighted by accident of talent; would rather be a bard. Only raises his sword to defend.",
         "Inclined to believe the swap story — he has noticed the false Amy's erratic behavior. If the party helps him find resolve for his musical life, he pledges his party's aid (healing potions, a distraction, a plan).",
         "Travels with Lady Michelle, Sir Parker, and Adagio the pack mule (instruments, rations, d4 healing potions). Does not attack Dragon Amy if he reaches the lair first.")),
-    npc("Robin, Finnian's Squire", 4, 8, 0, None, notes(
+    npc("Robin, Finnian's Squire", 4, 8, 0, "robin_squire.png", notes(
         "<strong>Training Sword (d4).</strong> The only one more impressed with Sir Finnian than Robin is Sir Finnian himself. Would do anything to earn his favor.")),
     npc("Royal Guard", 4, 8, 1, "generic_guard.png", notes(
         "<strong>Sword (d8) or Spear (d8).</strong> Fierce protectors. Notorious gossips — the camp whisper table is mostly them.")),
-    npc("Diana", 6, 10, 1, None, notes(
+    npc("Diana", 6, 10, 1, "diana.png", notes(
         "<strong>Hunting Bow (d6).</strong> One of Lady Stella's companions; a master archer and the twin sister of Beck.")),
-    npc("Beck", 6, 10, 1, None, notes(
+    npc("Beck", 6, 10, 1, "beck.png", notes(
         "<strong>Axe (d6).</strong> One of Lady Stella's companions. Always carries his trusty axe; twin brother of Diana.")),
-    npc("Lady Michelle", 8, 12, 2, None, notes(
+    npc("Lady Michelle", 8, 12, 2, "lady_michelle.png", notes(
         "<strong>Sword (d6).</strong> A level 2 Princess of <strong>Enchanting Voice</strong> whom Raphael helped escape an arranged marriage the day before her wedding. Always keeps her visor down — her disappearance is famous.",
         "<em>House stats — the module leaves her unstatted.</em> 2 Gift Dice for Enchanting Voice effects; lead vocals at the jam session.")),
-    npc("Sir Parker", 5, 11, 1, None, notes(
+    npc("Sir Parker", 5, 11, 1, "sir_parker.png", notes(
         "<strong>Dagger (d6).</strong> A thief Raphael was meant to apprehend and instead gave a second chance. Nimble, loyal, plays the panpipes.",
         "<em>House stats — the module leaves him unstatted.</em> Advantage on GRACE tests for sneaking, picking pockets, and locks.")),
     npc("Princess Embra (Impostor)", 6, 12, 0, "princess_embra.png", notes(
@@ -167,7 +167,7 @@ ACTORS = [
     npc("Princess Amy (Restored)", 6, 12, 0, "princess_amy.png", notes(
         "Ten-ish, wild curly hair, lopsided crown, pockets full of cream-fed stray cats. Gift: <strong>Powerful Friendship</strong> — the same gift Morwenna once carried, and the counter to the Barrier of Thorns.",
         "After her rescue she rallies Drakenshire's knights for the march on the castle: \"She did this to me because she's afraid of me? Good. Let's give her something to be afraid of.\"")),
-    npc("Scamp the Squirrel", 1, 12, 0, None, notes(
+    npc("Scamp the Squirrel", 1, 12, 0, "scamp_squirrel.png", notes(
         "Amy's small, bright-eyed squirrel. Chatters angrily at scary parts of stories. Was tucked under her chin through the whole ordeal. The bravest member of the party and must not be harmed.")),
     npc("Pippin Cobbleton", 6, 11, 0, "pippin_cobbleton.png", notes(
         "Master gnomish craftsman of the Scorchwoods settlement. Can build a <strong>replacement key</strong> to unlock the body-swap necklaces — for 50 SP or a favor, plus enchanted water from the Wish Fish's pool.",
@@ -188,32 +188,32 @@ ACTORS = [
         "If defeated, a guard gnome pops out to chastise the party and shoo them off — but may let them in on a successful GRACE test.")),
 
     # ---------- Act V: the assault on Queen Morwenna's castle ----------
-    npc("Queen Morwenna", 10, 15, 0, None, notes(
+    npc("Queen Morwenna", 10, 15, 0, "queen_morwenna.png", notes(
         "<strong>Dagger (d6). 3 Gift Dice</strong> — casts Fireball, Bubble, Disguise, and Mine!; can cast a spell and use her dagger in the same turn. Carries at least one healing potion. Protected by loyal minions.",
         "Founder of the Perils & Princesses Society; first Luminary; designer of the Silver Rose Pin; author of the oath — her heart frozen by the <strong>Frostbind curse</strong> her four friends could not break. Everything since is her proving friendship a lie.",
         "<strong>The Choice:</strong> she can be fought — or saved, if Amy's Powerful Friendship reaches through the curse. See Morwenna, Frost-Crowned for the final phase either way.")),
-    npc("Morwenna, Frost-Crowned", 14, 15, 1, None, notes(
+    npc("Morwenna, Frost-Crowned", 14, 15, 1, "morwenna_frost_crowned.png", notes(
         "<strong>Ice Shard (d8, ranged) plus one spell per turn.</strong> Armor 1 (rime). When Queen Morwenna first falls to 0 HP, the Frostbind curse surges: the thorn throne erupts (everyone Nearby: GRACE test or d6), and she rises frost-crowned — the curse itself fighting through her.",
         "<strong>Fighting the curse with friendship:</strong> a hero who spends a Heart Die while declaring a true memory of friendship (with each other, with an NPC, with Amy) deals d6 damage to the curse that ignores Armor. Amy's Powerful Friendship, if she is present, deals d8 the same way once per round.",
         "At 0 HP: the ice shatters. If the party chose to reach her, Morwenna collapses weeping — \"You came. After all this time... someone came.\" If they only fought, she falls, and Aurelius mourns his friend.")),
-    npc("Thornbound Sentinel", 8, 10, 3, None, notes(
+    npc("Thornbound Sentinel", 8, 10, 3, "thornbound_sentinel.png", notes(
         "<strong>Attacks twice: Thorned Halberd (d8).</strong> The empty armor of a PPS Knight-Protector who never left the headquarters, animated by the briars that grew through it. Silver Rose crest still visible under the thorns.",
         "<strong>Fire ignores its Armor.</strong> When destroyed, the briars lash out: everyone Nearby makes a GRACE test or is grappled by vines (RESOLVE test to break free).",
         "A hero who salutes it with the PPS oath before it falls sees the helm dip in answer.")),
-    npc("Frostbind Wisp", 3, 12, 0, "gloomwisp.png", notes(
+    npc("Frostbind Wisp", 3, 12, 0, "frostbind_wisp.png", notes(
         "<strong>Frost Touch (d4)</strong> — and the target makes a RESOLVE test or becomes <strong>Weary</strong> (disadvantage on RESOLVE tests) until warmed at a fire or genuinely comforted by a friend.",
         "<strong>Immune to normal weapons</strong> — silver, magic, and fire strike true. Fragments of the Frostbind curse drifting the halls like cold candle-flames, drawn to warmth and laughter to snuff them.")),
-    npc("Briar Hound", 5, 8, 1, "hounds.png", notes(
+    npc("Briar Hound", 5, 8, 1, "briar_hound.png", notes(
         "<strong>Bite (d6).</strong> Hunts in packs of 2d4 through the castle gardens; while two or more surround one target, their bites deal +1 damage.",
         "Grown, not born — hounds of woven thorn with rose-hip eyes. If Wounded by one, suffer the <strong>Thorn Curse</strong>: take 1 damage whenever you spend a Gift Die, until cured (healing magic or a Rest in a safe haven).")),
-    npc("Mirror of Broken Vows", 6, 13, 2, None, notes(
+    npc("Mirror of Broken Vows", 6, 13, 2, "mirror_of_broken_vows.png", notes(
         "<strong>Does not attack the body.</strong> Each round, one Nearby hero tests WITS or sees their dearest friend renounce them in the glass — becoming <strong>Befuddled</strong> and unable to spend Heart Dice while it stands.",
         "A tall court mirror from the old headquarters, frosted over, showing only abandonment. <strong>Armor 2, shattered only by silver or blunt strikes</strong> — or broken instantly by a hero who faces their vision and answers it aloud with a true memory of that friend.")),
-    npc("Echo of a Luminary", 10, 14, 0, None, notes(
+    npc("Echo of a Luminary", 10, 14, 0, "echo_of_a_luminary.png", notes(
         "<strong>Grief Wail (d6 to everyone Nearby; RESOLVE test for half).</strong> Immune to normal weapons — silver and magic strike true.",
         "The frozen memory of one of Morwenna's four founding friends, replaying her last attempt to save the Queen. Use the statblock four ways: the Shieldmaiden (guards the gate), the Gardener (the briar court), the Songkeeper (the banquet hall), the Cartographer (the map room).",
         "<strong>Each Echo can be freed instead of fought:</strong> show the Silver Rose Pin and speak to it as the friend it was (WITS or RESOLVE test). A freed Echo restores one spent Heart Die to each hero and whispers one true thing about Morwenna — the four whispers together reveal the save-her path.")),
-    npc("Thornheart Construct", 12, 9, 3, None, notes(
+    npc("Thornheart Construct", 12, 9, 3, "thornheart_construct.png", notes(
         "<strong>Attacks twice: Bramble Fist (d8).</strong> Ulrik's masterwork on Damon's pattern — mud, blood, and briar in a giant's shape, grown as the castle's last gate-keeper.",
         "<strong>Silver and radiant magic ignore its Armor. Slow:</strong> it always acts last in the round. When it falls, it collapses into a mound of wet earth threaded with dead roses.")),
     npc("Castle Vine Crawler", 2, 6, 0, "vine_crawler.png", notes(
@@ -221,7 +221,7 @@ ACTORS = [
     npc("Awakened Tree", 8, 8, 2, "awakened_tree.png", notes(
         "<strong>Attacks twice: Bash (d6). 1 GD — casts Tangle.</strong> Angry old forest spirits pressed into the castle's outer defenses. Axes, hatchets, and fire ignore its Armor.",
         "If Wounded by an awakened tree, suffer the <strong>Rootbound Curse</strong>.")),
-    npc("Wight", 12, 14, 2, None, notes(
+    npc("Wight", 12, 14, 2, "wight.png", notes(
         "<strong>Attacks twice: Frozen Blade (d8).</strong> Resistant to normal weapons — silver strikes true. The honored dead of the old headquarters' crypt, risen cold when the curse took the halls.",
         "Optional castle encounter; use sparingly — one wight is a scene, three are a wall.")),
 ]
@@ -238,6 +238,9 @@ SCENES = [
     scene("Gnome Village", "scenes/gnome_village_scene.png"),
     scene("Stones of Remembrance", "scenes/stones_of_remembrance_scene.png"),
     scene("Abandoned Cottage", "scenes/abandoned_cottage_scene.png"),
+    scene("Castle Approach", "scenes/castle_approach_scene.png"),
+    scene("Castle Great Hall", "scenes/castle_great_hall_scene.png"),
+    scene("Castle Throne Room", "scenes/castle_throne_scene.png"),
 ]
 
 def emit(docs, sub):

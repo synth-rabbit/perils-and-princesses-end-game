@@ -2,7 +2,7 @@
   "_id": "ba5afdd867654271",
   "name": "Morwenna, Frost-Crowned",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/pnp-end-game/art/portraits/morwenna_frost_crowned.png",
   "system": {
     "virtues": {
       "resolve": {
@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "modules/pnp-end-game/art/portraits/morwenna_frost_crowned.png"
     }
   },
   "_key": "!actors!ba5afdd867654271"

@@ -2,7 +2,7 @@
   "id": "pnp-end-game",
   "title": "Perils & Princesses: End Game",
   "description": "Campaign content for the final arc: the last corrupted footholds, The Princess and the Dragon, and the assault on Queen Morwenna's castle.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "compatibility": {
     "minimum": "13",
     "verified": "14"
@@ -63,5 +63,5 @@
     }
   ],
   "manifest": "https://synth-rabbit.github.io/perils-and-princesses-end-game/module.json",
-  "download": "https://synth-rabbit.github.io/perils-and-princesses-end-game/pnp-end-game-0.1.0.zip"
+  "download": "https://synth-rabbit.github.io/perils-and-princesses-end-game/pnp-end-game-0.2.0.zip"
 }

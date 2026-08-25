@@ -2,7 +2,7 @@
   "_id": "a84a8b2c495d8eeb",
   "name": "Mirror of Broken Vows",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/pnp-end-game/art/portraits/mirror_of_broken_vows.png",
   "system": {
     "virtues": {
       "resolve": {
@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "modules/pnp-end-game/art/portraits/mirror_of_broken_vows.png"
     }
   },
   "_key": "!actors!a84a8b2c495d8eeb"

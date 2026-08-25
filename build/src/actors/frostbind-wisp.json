@@ -2,7 +2,7 @@
   "_id": "bab3acfcc2084623",
   "name": "Frostbind Wisp",
   "type": "npc",
-  "img": "modules/pnp-end-game/art/portraits/gloomwisp.png",
+  "img": "modules/pnp-end-game/art/portraits/frostbind_wisp.png",
   "system": {
     "virtues": {
       "resolve": {
@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "modules/pnp-end-game/art/portraits/gloomwisp.png"
+      "src": "modules/pnp-end-game/art/portraits/frostbind_wisp.png"
     }
   },
   "_key": "!actors!bab3acfcc2084623"

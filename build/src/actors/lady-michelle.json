@@ -2,7 +2,7 @@
   "_id": "ef922601c8d5be97",
   "name": "Lady Michelle",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/pnp-end-game/art/portraits/lady_michelle.png",
   "system": {
     "virtues": {
       "resolve": {
@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "modules/pnp-end-game/art/portraits/lady_michelle.png"
     }
   },
   "_key": "!actors!ef922601c8d5be97"

@@ -2,7 +2,7 @@
   "_id": "9f815b40de6fa230",
   "name": "Sir Parker",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/pnp-end-game/art/portraits/sir_parker.png",
   "system": {
     "virtues": {
       "resolve": {
@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "modules/pnp-end-game/art/portraits/sir_parker.png"
     }
   },
   "_key": "!actors!9f815b40de6fa230"

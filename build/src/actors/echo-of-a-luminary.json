@@ -2,7 +2,7 @@
   "_id": "bc542089c3cb8e63",
   "name": "Echo of a Luminary",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/pnp-end-game/art/portraits/echo_of_a_luminary.png",
   "system": {
     "virtues": {
       "resolve": {
@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "modules/pnp-end-game/art/portraits/echo_of_a_luminary.png"
     }
   },
   "_key": "!actors!bc542089c3cb8e63"

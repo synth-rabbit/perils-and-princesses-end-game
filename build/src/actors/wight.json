@@ -2,7 +2,7 @@
   "_id": "9e48c3494d0ac004",
   "name": "Wight",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/pnp-end-game/art/portraits/wight.png",
   "system": {
     "virtues": {
       "resolve": {
@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "modules/pnp-end-game/art/portraits/wight.png"
     }
   },
   "_key": "!actors!9e48c3494d0ac004"

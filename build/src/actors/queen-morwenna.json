@@ -2,7 +2,7 @@
   "_id": "efbad3ce9d2dabc4",
   "name": "Queen Morwenna",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/pnp-end-game/art/portraits/queen_morwenna.png",
   "system": {
     "virtues": {
       "resolve": {
@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "modules/pnp-end-game/art/portraits/queen_morwenna.png"
     }
   },
   "_key": "!actors!efbad3ce9d2dabc4"

@@ -2,7 +2,7 @@
   "_id": "c8db2857654543b2",
   "name": "Robin, Finnian's Squire",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/pnp-end-game/art/portraits/robin_squire.png",
   "system": {
     "virtues": {
       "resolve": {
@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "modules/pnp-end-game/art/portraits/robin_squire.png"
     }
   },
   "_key": "!actors!c8db2857654543b2"

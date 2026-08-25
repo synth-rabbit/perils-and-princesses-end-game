@@ -2,7 +2,7 @@
   "_id": "4dc69a9732ce36df",
   "name": "Diana",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/pnp-end-game/art/portraits/diana.png",
   "system": {
     "virtues": {
       "resolve": {
@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "modules/pnp-end-game/art/portraits/diana.png"
     }
   },
   "_key": "!actors!4dc69a9732ce36df"

@@ -2,7 +2,7 @@
   "_id": "0c1b326f39bb277d",
   "name": "Scamp the Squirrel",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/pnp-end-game/art/portraits/scamp_squirrel.png",
   "system": {
     "virtues": {
       "resolve": {
@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "modules/pnp-end-game/art/portraits/scamp_squirrel.png"
     }
   },
   "_key": "!actors!0c1b326f39bb277d"

@@ -2,7 +2,7 @@
   "_id": "18d01849660be0de",
   "name": "Thornbound Sentinel",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/pnp-end-game/art/portraits/thornbound_sentinel.png",
   "system": {
     "virtues": {
       "resolve": {
@@ -51,7 +51,7 @@
       "attribute": "hp"
     },
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "modules/pnp-end-game/art/portraits/thornbound_sentinel.png"
     }
   },
   "_key": "!actors!18d01849660be0de"
