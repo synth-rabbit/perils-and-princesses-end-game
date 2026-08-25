@@ -1,0 +1,22 @@
+{
+  "_id": "c28e8710bba69aaf",
+  "name": "Gnome Village",
+  "active": false,
+  "navigation": true,
+  "background": {
+    "src": "modules/pnp-end-game/art/scenes/gnome_village_scene.png"
+  },
+  "width": 1024,
+  "height": 1024,
+  "padding": 0,
+  "backgroundColor": "#000000",
+  "grid": {
+    "type": 0,
+    "size": 100
+  },
+  "tokenVision": false,
+  "fog": {
+    "exploration": false
+  },
+  "_key": "!scenes!c28e8710bba69aaf"
+}

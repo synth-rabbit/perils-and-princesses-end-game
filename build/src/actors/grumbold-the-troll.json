@@ -1,0 +1,58 @@
+{
+  "_id": "4f45ef14bfaf5f1f",
+  "name": "Grumbold the Troll",
+  "type": "npc",
+  "img": "modules/pnp-end-game/art/portraits/grumbold_troll.png",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 15,
+      "max": 15
+    },
+    "armor": {
+      "value": 3
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "7"
+    },
+    "notes": "<p><strong>Bash (d12).</strong> Non-hostile. A 9-foot mossy troll wedged in the mine archway, afflicted with a sneezing curse by the corruption crystals. Voice: deeply nasal, miserable — Hagrid with the world's worst head cold.</p><p>Knows: a big slimy thing in the east cavern <em>splits when slashed</em>; nasty snakes near the wooden bridge; the purple crystals are the source.</p><p>If cured (shatter the corruption core, then Marigold's healing): gives a <strong>Troll's Tooth</strong> — plant it in soft ground to grow a 10-ft thorny stone wall, single use.</p>"
+  },
+  "prototypeToken": {
+    "name": "Grumbold the Troll",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "modules/pnp-end-game/art/portraits/grumbold_troll.png"
+    }
+  },
+  "_key": "!actors!4f45ef14bfaf5f1f"
+}

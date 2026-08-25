@@ -1,0 +1,58 @@
+{
+  "_id": "a1b6970b5f96b557",
+  "name": "Sir Damon the Unyielding",
+  "type": "npc",
+  "img": "modules/pnp-end-game/art/portraits/sir_damon.png",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 8,
+      "max": 8
+    },
+    "armor": {
+      "value": 3
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "10"
+    },
+    "notes": "<p><strong>Attacks twice: Battle axe (d10).</strong> Blood-red armor, throne-of-thorns sigil, never speaks more than a few words.</p><p>Not a man — a homunculus of blood and earth built by Magus Ulrik on Queen Morwenna's orders. Only the head looks human. His single mission: kill Amy while she is a dragon.</p><p>Ulrik must be within a Stone's Throw to command him; beyond that Damon continues his last order. He cannot be pacified, bribed, or fed a crystal fruit — he is not alive.</p><p><em>House riders (optional):</em> <strong>Construct</strong> — immune to terror and charm (Roar, Enchanting Voice). <strong>Blood-Forged</strong> — at 0 HP he collapses into mud and reforms at nightfall unless the killing blow was silver or radiant.</p>"
+  },
+  "prototypeToken": {
+    "name": "Sir Damon the Unyielding",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "modules/pnp-end-game/art/portraits/sir_damon.png"
+    }
+  },
+  "_key": "!actors!a1b6970b5f96b557"
+}

@@ -1,0 +1,58 @@
+{
+  "_id": "afce5d1a516c36c3",
+  "name": "Gnomish Warrior Statue",
+  "type": "npc",
+  "img": "modules/pnp-end-game/art/portraits/gnomish_warrior_statues.png",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 4,
+      "max": 4
+    },
+    "armor": {
+      "value": 2
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "8"
+    },
+    "notes": "<p><strong>Stone Swords (d4).</strong> Four crystal-eyed statues ring the gnome village stump; a wrong password animates them.</p><p>If defeated, a guard gnome pops out to chastise the party and shoo them off — but may let them in on a successful GRACE test.</p>"
+  },
+  "prototypeToken": {
+    "name": "Gnomish Warrior Statue",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "modules/pnp-end-game/art/portraits/gnomish_warrior_statues.png"
+    }
+  },
+  "_key": "!actors!afce5d1a516c36c3"
+}

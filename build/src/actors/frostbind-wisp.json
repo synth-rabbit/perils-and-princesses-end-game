@@ -1,0 +1,58 @@
+{
+  "_id": "bab3acfcc2084623",
+  "name": "Frostbind Wisp",
+  "type": "npc",
+  "img": "modules/pnp-end-game/art/portraits/gloomwisp.png",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 3,
+      "max": 3
+    },
+    "armor": {
+      "value": 0
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "12"
+    },
+    "notes": "<p><strong>Frost Touch (d4)</strong> — and the target makes a RESOLVE test or becomes <strong>Weary</strong> (disadvantage on RESOLVE tests) until warmed at a fire or genuinely comforted by a friend.</p><p><strong>Immune to normal weapons</strong> — silver, magic, and fire strike true. Fragments of the Frostbind curse drifting the halls like cold candle-flames, drawn to warmth and laughter to snuff them.</p>"
+  },
+  "prototypeToken": {
+    "name": "Frostbind Wisp",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "modules/pnp-end-game/art/portraits/gloomwisp.png"
+    }
+  },
+  "_key": "!actors!bab3acfcc2084623"
+}

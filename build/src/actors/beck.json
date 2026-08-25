@@ -1,0 +1,58 @@
+{
+  "_id": "5e807bbe8a2f022d",
+  "name": "Beck",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 6,
+      "max": 6
+    },
+    "armor": {
+      "value": 1
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "10"
+    },
+    "notes": "<p><strong>Axe (d6).</strong> One of Lady Stella's companions. Always carries his trusty axe; twin brother of Diana.</p>"
+  },
+  "prototypeToken": {
+    "name": "Beck",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "_key": "!actors!5e807bbe8a2f022d"
+}

@@ -1,0 +1,58 @@
+{
+  "_id": "ef922601c8d5be97",
+  "name": "Lady Michelle",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 8,
+      "max": 8
+    },
+    "armor": {
+      "value": 2
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "12"
+    },
+    "notes": "<p><strong>Sword (d6).</strong> A level 2 Princess of <strong>Enchanting Voice</strong> whom Raphael helped escape an arranged marriage the day before her wedding. Always keeps her visor down — her disappearance is famous.</p><p><em>House stats — the module leaves her unstatted.</em> 2 Gift Dice for Enchanting Voice effects; lead vocals at the jam session.</p>"
+  },
+  "prototypeToken": {
+    "name": "Lady Michelle",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "_key": "!actors!ef922601c8d5be97"
+}

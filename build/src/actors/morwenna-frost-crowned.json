@@ -1,0 +1,58 @@
+{
+  "_id": "ba5afdd867654271",
+  "name": "Morwenna, Frost-Crowned",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 14,
+      "max": 14
+    },
+    "armor": {
+      "value": 1
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "15"
+    },
+    "notes": "<p><strong>Ice Shard (d8, ranged) plus one spell per turn.</strong> Armor 1 (rime). When Queen Morwenna first falls to 0 HP, the Frostbind curse surges: the thorn throne erupts (everyone Nearby: GRACE test or d6), and she rises frost-crowned — the curse itself fighting through her.</p><p><strong>Fighting the curse with friendship:</strong> a hero who spends a Heart Die while declaring a true memory of friendship (with each other, with an NPC, with Amy) deals d6 damage to the curse that ignores Armor. Amy's Powerful Friendship, if she is present, deals d8 the same way once per round.</p><p>At 0 HP: the ice shatters. If the party chose to reach her, Morwenna collapses weeping — \"You came. After all this time... someone came.\" If they only fought, she falls, and Aurelius mourns his friend.</p>"
+  },
+  "prototypeToken": {
+    "name": "Morwenna, Frost-Crowned",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "_key": "!actors!ba5afdd867654271"
+}

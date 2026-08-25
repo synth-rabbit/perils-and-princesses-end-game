@@ -1,0 +1,67 @@
+{
+  "id": "pnp-end-game",
+  "title": "Perils & Princesses: End Game",
+  "description": "Campaign content for the final arc: the last corrupted footholds, The Princess and the Dragon, and the assault on Queen Morwenna's castle.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "perilsandprincesses",
+        "type": "system",
+        "compatibility": {
+          "minimum": "1.3"
+        }
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "synth-rabbit"
+    }
+  ],
+  "packs": [
+    {
+      "name": "pnp-endgame-actors",
+      "label": "End Game Actors",
+      "path": "packs/pnp-endgame-actors",
+      "type": "Actor",
+      "system": "perilsandprincesses",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "pnp-endgame-scenes",
+      "label": "End Game Scenes",
+      "path": "packs/pnp-endgame-scenes",
+      "type": "Scene",
+      "system": "perilsandprincesses",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Perils & Princesses: End Game",
+      "sorting": "m",
+      "color": "#7a3b5e",
+      "packs": [
+        "pnp-endgame-actors",
+        "pnp-endgame-scenes"
+      ]
+    }
+  ],
+  "manifest": "https://synth-rabbit.github.io/perils-and-princesses-end-game/module.json",
+  "download": "https://synth-rabbit.github.io/perils-and-princesses-end-game/pnp-end-game-0.1.0.zip"
+}

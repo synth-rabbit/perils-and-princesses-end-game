@@ -1,0 +1,58 @@
+{
+  "_id": "b71f496a108e185d",
+  "name": "Sir Raphael the Lucky",
+  "type": "npc",
+  "img": "modules/pnp-end-game/art/portraits/sir_raphael.png",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 6,
+      "max": 6
+    },
+    "armor": {
+      "value": 2
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "12"
+    },
+    "notes": "<p><strong>Attacks twice: Sword (d8).</strong> A busker knighted by accident of talent; would rather be a bard. Only raises his sword to defend.</p><p>Inclined to believe the swap story — he has noticed the false Amy's erratic behavior. If the party helps him find resolve for his musical life, he pledges his party's aid (healing potions, a distraction, a plan).</p><p>Travels with Lady Michelle, Sir Parker, and Adagio the pack mule (instruments, rations, d4 healing potions). Does not attack Dragon Amy if he reaches the lair first.</p>"
+  },
+  "prototypeToken": {
+    "name": "Sir Raphael the Lucky",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "modules/pnp-end-game/art/portraits/sir_raphael.png"
+    }
+  },
+  "_key": "!actors!b71f496a108e185d"
+}

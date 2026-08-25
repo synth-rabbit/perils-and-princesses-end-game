@@ -1,0 +1,58 @@
+{
+  "_id": "85efeedd0097fcc8",
+  "name": "Crystal Wolf",
+  "type": "npc",
+  "img": "modules/pnp-end-game/art/portraits/crystal_wolf.png",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 4,
+      "max": 4
+    },
+    "armor": {
+      "value": 0
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "6"
+    },
+    "notes": "<p><strong>Attacks once or twice: Bite (d6) or Claws (d4).</strong> Massive wolves whose fangs and claws have turned to unyielding diamond.</p><p>A pack of 3d4 dens in the Boneyard's dragon skeleton; their pups chew Pippin's stolen walking stick. Territorial, keen-sensed. <strong>Pack morale:</strong> they break and flee when half the pack is down. SAVE 6 — a big Roar legitimately routs them.</p>"
+  },
+  "prototypeToken": {
+    "name": "Crystal Wolf",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "modules/pnp-end-game/art/portraits/crystal_wolf.png"
+    }
+  },
+  "_key": "!actors!85efeedd0097fcc8"
+}

@@ -1,0 +1,58 @@
+{
+  "_id": "9136786d7c1dd5d2",
+  "name": "Magus Ulrik",
+  "type": "npc",
+  "img": "modules/pnp-end-game/art/portraits/magus_ulrik.png",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 10,
+      "max": 10
+    },
+    "armor": {
+      "value": 0
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "15"
+    },
+    "notes": "<p><strong>Staff (d6). 3 Gift Dice</strong> — casts spells (Bind, Fireball, Disguise are good picks). SAVE 15: he shrugs off most gift effects thrown at him.</p><p>Morwenna's field commander, embedded in Drakenshire's court. Created Sir Damon, engineered the body-swap necklaces, planted them on Princess Amy.</p><p>Carries <strong>intelligence documents</strong> revealing Morwenna's operations and stronghold, and a <strong>Grimoire</strong> with instructions for creating a humanoid servant like Damon.</p><p>Duplicitous: if his ruse is discovered he sets Damon on the party; he may instead pretend to ally so they lead him to the lair.</p>"
+  },
+  "prototypeToken": {
+    "name": "Magus Ulrik",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "modules/pnp-end-game/art/portraits/magus_ulrik.png"
+    }
+  },
+  "_key": "!actors!9136786d7c1dd5d2"
+}

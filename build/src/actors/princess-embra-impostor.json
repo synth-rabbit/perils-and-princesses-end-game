@@ -1,0 +1,58 @@
+{
+  "_id": "bcf7ff3097428ee3",
+  "name": "Princess Embra (Impostor)",
+  "type": "npc",
+  "img": "modules/pnp-end-game/art/portraits/princess_embra.png",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 6,
+      "max": 6
+    },
+    "armor": {
+      "value": 0
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "12"
+    },
+    "notes": "<p>The dragon Embra in Princess Amy's stolen body, living pampered at Drakenshire court and sending knights to kill her own former body — with Amy in it.</p><p>Cunning, jaded, opportunistic; the swap was engineered by Ulrik, and Embra took the bargain. Wears one of the two gnomish crystal necklaces. Non-combatant in this body — she talks, bargains, and flees.</p>"
+  },
+  "prototypeToken": {
+    "name": "Princess Embra (Impostor)",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "modules/pnp-end-game/art/portraits/princess_embra.png"
+    }
+  },
+  "_key": "!actors!bcf7ff3097428ee3"
+}

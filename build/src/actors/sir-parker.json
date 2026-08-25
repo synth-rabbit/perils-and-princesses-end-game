@@ -1,0 +1,58 @@
+{
+  "_id": "9f815b40de6fa230",
+  "name": "Sir Parker",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 5,
+      "max": 5
+    },
+    "armor": {
+      "value": 1
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "11"
+    },
+    "notes": "<p><strong>Dagger (d6).</strong> A thief Raphael was meant to apprehend and instead gave a second chance. Nimble, loyal, plays the panpipes.</p><p><em>House stats — the module leaves him unstatted.</em> Advantage on GRACE tests for sneaking, picking pockets, and locks.</p>"
+  },
+  "prototypeToken": {
+    "name": "Sir Parker",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "_key": "!actors!9f815b40de6fa230"
+}

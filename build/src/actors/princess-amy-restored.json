@@ -1,0 +1,58 @@
+{
+  "_id": "6e61f5eeba789ab0",
+  "name": "Princess Amy (Restored)",
+  "type": "npc",
+  "img": "modules/pnp-end-game/art/portraits/princess_amy.png",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 6,
+      "max": 6
+    },
+    "armor": {
+      "value": 0
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "12"
+    },
+    "notes": "<p>Ten-ish, wild curly hair, lopsided crown, pockets full of cream-fed stray cats. Gift: <strong>Powerful Friendship</strong> — the same gift Morwenna once carried, and the counter to the Barrier of Thorns.</p><p>After her rescue she rallies Drakenshire's knights for the march on the castle: \"She did this to me because she's afraid of me? Good. Let's give her something to be afraid of.\"</p>"
+  },
+  "prototypeToken": {
+    "name": "Princess Amy (Restored)",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "modules/pnp-end-game/art/portraits/princess_amy.png"
+    }
+  },
+  "_key": "!actors!6e61f5eeba789ab0"
+}

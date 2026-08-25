@@ -1,0 +1,58 @@
+{
+  "_id": "9e48c3494d0ac004",
+  "name": "Wight",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 12,
+      "max": 12
+    },
+    "armor": {
+      "value": 2
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "14"
+    },
+    "notes": "<p><strong>Attacks twice: Frozen Blade (d8).</strong> Resistant to normal weapons — silver strikes true. The honored dead of the old headquarters' crypt, risen cold when the curse took the halls.</p><p>Optional castle encounter; use sparingly — one wight is a scene, three are a wall.</p>"
+  },
+  "prototypeToken": {
+    "name": "Wight",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "_key": "!actors!9e48c3494d0ac004"
+}

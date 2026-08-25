@@ -1,0 +1,58 @@
+{
+  "_id": "27407054e0bb936c",
+  "name": "Black Ooze",
+  "type": "npc",
+  "img": "modules/pnp-end-game/art/portraits/black_ooze.png",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 10,
+      "max": 10
+    },
+    "armor": {
+      "value": 0
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "4"
+    },
+    "notes": "<p><strong>Corrosive Touch (d6).</strong></p><p><strong>DO NOT SLASH:</strong> a slashing hit splits it into two Black Ooze Halves (use that actor). Fire, freezing, or blunt strikes prevent the split.</p>"
+  },
+  "prototypeToken": {
+    "name": "Black Ooze",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "modules/pnp-end-game/art/portraits/black_ooze.png"
+    }
+  },
+  "_key": "!actors!27407054e0bb936c"
+}

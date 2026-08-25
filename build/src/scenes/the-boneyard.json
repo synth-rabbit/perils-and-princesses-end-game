@@ -1,0 +1,22 @@
+{
+  "_id": "e74934010cb261d0",
+  "name": "The Boneyard",
+  "active": false,
+  "navigation": true,
+  "background": {
+    "src": "modules/pnp-end-game/art/scenes/boneyard_scene.png"
+  },
+  "width": 1024,
+  "height": 1024,
+  "padding": 0,
+  "backgroundColor": "#000000",
+  "grid": {
+    "type": 0,
+    "size": 100
+  },
+  "tokenVision": false,
+  "fog": {
+    "exploration": false
+  },
+  "_key": "!scenes!e74934010cb261d0"
+}

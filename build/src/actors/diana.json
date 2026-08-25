@@ -1,0 +1,58 @@
+{
+  "_id": "4dc69a9732ce36df",
+  "name": "Diana",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 6,
+      "max": 6
+    },
+    "armor": {
+      "value": 1
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "10"
+    },
+    "notes": "<p><strong>Hunting Bow (d6).</strong> One of Lady Stella's companions; a master archer and the twin sister of Beck.</p>"
+  },
+  "prototypeToken": {
+    "name": "Diana",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "_key": "!actors!4dc69a9732ce36df"
+}

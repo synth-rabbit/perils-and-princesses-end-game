@@ -1,0 +1,58 @@
+{
+  "_id": "7c15ddd6345826b4",
+  "name": "Briar Hound",
+  "type": "npc",
+  "img": "modules/pnp-end-game/art/portraits/hounds.png",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 5,
+      "max": 5
+    },
+    "armor": {
+      "value": 1
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "8"
+    },
+    "notes": "<p><strong>Bite (d6).</strong> Hunts in packs of 2d4 through the castle gardens; while two or more surround one target, their bites deal +1 damage.</p><p>Grown, not born — hounds of woven thorn with rose-hip eyes. If Wounded by one, suffer the <strong>Thorn Curse</strong>: take 1 damage whenever you spend a Gift Die, until cured (healing magic or a Rest in a safe haven).</p>"
+  },
+  "prototypeToken": {
+    "name": "Briar Hound",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "modules/pnp-end-game/art/portraits/hounds.png"
+    }
+  },
+  "_key": "!actors!7c15ddd6345826b4"
+}

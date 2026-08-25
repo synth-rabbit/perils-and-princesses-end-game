@@ -1,0 +1,58 @@
+{
+  "_id": "511f4917b1591909",
+  "name": "Mine Serpent",
+  "type": "npc",
+  "img": "modules/pnp-end-game/art/portraits/deadly_serpents.png",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 3,
+      "max": 3
+    },
+    "armor": {
+      "value": 0
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "8"
+    },
+    "notes": "<p><strong>Bite (d6).</strong> Stealthy — WITS test with advantage to spot them coiled under the trestle bridge planks.</p><p>On a bite hit the target makes a RESOLVE test with advantage or becomes <strong>Woozy</strong> (disadvantage on GRACE tests until they Picnic or Rest).</p>"
+  },
+  "prototypeToken": {
+    "name": "Mine Serpent",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "modules/pnp-end-game/art/portraits/deadly_serpents.png"
+    }
+  },
+  "_key": "!actors!511f4917b1591909"
+}

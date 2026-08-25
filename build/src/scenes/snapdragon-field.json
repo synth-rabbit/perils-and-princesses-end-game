@@ -1,0 +1,22 @@
+{
+  "_id": "2eec55f6fd263a32",
+  "name": "Snapdragon Field",
+  "active": false,
+  "navigation": true,
+  "background": {
+    "src": "modules/pnp-end-game/art/scenes/snapdragon_field_scene.png"
+  },
+  "width": 1024,
+  "height": 1024,
+  "padding": 0,
+  "backgroundColor": "#000000",
+  "grid": {
+    "type": 0,
+    "size": 100
+  },
+  "tokenVision": false,
+  "fog": {
+    "exploration": false
+  },
+  "_key": "!scenes!2eec55f6fd263a32"
+}

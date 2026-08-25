@@ -1,0 +1,58 @@
+{
+  "_id": "be34807ba0cd994b",
+  "name": "Thistledown",
+  "type": "npc",
+  "img": "modules/pnp-end-game/art/portraits/thistledown.png",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 1,
+      "max": 1
+    },
+    "armor": {
+      "value": 0
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "18"
+    },
+    "notes": "<p>Pixie leader of the Pristine Pond, four inches of dandelion-fluff hair and soap-bubble wings. Non-combatant; the swarm's illusions grant allies <strong>advantage on their first attack each round</strong> while defending the pond.</p><p>Keeper of the Fey Pond Riddle (answer: moonlight — accept dew, starlight, or anything moon/star/light). Refreshes the party's <strong>Fey Blessing</strong> after the pond is saved.</p>"
+  },
+  "prototypeToken": {
+    "name": "Thistledown",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "modules/pnp-end-game/art/portraits/thistledown.png"
+    }
+  },
+  "_key": "!actors!be34807ba0cd994b"
+}

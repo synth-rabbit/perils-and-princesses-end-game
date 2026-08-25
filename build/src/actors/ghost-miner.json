@@ -1,0 +1,58 @@
+{
+  "_id": "75f3598b2f3b2ec5",
+  "name": "Ghost Miner",
+  "type": "npc",
+  "img": "modules/pnp-end-game/art/portraits/ghost_miners.png",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 4,
+      "max": 4
+    },
+    "armor": {
+      "value": 0
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "9"
+    },
+    "notes": "<p><strong>Immune to normal weapons.</strong> Non-hostile — shivering, terrified dwarven and gnomish spirits trapped since the corruption killed them.</p><p>They warn: the black slime <em>splits when cut</em> — blunt strikes or fire only. The holy pick <strong>Vein-Breaker</strong> is wedged in the silver vein by the crystals.</p><p>Freed (they fade into starlight) when the corruption core is shattered. Loot left behind: Miner's Lockbox (45 SP), Miner's Lantern (perpetual warm light).</p>"
+  },
+  "prototypeToken": {
+    "name": "Ghost Miner",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "modules/pnp-end-game/art/portraits/ghost_miners.png"
+    }
+  },
+  "_key": "!actors!75f3598b2f3b2ec5"
+}

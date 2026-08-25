@@ -1,0 +1,58 @@
+{
+  "_id": "18d01849660be0de",
+  "name": "Thornbound Sentinel",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 8,
+      "max": 8
+    },
+    "armor": {
+      "value": 3
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "10"
+    },
+    "notes": "<p><strong>Attacks twice: Thorned Halberd (d8).</strong> The empty armor of a PPS Knight-Protector who never left the headquarters, animated by the briars that grew through it. Silver Rose crest still visible under the thorns.</p><p><strong>Fire ignores its Armor.</strong> When destroyed, the briars lash out: everyone Nearby makes a GRACE test or is grappled by vines (RESOLVE test to break free).</p><p>A hero who salutes it with the PPS oath before it falls sees the helm dip in answer.</p>"
+  },
+  "prototypeToken": {
+    "name": "Thornbound Sentinel",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "_key": "!actors!18d01849660be0de"
+}

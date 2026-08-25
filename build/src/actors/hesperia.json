@@ -1,0 +1,58 @@
+{
+  "_id": "79e0dc8cbaae01bb",
+  "name": "Hesperia",
+  "type": "npc",
+  "img": "modules/pnp-end-game/art/portraits/hesperia.png",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 10,
+      "max": 10
+    },
+    "armor": {
+      "value": 0
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "15"
+    },
+    "notes": "<p><strong>Unarmed (1). 3 Gift Dice.</strong> Kind. Haughty. Strict. Nature spirit and elder of the Scorchwoods; a lore source for the forest's twisted paths, the dragons' history, and the Dragonfilch curse.</p>"
+  },
+  "prototypeToken": {
+    "name": "Hesperia",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "modules/pnp-end-game/art/portraits/hesperia.png"
+    }
+  },
+  "_key": "!actors!79e0dc8cbaae01bb"
+}

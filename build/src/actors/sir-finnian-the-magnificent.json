@@ -1,0 +1,58 @@
+{
+  "_id": "5b4d496cc81a50b5",
+  "name": "Sir Finnian the Magnificent",
+  "type": "npc",
+  "img": "modules/pnp-end-game/art/portraits/sir_finnian.png",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 6,
+      "max": 6
+    },
+    "armor": {
+      "value": 3
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "10"
+    },
+    "notes": "<p><strong>Attacks twice: Sword (d8).</strong> Gleaming armor, flowing hair, practiced poses. Vain, boastful — and genuinely loyal to Princess Amy.</p><p>Told about the swap (GRACE test to convince; automatic with Daisy's dispatch): his bravado collapses and he becomes a devoted ally. \"I would never hurt Princess Amy. NEVER. What do we do?\"</p><p>Travels with his squire Robin and Royal Guards. If his party reaches the lair first, they attack Dragon Amy — 4 damage per point traveled and per instance of Spending Time until stopped.</p>"
+  },
+  "prototypeToken": {
+    "name": "Sir Finnian the Magnificent",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "modules/pnp-end-game/art/portraits/sir_finnian.png"
+    }
+  },
+  "_key": "!actors!5b4d496cc81a50b5"
+}

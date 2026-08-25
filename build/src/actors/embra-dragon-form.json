@@ -1,0 +1,58 @@
+{
+  "_id": "09bd474826c355be",
+  "name": "Embra (Dragon Form)",
+  "type": "npc",
+  "img": "modules/pnp-end-game/art/portraits/dragon_amy.png",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 24,
+      "max": 24
+    },
+    "armor": {
+      "value": 3
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "16"
+    },
+    "notes": "<p><strong>Bite (d12) / two Claws (d8). Fire Breath:</strong> wide area Nearby, 20 damage or 10 on a successful GRACE test; recharges on Rest.</p><p>Embra restored to her own body — the same body Amy wore, so use the same token. Whether she is an enemy at that point depends entirely on how the party handled her.</p>"
+  },
+  "prototypeToken": {
+    "name": "Embra (Dragon Form)",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "modules/pnp-end-game/art/portraits/dragon_amy.png"
+    }
+  },
+  "_key": "!actors!09bd474826c355be"
+}

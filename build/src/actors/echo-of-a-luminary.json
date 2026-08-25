@@ -1,0 +1,58 @@
+{
+  "_id": "bc542089c3cb8e63",
+  "name": "Echo of a Luminary",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 10,
+      "max": 10
+    },
+    "armor": {
+      "value": 0
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "14"
+    },
+    "notes": "<p><strong>Grief Wail (d6 to everyone Nearby; RESOLVE test for half).</strong> Immune to normal weapons — silver and magic strike true.</p><p>The frozen memory of one of Morwenna's four founding friends, replaying her last attempt to save the Queen. Use the statblock four ways: the Shieldmaiden (guards the gate), the Gardener (the briar court), the Songkeeper (the banquet hall), the Cartographer (the map room).</p><p><strong>Each Echo can be freed instead of fought:</strong> show the Silver Rose Pin and speak to it as the friend it was (WITS or RESOLVE test). A freed Echo restores one spent Heart Die to each hero and whispers one true thing about Morwenna — the four whispers together reveal the save-her path.</p>"
+  },
+  "prototypeToken": {
+    "name": "Echo of a Luminary",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "_key": "!actors!bc542089c3cb8e63"
+}

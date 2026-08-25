@@ -1,0 +1,58 @@
+{
+  "_id": "62c098ed949f45ad",
+  "name": "Corruption Bloom",
+  "type": "npc",
+  "img": "modules/pnp-end-game/art/portraits/corruption_bloom.png",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 6,
+      "max": 6
+    },
+    "armor": {
+      "value": 0
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "6"
+    },
+    "notes": "<p><strong>Toxic Burst (d6).</strong> <strong>Fire deals double damage.</strong> The assault brain — it directs nearby Vine Crawlers; destroying it slays all remaining vines.</p><p><strong>On death:</strong> spore cloud — Nearby creatures make a RESOLVE test or become Woozy. Marigold can instead purify it directly (RESOLVE test with disadvantage) to prevent the cloud entirely.</p>"
+  },
+  "prototypeToken": {
+    "name": "Corruption Bloom",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "modules/pnp-end-game/art/portraits/corruption_bloom.png"
+    }
+  },
+  "_key": "!actors!62c098ed949f45ad"
+}

@@ -1,0 +1,58 @@
+{
+  "_id": "515d8902e07eddee",
+  "name": "Royal Guard",
+  "type": "npc",
+  "img": "modules/pnp-end-game/art/portraits/generic_guard.png",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 4,
+      "max": 4
+    },
+    "armor": {
+      "value": 1
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "8"
+    },
+    "notes": "<p><strong>Sword (d8) or Spear (d8).</strong> Fierce protectors. Notorious gossips — the camp whisper table is mostly them.</p>"
+  },
+  "prototypeToken": {
+    "name": "Royal Guard",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "modules/pnp-end-game/art/portraits/generic_guard.png"
+    }
+  },
+  "_key": "!actors!515d8902e07eddee"
+}

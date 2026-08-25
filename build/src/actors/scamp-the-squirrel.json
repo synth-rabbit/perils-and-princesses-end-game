@@ -1,0 +1,58 @@
+{
+  "_id": "0c1b326f39bb277d",
+  "name": "Scamp the Squirrel",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 1,
+      "max": 1
+    },
+    "armor": {
+      "value": 0
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "12"
+    },
+    "notes": "<p>Amy's small, bright-eyed squirrel. Chatters angrily at scary parts of stories. Was tucked under her chin through the whole ordeal. The bravest member of the party and must not be harmed.</p>"
+  },
+  "prototypeToken": {
+    "name": "Scamp the Squirrel",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "_key": "!actors!0c1b326f39bb277d"
+}

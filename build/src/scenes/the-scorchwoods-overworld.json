@@ -1,0 +1,22 @@
+{
+  "_id": "546a16b9802fbfe1",
+  "name": "The Scorchwoods (Overworld)",
+  "active": false,
+  "navigation": true,
+  "background": {
+    "src": "modules/pnp-end-game/art/maps/scorchwoods_map.jpg"
+  },
+  "width": 1260,
+  "height": 1620,
+  "padding": 0,
+  "backgroundColor": "#000000",
+  "grid": {
+    "type": 0,
+    "size": 100
+  },
+  "tokenVision": false,
+  "fog": {
+    "exploration": false
+  },
+  "_key": "!scenes!546a16b9802fbfe1"
+}

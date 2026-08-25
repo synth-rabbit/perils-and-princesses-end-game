@@ -1,0 +1,58 @@
+{
+  "_id": "863d1a9185e85ea8",
+  "name": "Thornheart Construct",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 12,
+      "max": 12
+    },
+    "armor": {
+      "value": 3
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "9"
+    },
+    "notes": "<p><strong>Attacks twice: Bramble Fist (d8).</strong> Ulrik's masterwork on Damon's pattern — mud, blood, and briar in a giant's shape, grown as the castle's last gate-keeper.</p><p><strong>Silver and radiant magic ignore its Armor. Slow:</strong> it always acts last in the round. When it falls, it collapses into a mound of wet earth threaded with dead roses.</p>"
+  },
+  "prototypeToken": {
+    "name": "Thornheart Construct",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "_key": "!actors!863d1a9185e85ea8"
+}

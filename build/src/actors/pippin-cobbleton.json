@@ -1,0 +1,58 @@
+{
+  "_id": "87ad7c19cda317ad",
+  "name": "Pippin Cobbleton",
+  "type": "npc",
+  "img": "modules/pnp-end-game/art/portraits/pippin_cobbleton.png",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 6,
+      "max": 6
+    },
+    "armor": {
+      "value": 0
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "11"
+    },
+    "notes": "<p>Master gnomish craftsman of the Scorchwoods settlement. Can build a <strong>replacement key</strong> to unlock the body-swap necklaces — for 50 SP or a favor, plus enchanted water from the Wish Fish's pool.</p><p>His jeweled walking stick was stolen by the Boneyard wolf pups; returning it is the easy way into his good graces.</p>"
+  },
+  "prototypeToken": {
+    "name": "Pippin Cobbleton",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "modules/pnp-end-game/art/portraits/pippin_cobbleton.png"
+    }
+  },
+  "_key": "!actors!87ad7c19cda317ad"
+}

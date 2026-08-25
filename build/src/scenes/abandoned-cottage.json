@@ -1,0 +1,22 @@
+{
+  "_id": "e7ab7393a90373cd",
+  "name": "Abandoned Cottage",
+  "active": false,
+  "navigation": true,
+  "background": {
+    "src": "modules/pnp-end-game/art/scenes/abandoned_cottage_scene.png"
+  },
+  "width": 1024,
+  "height": 1024,
+  "padding": 0,
+  "backgroundColor": "#000000",
+  "grid": {
+    "type": 0,
+    "size": 100
+  },
+  "tokenVision": false,
+  "fog": {
+    "exploration": false
+  },
+  "_key": "!scenes!e7ab7393a90373cd"
+}

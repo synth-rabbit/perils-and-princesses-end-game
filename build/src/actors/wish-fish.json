@@ -1,0 +1,58 @@
+{
+  "_id": "93c1981c0e191fa5",
+  "name": "Wish Fish",
+  "type": "npc",
+  "img": "modules/pnp-end-game/art/portraits/wish_fish.png",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 3,
+      "max": 3
+    },
+    "armor": {
+      "value": 0
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "15"
+    },
+    "notes": "<p>Guardian of the Enchanted Pool. Grants wishes the way fey do — sideways — and its pool's water is the enchanted ingredient Pippin needs for the necklace key.</p><p>Non-combatant; if threatened it simply dives beyond reach. Its favor is won with quests, not force (see the Wish Fish Quests table in the vault). <em>House stats.</em></p>"
+  },
+  "prototypeToken": {
+    "name": "Wish Fish",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "modules/pnp-end-game/art/portraits/wish_fish.png"
+    }
+  },
+  "_key": "!actors!93c1981c0e191fa5"
+}

@@ -1,0 +1,58 @@
+{
+  "_id": "5fa3507ef894bf8b",
+  "name": "Corrupted Crystal Spirit",
+  "type": "npc",
+  "img": "modules/pnp-end-game/art/portraits/corrupted_spirits.png",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 4,
+      "max": 4
+    },
+    "armor": {
+      "value": 1
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "10"
+    },
+    "notes": "<p><strong>Shadow Touch (d6).</strong> <strong>Crystal Shell (1 Armor):</strong> silver weapons and Marigold's radiant magic IGNORE the Armor.</p><p><strong>Crystal Burst:</strong> on death, everyone Nearby makes a GRACE test with advantage or takes d4 damage.</p><p>All remaining spirits shatter instantly when the corruption core is destroyed.</p>"
+  },
+  "prototypeToken": {
+    "name": "Corrupted Crystal Spirit",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "modules/pnp-end-game/art/portraits/corrupted_spirits.png"
+    }
+  },
+  "_key": "!actors!5fa3507ef894bf8b"
+}

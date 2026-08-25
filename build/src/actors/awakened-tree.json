@@ -1,0 +1,58 @@
+{
+  "_id": "b948ef4b652142b5",
+  "name": "Awakened Tree",
+  "type": "npc",
+  "img": "modules/pnp-end-game/art/portraits/awakened_tree.png",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 8,
+      "max": 8
+    },
+    "armor": {
+      "value": 2
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "8"
+    },
+    "notes": "<p><strong>Attacks twice: Bash (d6). 1 GD — casts Tangle.</strong> Angry old forest spirits pressed into the castle's outer defenses. Axes, hatchets, and fire ignore its Armor.</p><p>If Wounded by an awakened tree, suffer the <strong>Rootbound Curse</strong>.</p>"
+  },
+  "prototypeToken": {
+    "name": "Awakened Tree",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "modules/pnp-end-game/art/portraits/awakened_tree.png"
+    }
+  },
+  "_key": "!actors!b948ef4b652142b5"
+}

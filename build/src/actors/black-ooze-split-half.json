@@ -1,0 +1,58 @@
+{
+  "_id": "54e2ba98187c559d",
+  "name": "Black Ooze (Split Half)",
+  "type": "npc",
+  "img": "modules/pnp-end-game/art/portraits/black_ooze.png",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 5,
+      "max": 5
+    },
+    "armor": {
+      "value": 0
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "4"
+    },
+    "notes": "<p><strong>Corrosive Touch (d6).</strong> One half of a slashed Black Ooze. Splits again if slashed while 4+ HP remain (GM's call — two halves is usually enough).</p>"
+  },
+  "prototypeToken": {
+    "name": "Black Ooze (Split Half)",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "modules/pnp-end-game/art/portraits/black_ooze.png"
+    }
+  },
+  "_key": "!actors!54e2ba98187c559d"
+}

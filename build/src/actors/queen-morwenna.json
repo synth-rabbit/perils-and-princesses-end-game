@@ -1,0 +1,58 @@
+{
+  "_id": "efbad3ce9d2dabc4",
+  "name": "Queen Morwenna",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 10,
+      "max": 10
+    },
+    "armor": {
+      "value": 0
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "15"
+    },
+    "notes": "<p><strong>Dagger (d6). 3 Gift Dice</strong> — casts Fireball, Bubble, Disguise, and Mine!; can cast a spell and use her dagger in the same turn. Carries at least one healing potion. Protected by loyal minions.</p><p>Founder of the Perils & Princesses Society; first Luminary; designer of the Silver Rose Pin; author of the oath — her heart frozen by the <strong>Frostbind curse</strong> her four friends could not break. Everything since is her proving friendship a lie.</p><p><strong>The Choice:</strong> she can be fought — or saved, if Amy's Powerful Friendship reaches through the curse. See Morwenna, Frost-Crowned for the final phase either way.</p>"
+  },
+  "prototypeToken": {
+    "name": "Queen Morwenna",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "_key": "!actors!efbad3ce9d2dabc4"
+}

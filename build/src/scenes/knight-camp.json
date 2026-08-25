@@ -1,0 +1,22 @@
+{
+  "_id": "b4c0cff00edd7905",
+  "name": "Knight Camp",
+  "active": false,
+  "navigation": true,
+  "background": {
+    "src": "modules/pnp-end-game/art/scenes/knight_camp_scene.png"
+  },
+  "width": 1024,
+  "height": 1024,
+  "padding": 0,
+  "backgroundColor": "#000000",
+  "grid": {
+    "type": 0,
+    "size": 100
+  },
+  "tokenVision": false,
+  "fog": {
+    "exploration": false
+  },
+  "_key": "!scenes!b4c0cff00edd7905"
+}

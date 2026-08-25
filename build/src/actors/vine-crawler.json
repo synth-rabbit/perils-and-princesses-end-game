@@ -1,0 +1,58 @@
+{
+  "_id": "5e5161ac358f70e4",
+  "name": "Vine Crawler",
+  "type": "npc",
+  "img": "modules/pnp-end-game/art/portraits/vine_crawler.png",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 4,
+      "max": 4
+    },
+    "armor": {
+      "value": 0
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "8"
+    },
+    "notes": "<p><strong>Vine Whip (d4).</strong> Weakness: fire and slashing. On hit the target is grappled (RESOLVE test to break free).</p><p>A writhing mass of corrupted vine the size of a large dog.</p>"
+  },
+  "prototypeToken": {
+    "name": "Vine Crawler",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "modules/pnp-end-game/art/portraits/vine_crawler.png"
+    }
+  },
+  "_key": "!actors!5e5161ac358f70e4"
+}

@@ -1,0 +1,58 @@
+{
+  "_id": "a84a8b2c495d8eeb",
+  "name": "Mirror of Broken Vows",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 6,
+      "max": 6
+    },
+    "armor": {
+      "value": 2
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "13"
+    },
+    "notes": "<p><strong>Does not attack the body.</strong> Each round, one Nearby hero tests WITS or sees their dearest friend renounce them in the glass — becoming <strong>Befuddled</strong> and unable to spend Heart Dice while it stands.</p><p>A tall court mirror from the old headquarters, frosted over, showing only abandonment. <strong>Armor 2, shattered only by silver or blunt strikes</strong> — or broken instantly by a hero who faces their vision and answers it aloud with a true memory of that friend.</p>"
+  },
+  "prototypeToken": {
+    "name": "Mirror of Broken Vows",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "_key": "!actors!a84a8b2c495d8eeb"
+}

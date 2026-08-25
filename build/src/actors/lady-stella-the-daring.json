@@ -1,0 +1,58 @@
+{
+  "_id": "66fa4b5a51490b15",
+  "name": "Lady Stella the Daring",
+  "type": "npc",
+  "img": "modules/pnp-end-game/art/portraits/lady_stella.png",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 6,
+      "max": 6
+    },
+    "armor": {
+      "value": 3
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "12"
+    },
+    "notes": "<p><strong>Attacks twice: Sword of Starlight (d8)</strong> — 1 GD: aura of starlight forces anyone fighting her (enemy or ally) to reroll a d20; recharges on a sincere wish on the evening star.</p><p>Youngest of four famous Daring sisters, desperate to live up to the name. Won't ally with anyone who hasn't proven their mettle; needs convincing evidence before believing the swap — but she already suspects Damon (\"he fights like a machine\") and noticed the false Amy stopped caring about her cats.</p><p>Travels with the twins Diana and Beck. If her party reaches the lair first, she attacks immediately — dissuading her mid-fight is rolled with disadvantage.</p>"
+  },
+  "prototypeToken": {
+    "name": "Lady Stella the Daring",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "modules/pnp-end-game/art/portraits/lady_stella.png"
+    }
+  },
+  "_key": "!actors!66fa4b5a51490b15"
+}

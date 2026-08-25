@@ -1,0 +1,58 @@
+{
+  "_id": "71168dc420a46f31",
+  "name": "Castle Vine Crawler",
+  "type": "npc",
+  "img": "modules/pnp-end-game/art/portraits/vine_crawler.png",
+  "system": {
+    "virtues": {
+      "resolve": {
+        "value": 8,
+        "label": "Resolve"
+      },
+      "grace": {
+        "value": 8,
+        "label": "Grace"
+      },
+      "wits": {
+        "value": 8,
+        "label": "Wits"
+      }
+    },
+    "hp": {
+      "value": 2,
+      "max": 2
+    },
+    "armor": {
+      "value": 0
+    },
+    "level": {
+      "value": 1
+    },
+    "ailments": {
+      "weary": false,
+      "woozy": false,
+      "befuddled": false
+    },
+    "trauma": {
+      "box1": false,
+      "box2": false,
+      "box3": false
+    },
+    "save": {
+      "value": "6"
+    },
+    "notes": "<p><strong>Vine Whip (d4).</strong> Morwenna's own strain — weaker but everywhere. A tangle of thorny vines animated by magic; tries to grab and strangle. Fire and slashing tear through them.</p>"
+  },
+  "prototypeToken": {
+    "name": "Castle Vine Crawler",
+    "displayName": 20,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "texture": {
+      "src": "modules/pnp-end-game/art/portraits/vine_crawler.png"
+    }
+  },
+  "_key": "!actors!71168dc420a46f31"
+}
