@@ -1,0 +1,25 @@
+{
+  "_id": "3a5abf456a08e314",
+  "name": "The First Silver Rose Pin",
+  "type": "item",
+  "img": "modules/pnp-end-game/art/items/silver_rose_pin.png",
+  "system": {
+    "description": "<p>Morwenna's own pin — the original, pinned beneath the thorns of her throne. Tarnished but whole.</p><p><em>House item:</em> its bearer has <strong>advantage on tests made to protect or comfort a friend</strong>, and the pin glows faintly in the presence of Frostbind magic. What it means to hand it back to her is up to the table.</p>",
+    "quantity": 1,
+    "cost": "",
+    "weight": 0,
+    "relicDice": {
+      "relic1": false,
+      "relic2": false,
+      "relic3": false,
+      "relic4": false,
+      "extraRelic": false
+    },
+    "roll": {
+      "diceNum": 1,
+      "diceSize": "d4",
+      "diceBonus": ""
+    }
+  },
+  "_key": "!items!3a5abf456a08e314"
+}

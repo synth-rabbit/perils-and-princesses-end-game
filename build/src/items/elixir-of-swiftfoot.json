@@ -1,0 +1,25 @@
+{
+  "_id": "7aee0046e46ac593",
+  "name": "Elixir of Swiftfoot",
+  "type": "item",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p><strong>Double movement and advantage on GRACE tests for 1 hour.</strong></p>",
+    "quantity": 1,
+    "cost": "",
+    "weight": 1,
+    "relicDice": {
+      "relic1": false,
+      "relic2": false,
+      "relic3": false,
+      "relic4": false,
+      "extraRelic": false
+    },
+    "roll": {
+      "diceNum": 1,
+      "diceSize": "d4",
+      "diceBonus": ""
+    }
+  },
+  "_key": "!items!7aee0046e46ac593"
+}

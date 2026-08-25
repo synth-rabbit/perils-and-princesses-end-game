@@ -1,0 +1,25 @@
+{
+  "_id": "11ffb1718601e789",
+  "name": "Moonpetal",
+  "type": "item",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A luminous flower petal from the Pristine Pond. <strong>Eat it to cure one condition</strong> (an Ailment, a minor curse, a lingering fright).</p>",
+    "quantity": 1,
+    "cost": "",
+    "weight": 0,
+    "relicDice": {
+      "relic1": false,
+      "relic2": false,
+      "relic3": false,
+      "relic4": false,
+      "extraRelic": false
+    },
+    "roll": {
+      "diceNum": 1,
+      "diceSize": "d4",
+      "diceBonus": ""
+    }
+  },
+  "_key": "!items!11ffb1718601e789"
+}

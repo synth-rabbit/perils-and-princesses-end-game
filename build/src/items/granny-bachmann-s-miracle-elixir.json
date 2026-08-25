@@ -1,0 +1,25 @@
+{
+  "_id": "53bede26a35e85b1",
+  "name": "Granny Bachmann's Miracle Elixir",
+  "type": "item",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A disgusting mixture of herbs and vegetables that <strong>cures any one Ailment</strong>. Once taken, you reek of rotten garlic for 24 hours. Bottle has d4 uses.</p>",
+    "quantity": 1,
+    "cost": "",
+    "weight": 1,
+    "relicDice": {
+      "relic1": false,
+      "relic2": false,
+      "relic3": false,
+      "relic4": false,
+      "extraRelic": false
+    },
+    "roll": {
+      "diceNum": 1,
+      "diceSize": "d4",
+      "diceBonus": ""
+    }
+  },
+  "_key": "!items!53bede26a35e85b1"
+}

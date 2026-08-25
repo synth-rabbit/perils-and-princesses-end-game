@@ -1,0 +1,25 @@
+{
+  "_id": "8df43deddc97b434",
+  "name": "Sword of Starlight",
+  "type": "item",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p><strong>d8 damage. 1 Gift Die.</strong> Lady Stella's family heirloom. Spend the die to take on an aura of starlight and force anyone fighting with the wielder (enemy or ally) to reroll a d20.</p><p><strong>Recharge:</strong> make a sincere wish on the evening star.</p>",
+    "quantity": 1,
+    "cost": "",
+    "weight": 1,
+    "relicDice": {
+      "relic1": false,
+      "relic2": false,
+      "relic3": false,
+      "relic4": false,
+      "extraRelic": false
+    },
+    "roll": {
+      "diceNum": 1,
+      "diceSize": "d8",
+      "diceBonus": ""
+    }
+  },
+  "_key": "!items!8df43deddc97b434"
+}

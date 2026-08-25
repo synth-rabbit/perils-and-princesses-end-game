@@ -1,0 +1,25 @@
+{
+  "_id": "d89c615d757b49a0",
+  "name": "Small Bag of Raspberry Candy",
+  "type": "item",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Four pieces of candy. <strong>Each instantly restores d4 HP.</strong></p>",
+    "quantity": 4,
+    "cost": "",
+    "weight": 0,
+    "relicDice": {
+      "relic1": false,
+      "relic2": false,
+      "relic3": false,
+      "relic4": false,
+      "extraRelic": false
+    },
+    "roll": {
+      "diceNum": 1,
+      "diceSize": "d4",
+      "diceBonus": ""
+    }
+  },
+  "_key": "!items!d89c615d757b49a0"
+}

@@ -1,0 +1,25 @@
+{
+  "_id": "d30e02875e491ccb",
+  "name": "Cloak of Shadows",
+  "type": "item",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Virtue tests to remain unseen in dim light are made <strong>with advantage</strong>. When charged, activate to become <strong>completely invisible for d10 minutes</strong>.</p><p><strong>Recharge:</strong> wear the cloak while traveling under a new moon.</p>",
+    "quantity": 1,
+    "cost": "",
+    "weight": 1,
+    "relicDice": {
+      "relic1": false,
+      "relic2": false,
+      "relic3": false,
+      "relic4": false,
+      "extraRelic": false
+    },
+    "roll": {
+      "diceNum": 1,
+      "diceSize": "d10",
+      "diceBonus": ""
+    }
+  },
+  "_key": "!items!d30e02875e491ccb"
+}

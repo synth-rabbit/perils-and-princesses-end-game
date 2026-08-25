@@ -1,0 +1,25 @@
+{
+  "_id": "d41a108b2d4e6893",
+  "name": "Artisan Perfume",
+  "type": "item",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A fine, alluring scent: roll GRACE tests to be charming <strong>with advantage for one hour</strong> (or until washed off). Also attracts every insect and animal in the area. Vial has d4 uses.</p>",
+    "quantity": 1,
+    "cost": "",
+    "weight": 0,
+    "relicDice": {
+      "relic1": false,
+      "relic2": false,
+      "relic3": false,
+      "relic4": false,
+      "extraRelic": false
+    },
+    "roll": {
+      "diceNum": 1,
+      "diceSize": "d4",
+      "diceBonus": ""
+    }
+  },
+  "_key": "!items!d41a108b2d4e6893"
+}

@@ -1,0 +1,25 @@
+{
+  "_id": "bddb3dfd9f8e8b0a",
+  "name": "Spectacles of Discernment",
+  "type": "item",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Test <strong>with advantage</strong> to see hidden things, search areas, appraise items, and discern the true nature of things.</p><p>Anything said while wearing them seems condescending and rubs people the wrong way.</p>",
+    "quantity": 1,
+    "cost": "",
+    "weight": 0,
+    "relicDice": {
+      "relic1": false,
+      "relic2": false,
+      "relic3": false,
+      "relic4": false,
+      "extraRelic": false
+    },
+    "roll": {
+      "diceNum": 1,
+      "diceSize": "d4",
+      "diceBonus": ""
+    }
+  },
+  "_key": "!items!bddb3dfd9f8e8b0a"
+}

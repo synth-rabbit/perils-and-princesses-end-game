@@ -1,0 +1,25 @@
+{
+  "_id": "b242226ff6a7bcdc",
+  "name": "Tincture of Iron Hide",
+  "type": "item",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p><strong>+2 Armor for 1 hour.</strong> The skin takes on a faint grey sheen.</p>",
+    "quantity": 1,
+    "cost": "",
+    "weight": 1,
+    "relicDice": {
+      "relic1": false,
+      "relic2": false,
+      "relic3": false,
+      "relic4": false,
+      "extraRelic": false
+    },
+    "roll": {
+      "diceNum": 1,
+      "diceSize": "d4",
+      "diceBonus": ""
+    }
+  },
+  "_key": "!items!b242226ff6a7bcdc"
+}

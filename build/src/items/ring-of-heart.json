@@ -1,0 +1,25 @@
+{
+  "_id": "e4dcd493724bd7a7",
+  "name": "Ring of Heart",
+  "type": "item",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A silver ring with a heart-shaped stone. Activate to instantly spend <strong>any number of your Heart Dice to recover HP as if you had a Picnic</strong>.</p><p>Then lose all use of your Heart Dice until you rest for three days. Won from the ghastly knight commander at the Stones of Remembrance by honoring his sacrifice.</p>",
+    "quantity": 1,
+    "cost": "",
+    "weight": 0,
+    "relicDice": {
+      "relic1": false,
+      "relic2": false,
+      "relic3": false,
+      "relic4": false,
+      "extraRelic": false
+    },
+    "roll": {
+      "diceNum": 1,
+      "diceSize": "d4",
+      "diceBonus": ""
+    }
+  },
+  "_key": "!items!e4dcd493724bd7a7"
+}

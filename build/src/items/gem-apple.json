@@ -1,0 +1,25 @@
+{
+  "_id": "4508e580b5032afc",
+  "name": "Gem Apple",
+  "type": "item",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Crystalline fruit from the Scorchwoods orchard. Eating one makes you <em>feel weird</em> — and a gift of gem apples <strong>pacifies a knight captain</strong> (decreases the Knight Tracker). Sir Damon cannot be pacified by one; he is not alive. Magus Ulrik can be — but must be tricked into eating it.</p>",
+    "quantity": 1,
+    "cost": "",
+    "weight": 0,
+    "relicDice": {
+      "relic1": false,
+      "relic2": false,
+      "relic3": false,
+      "relic4": false,
+      "extraRelic": false
+    },
+    "roll": {
+      "diceNum": 1,
+      "diceSize": "d4",
+      "diceBonus": ""
+    }
+  },
+  "_key": "!items!4508e580b5032afc"
+}

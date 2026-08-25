@@ -1,0 +1,25 @@
+{
+  "_id": "f709df6c295d5337",
+  "name": "Picnic Basket",
+  "type": "item",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>When used to have a Picnic, restores <strong>d4 extra HP</strong> to one person partaking.</p>",
+    "quantity": 1,
+    "cost": "",
+    "weight": 1,
+    "relicDice": {
+      "relic1": false,
+      "relic2": false,
+      "relic3": false,
+      "relic4": false,
+      "extraRelic": false
+    },
+    "roll": {
+      "diceNum": 1,
+      "diceSize": "d4",
+      "diceBonus": ""
+    }
+  },
+  "_key": "!items!f709df6c295d5337"
+}

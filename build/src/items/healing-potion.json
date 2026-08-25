@@ -1,0 +1,25 @@
+{
+  "_id": "64c6495da34fb934",
+  "name": "Healing Potion",
+  "type": "item",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A standard restorative draught. <strong>Drink to recover d6 HP.</strong> Sir Raphael's party travels with d4 of them on Adagio the mule.</p>",
+    "quantity": 1,
+    "cost": "",
+    "weight": 1,
+    "relicDice": {
+      "relic1": false,
+      "relic2": false,
+      "relic3": false,
+      "relic4": false,
+      "extraRelic": false
+    },
+    "roll": {
+      "diceNum": 1,
+      "diceSize": "d6",
+      "diceBonus": ""
+    }
+  },
+  "_key": "!items!64c6495da34fb934"
+}

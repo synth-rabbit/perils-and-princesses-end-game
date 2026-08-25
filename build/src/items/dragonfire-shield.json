@@ -1,0 +1,25 @@
+{
+  "_id": "13ea55e71fccaaf1",
+  "name": "Dragonfire Shield",
+  "type": "item",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "description": "<p><strong>Reduce incoming damage by 1</strong> — unless the damage is dragon fire, in which case <strong>negate it completely</strong>; the shield absorbs and stores the fire.</p><p>As a Reaction, release the stored fire: <strong>d6 damage to a Nearby target</strong>.</p>",
+    "quantity": 1,
+    "cost": "",
+    "weight": 2,
+    "relicDice": {
+      "relic1": false,
+      "relic2": false,
+      "relic3": false,
+      "relic4": false,
+      "extraRelic": false
+    },
+    "roll": {
+      "diceNum": 1,
+      "diceSize": "d6",
+      "diceBonus": ""
+    }
+  },
+  "_key": "!items!13ea55e71fccaaf1"
+}

@@ -1,0 +1,25 @@
+{
+  "_id": "c5fb5488caf2284c",
+  "name": "Dewdrop Elixir of Invisibility",
+  "type": "item",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A crystal vial of shimmering pond-dew that shifts color like an opal. Drinker turns <strong>completely invisible for 10 minutes</strong>, or until they attack or cast a spell.</p>",
+    "quantity": 1,
+    "cost": "",
+    "weight": 1,
+    "relicDice": {
+      "relic1": false,
+      "relic2": false,
+      "relic3": false,
+      "relic4": false,
+      "extraRelic": false
+    },
+    "roll": {
+      "diceNum": 1,
+      "diceSize": "d4",
+      "diceBonus": ""
+    }
+  },
+  "_key": "!items!c5fb5488caf2284c"
+}

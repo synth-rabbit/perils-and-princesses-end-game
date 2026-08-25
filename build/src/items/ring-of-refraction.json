@@ -1,0 +1,25 @@
+{
+  "_id": "6b5cb9e3d581f93b",
+  "name": "Ring of Refraction",
+  "type": "item",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>When charged, distorts the wearer's image in battle: an enemy targeting them specifically attacks <strong>with disadvantage</strong>. When an attack misses, the effect fades.</p><p><strong>Recharge:</strong> Spend Time staring into the ring's mirror — it reflects a grim, twisted version of the wearer, and staring causes Befuddlement.</p>",
+    "quantity": 1,
+    "cost": "",
+    "weight": 0,
+    "relicDice": {
+      "relic1": false,
+      "relic2": false,
+      "relic3": false,
+      "relic4": false,
+      "extraRelic": false
+    },
+    "roll": {
+      "diceNum": 1,
+      "diceSize": "d4",
+      "diceBonus": ""
+    }
+  },
+  "_key": "!items!6b5cb9e3d581f93b"
+}

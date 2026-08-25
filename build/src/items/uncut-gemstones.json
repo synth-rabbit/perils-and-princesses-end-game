@@ -1,0 +1,25 @@
+{
+  "_id": "eb55521ec1d4cd3a",
+  "name": "Uncut Gemstones",
+  "type": "item",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A pouch of rough amethyst and garnet from the miners' vault.</p>",
+    "quantity": 1,
+    "cost": "75 SP",
+    "weight": 1,
+    "relicDice": {
+      "relic1": false,
+      "relic2": false,
+      "relic3": false,
+      "relic4": false,
+      "extraRelic": false
+    },
+    "roll": {
+      "diceNum": 1,
+      "diceSize": "d4",
+      "diceBonus": ""
+    }
+  },
+  "_key": "!items!eb55521ec1d4cd3a"
+}

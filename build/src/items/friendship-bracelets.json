@@ -1,0 +1,25 @@
+{
+  "_id": "3eb1074b39c2f317",
+  "name": "Friendship Bracelets",
+  "type": "item",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A set of matching bracelets — you choose the colors! The wearers can <strong>send telepathic messages to each other</strong>.</p>",
+    "quantity": 1,
+    "cost": "",
+    "weight": 0,
+    "relicDice": {
+      "relic1": false,
+      "relic2": false,
+      "relic3": false,
+      "relic4": false,
+      "extraRelic": false
+    },
+    "roll": {
+      "diceNum": 1,
+      "diceSize": "d4",
+      "diceBonus": ""
+    }
+  },
+  "_key": "!items!3eb1074b39c2f317"
+}

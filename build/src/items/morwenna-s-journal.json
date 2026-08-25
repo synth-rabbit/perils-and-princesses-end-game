@@ -1,0 +1,25 @@
+{
+  "_id": "f58df1187b7639a2",
+  "name": "Morwenna's Journal",
+  "type": "item",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Found in the frozen great hall of the old PPS headquarters. Entries in a warm, hopeful hand grow colder page by page as the Frostbind curse takes hold: <em>\"They say friendship conquers all. Why can't it conquer this?\"</em></p><p>The last entry: <em>\"I will prove it was always a lie.\"</em> Reading it Spends Time and reveals the save-her path — and one true thing about each of her four friends.</p>",
+    "quantity": 1,
+    "cost": "",
+    "weight": 1,
+    "relicDice": {
+      "relic1": false,
+      "relic2": false,
+      "relic3": false,
+      "relic4": false,
+      "extraRelic": false
+    },
+    "roll": {
+      "diceNum": 1,
+      "diceSize": "d4",
+      "diceBonus": ""
+    }
+  },
+  "_key": "!items!f58df1187b7639a2"
+}

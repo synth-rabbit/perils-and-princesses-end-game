@@ -87,6 +87,32 @@ P = "<p>"; Q = "</p>"
 def notes(*paras):
     return "".join(f"<p>{p}</p>" for p in paras)
 
+def item(name, desc, die=None, weight=0, cost="", art=None, qty=1):
+    """A draggable Item document for the perilsandprincesses system.
+
+    die: damage/effect die like "d8" (fills the sheet's roll field).
+    weight: inventory spaces, the book's parenthetical number.
+    art: filename in build/art/items/, else a safe Foundry core icon.
+    """
+    i = did(name, "item")
+    img = f"modules/{MODULE_ID}/art/items/{art}" if art else "icons/svg/item-bag.svg"
+    return {
+        "_id": i,
+        "name": name,
+        "type": "item",
+        "img": img,
+        "system": {
+            "description": desc,
+            "quantity": qty,
+            "cost": cost,
+            "weight": weight,
+            "relicDice": {"relic1": False, "relic2": False, "relic3": False,
+                          "relic4": False, "extraRelic": False},
+            "roll": {"diceNum": 1, "diceSize": die or "d4", "diceBonus": ""},
+        },
+        "_key": f"!items!{i}",
+    }
+
 ACTORS = [
     # ---------- Act IV opening: Brokenhill Mine & Pristine Pond ----------
     npc("Grumbold the Troll", 15, 7, 3, "grumbold_troll.png", notes(
@@ -228,6 +254,158 @@ ACTORS = [
         "Optional castle encounter; use sparingly — one wight is a scene, three are a wall.")),
 ]
 
+BOOK_ICON = "icons/svg/book.svg"
+SWORD_ICON = "icons/svg/sword.svg"
+SHIELD_ICON = "icons/svg/shield.svg"
+
+ITEMS = [
+    # ---------- Session 9: Brokenhill Mine ----------
+    item("Vein-Breaker", notes(
+        "<em>\"Forged by ancient dwarven smiths from solid silver and inscribed with runes of earth and stone, this heavy pick shatters rock and dark magic with equal ease.\"</em>",
+        "<strong>Heavy Silver Mining Pick — d8 damage, Silvered.</strong> Tailored for Prince Vega. <strong>2 Gift Dice</strong> <em>(house count, matching the Staff — tune as desired)</em>.",
+        "<strong>Silvered:</strong> bypasses the natural armor/immunity of werewolves, ghouls, wights, and spectral undead. <strong>Shatterstone:</strong> ignores 1 Armor on stone, metal, crystal, or lycanthrope targets.",
+        "<strong>Seismic Resonance ([DICE]/[SUM]):</strong> strike the ground — [DICE] Nearby creatures make a RESOLVE test or fall prone and are stunned 1 round; deal [SUM] Earth damage to stone structures, geodes, or constructs.",
+        "<strong>Shatter Vein ([DICE]/[SUM]):</strong> vs stone, crystal, or heavy armor — modify the attack up to [SUM]; on a hit deal [SUM] extra and reduce the target's Armor by [DICE] for the combat.",
+        "<strong>Recharge:</strong> embed the head in unmined silver ore or solid stone for a minute during a Picnic or Rest, or strike an uncorrupted stone altar."),
+        die="d8", weight=2, art="vein_breaker.png"),
+    item("Gilded Dwarven Mining Goggles", notes(
+        "Brass-and-gold goggles from the Brokenhill silver vault. Grants <strong>Darkvision</strong>, and <strong>+1 WITS</strong> on tests to spot traps and secrets."), weight=1),
+    item("Potion of Stone Strength", notes(
+        "Drinker gains <strong>+2 RESOLVE and 2 temporary Armor for 1 hour</strong>. Tastes like licking a quarry."), die="d4", weight=1),
+    item("Tincture of Iron Hide", notes(
+        "<strong>+2 Armor for 1 hour.</strong> The skin takes on a faint grey sheen."), weight=1),
+    item("Elixir of Swiftfoot", notes(
+        "<strong>Double movement and advantage on GRACE tests for 1 hour.</strong>"), weight=1),
+    item("Vial of Pure Silver Dust", notes(
+        "Coat one weapon: it counts as <strong>silvered for one battle</strong>. Or sell it.", ), cost="35 SP", weight=1),
+    item("Raw Silver Ore Chunk", notes(
+        "Unrefined silver from the Brokenhill vein. Worth 20 SP — or bring it to Finn the Blacksmith to silver a weapon permanently."), cost="20 SP", weight=1, qty=3),
+    item("Uncut Gemstones", notes(
+        "A pouch of rough amethyst and garnet from the miners' vault."), cost="75 SP", weight=1),
+    item("Miner's Lantern", notes(
+        "A magical silver lantern that sheds <strong>perpetual warm light</strong> and never needs oil. The ghost miners have no further use for it."), weight=1),
+    item("Troll's Tooth", notes(
+        "Grumbold's gift — an enormous yellowed fang. <strong>Plant it in soft ground to grow a wall of thorny stone</strong>, 10 feet and taller than a troll. Single use. \"I grew a spare, so don't worry about it.\""), weight=1),
+
+    # ---------- Session 9: Pristine Pond ----------
+    item("The Lunar Grotto Spear", notes(
+        "<em>\"Forged from glowing sea-glass and bound in silver wire, this spear hums with the tide of subterranean waters and the light of the moon.\"</em>",
+        "<strong>Magic Shortspear — d6 damage (Versatile d8), Thrown 30 ft.</strong> Tailored for Princess Filly. <strong>2 Gift Dice</strong> <em>(house count — tune as desired)</em>.",
+        "<strong>Returning Current:</strong> when thrown it dissolves into water on impact and instantly reforms in Filly's hand.",
+        "<strong>Lunar Surge ([DICE]/[SUM]):</strong> on an attack, add [SUM] Cold/Water damage, plus [DICE]d4 Pack Hunt damage if the target is engaged with Tawny.",
+        "<strong>Tidal Wave Thrust ([DICE]/[SUM]):</strong> [DICE] creatures within a Stone's Throw take [SUM] Cold damage and make a GRACE test or are knocked prone and pushed.",
+        "<strong>Water Grace:</strong> spend Gift Dice to add [SUM] to GRACE tests while swimming or climbing wet rock.",
+        "<strong>Recharge:</strong> submerge the tip in pristine natural water for a minute during a Picnic or Rest, or leave it in direct moonlight overnight."),
+        die="d6", weight=1, art="lunar_grotto_spear.png"),
+    item("Dewdrop Elixir of Invisibility", notes(
+        "A crystal vial of shimmering pond-dew that shifts color like an opal. Drinker turns <strong>completely invisible for 10 minutes</strong>, or until they attack or cast a spell."), weight=1),
+    item("Moonpetal", notes(
+        "A luminous flower petal from the Pristine Pond. <strong>Eat it to cure one condition</strong> (an Ailment, a minor curse, a lingering fright)."), weight=0),
+
+    # ---------- Already carried: reference entry ----------
+    item("Staff of the Sunken Sanctum", notes(
+        "<strong>Magic Silverwood Staff — d8 damage, spellcasting focus. 2 Gift Dice.</strong> Tailored for Princess Marigold; claimed from the Sunken Sanctum's Guardian orb.",
+        "<strong>Sanctuary Aegis:</strong> whenever Marigold heals an ally or spends a Heart Die, a water bubble grants the target +1 Armor for 1 round.",
+        "<strong>Radiant Wave:</strong> strike the ground to release a 15-foot pulse — undead, oozes, and corrupted beasts take d6 Radiant damage and make a WITS test or are pushed back.",
+        "<strong>Recharge:</strong> rest the staff in pristine water."),
+        die="d8", weight=1, art="staff_sunken_sanctum.png"),
+    item("Silver Rose Pin (Fairy Compass)", notes(
+        "The PPS member's pin — designed long ago by the Society's founder. After Aurelius's blessing it acts as a <strong>Fairy Compass</strong>: it points toward Princess Amy no matter what body she is in, glows warm when moving toward her, cool when away, and <strong>flares red when she is in immediate danger</strong>.",
+        "Shown to those who matter, it opens doors: fey, gnomes, and honest knights know what it means."),
+        weight=0, art="silver_rose_pin.png"),
+
+    # ---------- The Princess and the Dragon: story items ----------
+    item("The Magic Necklaces", notes(
+        "A pair of necklaces of gnomish origin. <strong>When two different people wear these at the same time, they switch bodies.</strong> Locked by gnomish enchantment — unremovable without the Magical Key."), weight=0, art=None),
+    item("The Gnomish Magical Key", notes(
+        "An artifact that locks or unlocks the enchantment of the Magic Necklaces. The original was destroyed; <strong>Pippin Cobbleton can craft a replacement</strong> — for 50 SP or a favor, plus enchanted water from the Wish Fish's pool."), weight=0),
+    item("Magus Ulrik's Grimoire", notes(
+        "Parsing this esoteric, arcane text requires a <strong>WITS test with disadvantage</strong>; failure causes Befuddlement. It details a recipe for a humanoid servant made from earth and blood — how Sir Damon was made."), weight=1, art=None),
+    item("Tifa's Journal", notes(
+        "Contains notes on how to cast the spell <strong>Animate</strong>. By Spending Time studying the journal, you can cast Animate with your own Gift Dice."), weight=1),
+    item("Gem Apple", notes(
+        "Crystalline fruit from the Scorchwoods orchard. Eating one makes you <em>feel weird</em> — and a gift of gem apples <strong>pacifies a knight captain</strong> (decreases the Knight Tracker). Sir Damon cannot be pacified by one; he is not alive. Magus Ulrik can be — but must be tricked into eating it."), weight=0),
+
+    # ---------- The Princess and the Dragon: weapons & hoard ----------
+    item("Crystal Dagger", notes(
+        "<strong>d6 damage.</strong> A small enchanted dagger of purple crystal. On a 5–6 damage roll it inflicts an <strong>extra d6</strong> — and the blade shatters, becoming useless."), die="d6", weight=1, art=None),
+    item("Sword of Starlight", notes(
+        "<strong>d8 damage. 1 Gift Die.</strong> Lady Stella's family heirloom. Spend the die to take on an aura of starlight and force anyone fighting with the wielder (enemy or ally) to reroll a d20.",
+        "<strong>Recharge:</strong> make a sincere wish on the evening star."), die="d8", weight=1),
+    item("Blitzenaxt", notes(
+        "<strong>d10 damage. 2 Gift Dice.</strong> Summon a bolt of lightning to add [SUM] damage to a successful attack made with Blitzenaxt.",
+        "<strong>Recharge:</strong> leave it out during a powerful storm."), die="d10", weight=2),
+    item("Dragonfire Shield", notes(
+        "<strong>Reduce incoming damage by 1</strong> — unless the damage is dragon fire, in which case <strong>negate it completely</strong>; the shield absorbs and stores the fire.",
+        "As a Reaction, release the stored fire: <strong>d6 damage to a Nearby target</strong>."), die="d6", weight=2),
+    item("Cloak of Shadows", notes(
+        "Virtue tests to remain unseen in dim light are made <strong>with advantage</strong>. When charged, activate to become <strong>completely invisible for d10 minutes</strong>.",
+        "<strong>Recharge:</strong> wear the cloak while traveling under a new moon."), die="d10", weight=1),
+    item("Spectacles of Discernment", notes(
+        "Test <strong>with advantage</strong> to see hidden things, search areas, appraise items, and discern the true nature of things.",
+        "Anything said while wearing them seems condescending and rubs people the wrong way."), weight=0),
+    item("Swan's Grace Pendant", notes(
+        "While wearing this necklace, your <strong>GRACE score is one point higher</strong>."), weight=0),
+    item("Ring of Refraction", notes(
+        "When charged, distorts the wearer's image in battle: an enemy targeting them specifically attacks <strong>with disadvantage</strong>. When an attack misses, the effect fades.",
+        "<strong>Recharge:</strong> Spend Time staring into the ring's mirror — it reflects a grim, twisted version of the wearer, and staring causes Befuddlement."), weight=0),
+    item("Ring of Fire", notes(
+        "<strong>1 Gift Die.</strong> Casts <strong>Fireball</strong>.",
+        "<strong>Recharge:</strong> leave it in the embers of a hot fire until they burn out."), weight=0),
+    item("Pixie Dust", notes(
+        "Sprinkle on yourself to gain the ability to cast a <strong>Float</strong> spell that lasts d4 hours."), die="d4", weight=0),
+    item("Ring of Heart", notes(
+        "A silver ring with a heart-shaped stone. Activate to instantly spend <strong>any number of your Heart Dice to recover HP as if you had a Picnic</strong>.",
+        "Then lose all use of your Heart Dice until you rest for three days. Won from the ghastly knight commander at the Stones of Remembrance by honoring his sacrifice."), weight=0),
+    item("Healing Potion", notes(
+        "A standard restorative draught. <strong>Drink to recover d6 HP.</strong> Sir Raphael's party travels with d4 of them on Adagio the mule."), die="d6", weight=1),
+
+    # ---------- Faire prizes & wares ----------
+    item("Small Bag of Raspberry Candy", notes(
+        "Four pieces of candy. <strong>Each instantly restores d4 HP.</strong>"), die="d4", weight=0, qty=4),
+    item("Granny Bachmann's Miracle Elixir", notes(
+        "A disgusting mixture of herbs and vegetables that <strong>cures any one Ailment</strong>. Once taken, you reek of rotten garlic for 24 hours. Bottle has d4 uses."), die="d4", weight=1),
+    item("Friendship Bracelets", notes(
+        "A set of matching bracelets — you choose the colors! The wearers can <strong>send telepathic messages to each other</strong>."), weight=0),
+    item("Superb Glue", notes(
+        "Holds anything in place; can only be unstuck by magical means. <strong>d6 uses.</strong>"), die="d6", weight=1),
+    item("Picnic Basket", notes(
+        "When used to have a Picnic, restores <strong>d4 extra HP</strong> to one person partaking."), die="d4", weight=1),
+    item("Stuffed Toy Animal", notes(
+        "Assorted animals (no dragons, of course). While clutching it, gain <strong>advantage on Virtue tests related to fear or disrupted sleep</strong>."), weight=1),
+    item("Gnomish Trick Whistle", notes(
+        "When blown, <strong>only those the holder chooses can hear</strong> its piercing sound. Range: Over Yonder."), weight=0),
+    item("Toy Bubble Wand", notes(
+        "Shoots a large stream of harmless bubbles. Works three times per day."), weight=0),
+    item("Toy Sword Signed by Sir Finnian", notes(
+        "Useless for fighting, but valuable to his fans. Sir Finnian will sign a second one for free."), weight=1),
+    item("Artisan Perfume", notes(
+        "A fine, alluring scent: roll GRACE tests to be charming <strong>with advantage for one hour</strong> (or until washed off). Also attracts every insect and animal in the area. Vial has d4 uses."), die="d4", weight=0),
+
+    # ---------- The castle (house items) ----------
+    item("Morwenna's Journal", notes(
+        "Found in the frozen great hall of the old PPS headquarters. Entries in a warm, hopeful hand grow colder page by page as the Frostbind curse takes hold: <em>\"They say friendship conquers all. Why can't it conquer this?\"</em>",
+        "The last entry: <em>\"I will prove it was always a lie.\"</em> Reading it Spends Time and reveals the save-her path — and one true thing about each of her four friends."), weight=1, art=None),
+    item("The First Silver Rose Pin", notes(
+        "Morwenna's own pin — the original, pinned beneath the thorns of her throne. Tarnished but whole.",
+        "<em>House item:</em> its bearer has <strong>advantage on tests made to protect or comfort a friend</strong>, and the pin glows faintly in the presence of Frostbind magic. What it means to hand it back to her is up to the table."), weight=0, art="silver_rose_pin.png"),
+]
+
+# Foundry core icons for items without bespoke art (safe, always-present SVGs)
+_ICON_OVERRIDES = {
+    "Magus Ulrik's Grimoire": BOOK_ICON,
+    "Tifa's Journal": BOOK_ICON,
+    "Morwenna's Journal": BOOK_ICON,
+    "Crystal Dagger": SWORD_ICON,
+    "Sword of Starlight": SWORD_ICON,
+    "Blitzenaxt": SWORD_ICON,
+    "Toy Sword Signed by Sir Finnian": SWORD_ICON,
+    "Dragonfire Shield": SHIELD_ICON,
+}
+for _it in ITEMS:
+    if _it["name"] in _ICON_OVERRIDES and _it["img"] == "icons/svg/item-bag.svg":
+        _it["img"] = _ICON_OVERRIDES[_it["name"]]
+
 SCENES = [
     scene("The Scorchwoods (Overworld)", "maps/scorchwoods_map.jpg"),
     scene("Brokenhill Silver Mine", "maps/brokenhill_mine.jpg"),
@@ -267,5 +445,12 @@ if __name__ == "__main__":
                 not os.path.exists(os.path.join(ROOT, "build", "art", "tokens",
                                                 os.path.basename(a["prototypeToken"]["texture"]["src"])))]
     assert not no_token, f"missing tokens (run tools/make_tokens.py): {no_token}"
+    inames = [i["name"] for i in ITEMS]
+    assert len(inames) == len(set(inames)), "duplicate item names"
+    no_item_art = [i["name"] for i in ITEMS
+                   if i["img"].startswith("modules/") and
+                   not os.path.exists(os.path.join(ROOT, "build", "art", "items", os.path.basename(i["img"])))]
+    assert not no_item_art, f"missing item art: {no_item_art}"
     emit(ACTORS, "actors")
+    emit(ITEMS, "items")
     emit(SCENES, "scenes")

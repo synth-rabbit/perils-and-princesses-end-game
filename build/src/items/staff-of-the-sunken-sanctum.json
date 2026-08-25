@@ -1,0 +1,25 @@
+{
+  "_id": "5788130b0d4df50a",
+  "name": "Staff of the Sunken Sanctum",
+  "type": "item",
+  "img": "modules/pnp-end-game/art/items/staff_sunken_sanctum.png",
+  "system": {
+    "description": "<p><strong>Magic Silverwood Staff — d8 damage, spellcasting focus. 2 Gift Dice.</strong> Tailored for Princess Marigold; claimed from the Sunken Sanctum's Guardian orb.</p><p><strong>Sanctuary Aegis:</strong> whenever Marigold heals an ally or spends a Heart Die, a water bubble grants the target +1 Armor for 1 round.</p><p><strong>Radiant Wave:</strong> strike the ground to release a 15-foot pulse — undead, oozes, and corrupted beasts take d6 Radiant damage and make a WITS test or are pushed back.</p><p><strong>Recharge:</strong> rest the staff in pristine water.</p>",
+    "quantity": 1,
+    "cost": "",
+    "weight": 1,
+    "relicDice": {
+      "relic1": false,
+      "relic2": false,
+      "relic3": false,
+      "relic4": false,
+      "extraRelic": false
+    },
+    "roll": {
+      "diceNum": 1,
+      "diceSize": "d8",
+      "diceBonus": ""
+    }
+  },
+  "_key": "!items!5788130b0d4df50a"
+}

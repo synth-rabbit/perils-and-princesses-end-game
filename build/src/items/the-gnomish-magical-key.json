@@ -1,0 +1,25 @@
+{
+  "_id": "5950a7989605616b",
+  "name": "The Gnomish Magical Key",
+  "type": "item",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>An artifact that locks or unlocks the enchantment of the Magic Necklaces. The original was destroyed; <strong>Pippin Cobbleton can craft a replacement</strong> — for 50 SP or a favor, plus enchanted water from the Wish Fish's pool.</p>",
+    "quantity": 1,
+    "cost": "",
+    "weight": 0,
+    "relicDice": {
+      "relic1": false,
+      "relic2": false,
+      "relic3": false,
+      "relic4": false,
+      "extraRelic": false
+    },
+    "roll": {
+      "diceNum": 1,
+      "diceSize": "d4",
+      "diceBonus": ""
+    }
+  },
+  "_key": "!items!5950a7989605616b"
+}

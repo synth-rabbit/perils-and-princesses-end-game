@@ -1,0 +1,25 @@
+{
+  "_id": "76c0acc20474b413",
+  "name": "Ring of Fire",
+  "type": "item",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p><strong>1 Gift Die.</strong> Casts <strong>Fireball</strong>.</p><p><strong>Recharge:</strong> leave it in the embers of a hot fire until they burn out.</p>",
+    "quantity": 1,
+    "cost": "",
+    "weight": 0,
+    "relicDice": {
+      "relic1": false,
+      "relic2": false,
+      "relic3": false,
+      "relic4": false,
+      "extraRelic": false
+    },
+    "roll": {
+      "diceNum": 1,
+      "diceSize": "d4",
+      "diceBonus": ""
+    }
+  },
+  "_key": "!items!76c0acc20474b413"
+}

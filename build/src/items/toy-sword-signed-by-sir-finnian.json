@@ -1,0 +1,25 @@
+{
+  "_id": "d84800e09c78a4bf",
+  "name": "Toy Sword Signed by Sir Finnian",
+  "type": "item",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p>Useless for fighting, but valuable to his fans. Sir Finnian will sign a second one for free.</p>",
+    "quantity": 1,
+    "cost": "",
+    "weight": 1,
+    "relicDice": {
+      "relic1": false,
+      "relic2": false,
+      "relic3": false,
+      "relic4": false,
+      "extraRelic": false
+    },
+    "roll": {
+      "diceNum": 1,
+      "diceSize": "d4",
+      "diceBonus": ""
+    }
+  },
+  "_key": "!items!d84800e09c78a4bf"
+}

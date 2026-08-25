@@ -1,0 +1,25 @@
+{
+  "_id": "3a7c75100619e85a",
+  "name": "Toy Bubble Wand",
+  "type": "item",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Shoots a large stream of harmless bubbles. Works three times per day.</p>",
+    "quantity": 1,
+    "cost": "",
+    "weight": 0,
+    "relicDice": {
+      "relic1": false,
+      "relic2": false,
+      "relic3": false,
+      "relic4": false,
+      "extraRelic": false
+    },
+    "roll": {
+      "diceNum": 1,
+      "diceSize": "d4",
+      "diceBonus": ""
+    }
+  },
+  "_key": "!items!3a7c75100619e85a"
+}

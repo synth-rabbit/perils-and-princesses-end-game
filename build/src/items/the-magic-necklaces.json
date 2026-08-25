@@ -1,0 +1,25 @@
+{
+  "_id": "99f2ef39d507d163",
+  "name": "The Magic Necklaces",
+  "type": "item",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A pair of necklaces of gnomish origin. <strong>When two different people wear these at the same time, they switch bodies.</strong> Locked by gnomish enchantment — unremovable without the Magical Key.</p>",
+    "quantity": 1,
+    "cost": "",
+    "weight": 0,
+    "relicDice": {
+      "relic1": false,
+      "relic2": false,
+      "relic3": false,
+      "relic4": false,
+      "extraRelic": false
+    },
+    "roll": {
+      "diceNum": 1,
+      "diceSize": "d4",
+      "diceBonus": ""
+    }
+  },
+  "_key": "!items!99f2ef39d507d163"
+}

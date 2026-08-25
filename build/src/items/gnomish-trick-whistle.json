@@ -1,0 +1,25 @@
+{
+  "_id": "484873880e5f917c",
+  "name": "Gnomish Trick Whistle",
+  "type": "item",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>When blown, <strong>only those the holder chooses can hear</strong> its piercing sound. Range: Over Yonder.</p>",
+    "quantity": 1,
+    "cost": "",
+    "weight": 0,
+    "relicDice": {
+      "relic1": false,
+      "relic2": false,
+      "relic3": false,
+      "relic4": false,
+      "extraRelic": false
+    },
+    "roll": {
+      "diceNum": 1,
+      "diceSize": "d4",
+      "diceBonus": ""
+    }
+  },
+  "_key": "!items!484873880e5f917c"
+}

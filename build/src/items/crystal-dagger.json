@@ -1,0 +1,25 @@
+{
+  "_id": "ce608f0093fca2aa",
+  "name": "Crystal Dagger",
+  "type": "item",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p><strong>d6 damage.</strong> A small enchanted dagger of purple crystal. On a 5–6 damage roll it inflicts an <strong>extra d6</strong> — and the blade shatters, becoming useless.</p>",
+    "quantity": 1,
+    "cost": "",
+    "weight": 1,
+    "relicDice": {
+      "relic1": false,
+      "relic2": false,
+      "relic3": false,
+      "relic4": false,
+      "extraRelic": false
+    },
+    "roll": {
+      "diceNum": 1,
+      "diceSize": "d6",
+      "diceBonus": ""
+    }
+  },
+  "_key": "!items!ce608f0093fca2aa"
+}

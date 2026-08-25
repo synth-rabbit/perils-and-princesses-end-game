@@ -1,0 +1,25 @@
+{
+  "_id": "d9a738b4d9f4c14a",
+  "name": "Vein-Breaker",
+  "type": "item",
+  "img": "modules/pnp-end-game/art/items/vein_breaker.png",
+  "system": {
+    "description": "<p><em>\"Forged by ancient dwarven smiths from solid silver and inscribed with runes of earth and stone, this heavy pick shatters rock and dark magic with equal ease.\"</em></p><p><strong>Heavy Silver Mining Pick — d8 damage, Silvered.</strong> Tailored for Prince Vega. <strong>2 Gift Dice</strong> <em>(house count, matching the Staff — tune as desired)</em>.</p><p><strong>Silvered:</strong> bypasses the natural armor/immunity of werewolves, ghouls, wights, and spectral undead. <strong>Shatterstone:</strong> ignores 1 Armor on stone, metal, crystal, or lycanthrope targets.</p><p><strong>Seismic Resonance ([DICE]/[SUM]):</strong> strike the ground — [DICE] Nearby creatures make a RESOLVE test or fall prone and are stunned 1 round; deal [SUM] Earth damage to stone structures, geodes, or constructs.</p><p><strong>Shatter Vein ([DICE]/[SUM]):</strong> vs stone, crystal, or heavy armor — modify the attack up to [SUM]; on a hit deal [SUM] extra and reduce the target's Armor by [DICE] for the combat.</p><p><strong>Recharge:</strong> embed the head in unmined silver ore or solid stone for a minute during a Picnic or Rest, or strike an uncorrupted stone altar.</p>",
+    "quantity": 1,
+    "cost": "",
+    "weight": 2,
+    "relicDice": {
+      "relic1": false,
+      "relic2": false,
+      "relic3": false,
+      "relic4": false,
+      "extraRelic": false
+    },
+    "roll": {
+      "diceNum": 1,
+      "diceSize": "d8",
+      "diceBonus": ""
+    }
+  },
+  "_key": "!items!d9a738b4d9f4c14a"
+}

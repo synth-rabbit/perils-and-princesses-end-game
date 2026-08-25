@@ -1,0 +1,25 @@
+{
+  "_id": "890371cb74904dc4",
+  "name": "Gilded Dwarven Mining Goggles",
+  "type": "item",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Brass-and-gold goggles from the Brokenhill silver vault. Grants <strong>Darkvision</strong>, and <strong>+1 WITS</strong> on tests to spot traps and secrets.</p>",
+    "quantity": 1,
+    "cost": "",
+    "weight": 1,
+    "relicDice": {
+      "relic1": false,
+      "relic2": false,
+      "relic3": false,
+      "relic4": false,
+      "extraRelic": false
+    },
+    "roll": {
+      "diceNum": 1,
+      "diceSize": "d4",
+      "diceBonus": ""
+    }
+  },
+  "_key": "!items!890371cb74904dc4"
+}

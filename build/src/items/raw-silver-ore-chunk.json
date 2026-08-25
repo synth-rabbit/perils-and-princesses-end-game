@@ -1,0 +1,25 @@
+{
+  "_id": "46c4538e2cb3304e",
+  "name": "Raw Silver Ore Chunk",
+  "type": "item",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Unrefined silver from the Brokenhill vein. Worth 20 SP — or bring it to Finn the Blacksmith to silver a weapon permanently.</p>",
+    "quantity": 3,
+    "cost": "20 SP",
+    "weight": 1,
+    "relicDice": {
+      "relic1": false,
+      "relic2": false,
+      "relic3": false,
+      "relic4": false,
+      "extraRelic": false
+    },
+    "roll": {
+      "diceNum": 1,
+      "diceSize": "d4",
+      "diceBonus": ""
+    }
+  },
+  "_key": "!items!46c4538e2cb3304e"
+}

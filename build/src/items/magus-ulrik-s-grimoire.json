@@ -1,0 +1,25 @@
+{
+  "_id": "23fabfc462cd47df",
+  "name": "Magus Ulrik's Grimoire",
+  "type": "item",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Parsing this esoteric, arcane text requires a <strong>WITS test with disadvantage</strong>; failure causes Befuddlement. It details a recipe for a humanoid servant made from earth and blood — how Sir Damon was made.</p>",
+    "quantity": 1,
+    "cost": "",
+    "weight": 1,
+    "relicDice": {
+      "relic1": false,
+      "relic2": false,
+      "relic3": false,
+      "relic4": false,
+      "extraRelic": false
+    },
+    "roll": {
+      "diceNum": 1,
+      "diceSize": "d4",
+      "diceBonus": ""
+    }
+  },
+  "_key": "!items!23fabfc462cd47df"
+}

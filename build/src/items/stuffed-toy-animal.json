@@ -1,0 +1,25 @@
+{
+  "_id": "81e19b7e2e277b1e",
+  "name": "Stuffed Toy Animal",
+  "type": "item",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Assorted animals (no dragons, of course). While clutching it, gain <strong>advantage on Virtue tests related to fear or disrupted sleep</strong>.</p>",
+    "quantity": 1,
+    "cost": "",
+    "weight": 1,
+    "relicDice": {
+      "relic1": false,
+      "relic2": false,
+      "relic3": false,
+      "relic4": false,
+      "extraRelic": false
+    },
+    "roll": {
+      "diceNum": 1,
+      "diceSize": "d4",
+      "diceBonus": ""
+    }
+  },
+  "_key": "!items!81e19b7e2e277b1e"
+}

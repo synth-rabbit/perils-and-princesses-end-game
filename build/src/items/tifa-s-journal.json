@@ -1,0 +1,25 @@
+{
+  "_id": "6d24f5b16d59755c",
+  "name": "Tifa's Journal",
+  "type": "item",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Contains notes on how to cast the spell <strong>Animate</strong>. By Spending Time studying the journal, you can cast Animate with your own Gift Dice.</p>",
+    "quantity": 1,
+    "cost": "",
+    "weight": 1,
+    "relicDice": {
+      "relic1": false,
+      "relic2": false,
+      "relic3": false,
+      "relic4": false,
+      "extraRelic": false
+    },
+    "roll": {
+      "diceNum": 1,
+      "diceSize": "d4",
+      "diceBonus": ""
+    }
+  },
+  "_key": "!items!6d24f5b16d59755c"
+}

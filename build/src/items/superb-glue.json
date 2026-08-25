@@ -1,0 +1,25 @@
+{
+  "_id": "29e541c93fefe469",
+  "name": "Superb Glue",
+  "type": "item",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Holds anything in place; can only be unstuck by magical means. <strong>d6 uses.</strong></p>",
+    "quantity": 1,
+    "cost": "",
+    "weight": 1,
+    "relicDice": {
+      "relic1": false,
+      "relic2": false,
+      "relic3": false,
+      "relic4": false,
+      "extraRelic": false
+    },
+    "roll": {
+      "diceNum": 1,
+      "diceSize": "d6",
+      "diceBonus": ""
+    }
+  },
+  "_key": "!items!29e541c93fefe469"
+}
