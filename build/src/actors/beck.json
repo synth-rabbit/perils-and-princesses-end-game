@@ -54,5 +54,8 @@
       "src": "modules/pnp-end-game/art/tokens/beck.png"
     }
   },
-  "_key": "!actors!5e807bbe8a2f022d"
+  "_key": "!actors!5e807bbe8a2f022d",
+  "ownership": {
+    "default": 0
+  }
 }

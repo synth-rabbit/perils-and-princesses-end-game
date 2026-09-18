@@ -1,0 +1,28 @@
+{
+  "_id": "ac8577fd155fa5b3",
+  "name": "D. Pippin's offer",
+  "pages": [
+    {
+      "_key": "!journal.pages!ac8577fd155fa5b3.7dacdb1fd46ffbc8",
+      "_id": "7dacdb1fd46ffbc8",
+      "name": "D. Pippin's offer",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>D. Pippin's offer</h1>\n<p>“I can make a key to undo this. But it needs water from the enchanted pool, and my price is fifty silver. Do me a worthwhile favor and we can discuss the silver. The water, I'm afraid, is not negotiable.”</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!ac8577fd155fa5b3"
+}

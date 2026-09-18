@@ -1,0 +1,28 @@
+{
+  "_id": "e2bfafe5d940852c",
+  "name": "Stew Ingredients",
+  "pages": [
+    {
+      "_key": "!journal.pages!e2bfafe5d940852c.b5111129bb395abf",
+      "_id": "b5111129bb395abf",
+      "name": "Stew Ingredients",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>Stew Ingredients</h1>\n<p>Roll d20</p>\n<table>\n<thead>\n<tr>\n<th>Roll</th>\n<th>Ingredient</th>\n<th>Roll</th>\n<th>Ingredient</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Chicken</td>\n<td>11</td>\n<td>Milk</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Onions</td>\n<td>12</td>\n<td>Tomatoes</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Carrots</td>\n<td>13</td>\n<td>Butter</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Celery</td>\n<td>14</td>\n<td>Corn</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Garlic</td>\n<td>15</td>\n<td>Fish</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Potatoes</td>\n<td>16</td>\n<td>Rosemary</td>\n</tr>\n<tr>\n<td>7</td>\n<td>Cabbage</td>\n<td>17</td>\n<td>Peas</td>\n</tr>\n<tr>\n<td>8</td>\n<td>Beef</td>\n<td>18</td>\n<td>Parsnips</td>\n</tr>\n<tr>\n<td>9</td>\n<td>Thyme</td>\n<td>19</td>\n<td>Duck</td>\n</tr>\n<tr>\n<td>10</td>\n<td>Bay Leaves</td>\n<td>20</td>\n<td>Lamb</td>\n</tr>\n</tbody>\n</table>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!e2bfafe5d940852c"
+}

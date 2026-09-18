@@ -54,5 +54,8 @@
       "src": "modules/pnp-end-game/art/tokens/ghost_miners.png"
     }
   },
-  "_key": "!actors!75f3598b2f3b2ec5"
+  "_key": "!actors!75f3598b2f3b2ec5",
+  "ownership": {
+    "default": 0
+  }
 }

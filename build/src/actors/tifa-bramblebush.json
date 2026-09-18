@@ -41,7 +41,7 @@
     "save": {
       "value": "10"
     },
-    "notes": "<p>Insecure gnome artificer who fled Drakenshire after sensing dark magic in the crystal necklaces she was made to work on. Sheltering with Pippin's settlement.</p><p>Knows how the necklace enchantment works and what Ulrik is; her knowledge plus Pippin's crafting is the path to reversing the swap. <em>House stats — noncombatant.</em></p>"
+    "notes": "<p>Brilliant, timid gnome artificer. In this campaign she shelters with Pippin's settlement and can provide testimony about Ulrik's commission. This placement is a campaign addition.</p><p>Helpful witness, not an additional gate to the key. Pippin needs enchanted water plus 50 SP or a favor waiving the fee. The original key on Embra is an independent route. Numerical values are house stats.</p>"
   },
   "prototypeToken": {
     "name": "Tifa Bramblebush",
@@ -54,5 +54,8 @@
       "src": "modules/pnp-end-game/art/tokens/tifa.png"
     }
   },
-  "_key": "!actors!6c421f52937e4869"
+  "_key": "!actors!6c421f52937e4869",
+  "ownership": {
+    "default": 0
+  }
 }

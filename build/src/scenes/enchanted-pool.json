@@ -2,7 +2,7 @@
   "_id": "a9c12547044a0514",
   "name": "Enchanted Pool",
   "active": false,
-  "navigation": true,
+  "navigation": false,
   "background": {
     "src": "modules/pnp-end-game/art/scenes/enchanted_pool_scene.png"
   },
@@ -18,5 +18,8 @@
   "fog": {
     "exploration": false
   },
-  "_key": "!scenes!a9c12547044a0514"
+  "_key": "!scenes!a9c12547044a0514",
+  "ownership": {
+    "default": 0
+  }
 }

@@ -54,5 +54,8 @@
       "src": "modules/pnp-end-game/art/tokens/diana.png"
     }
   },
-  "_key": "!actors!4dc69a9732ce36df"
+  "_key": "!actors!4dc69a9732ce36df",
+  "ownership": {
+    "default": 0
+  }
 }

@@ -1,0 +1,28 @@
+{
+  "_id": "c9ab0abc65304d82",
+  "name": "The Magic Necklaces",
+  "pages": [
+    {
+      "_key": "!journal.pages!c9ab0abc65304d82.68a76f31f51fd3fd",
+      "_id": "68a76f31f51fd3fd",
+      "name": "The Magic Necklaces",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>The Magic Necklaces</h1>\n<p>Source: The Princess and the Dragon, printed p. 5; Amy's account on p. 9.</p>\n<p>A paired gnomish enchantment swaps the bodies of two wearers. Normally both could remove their necklaces to end the swap, but Embra locked the enchantment with a separate key, making removal impossible until unlocked.</p>\n<ul>\n<li>\n<p>A WITS test or a relevant Talent identifies gnomish workmanship (including a maker's mark).</p>\n</li>\n<li>\n<p><strong>Embra still carries the original key.</strong> The older session 9 draft and module text claiming it was destroyed are superseded for future play.</p>\n</li>\n<li>\n<p><strong>Amy and Embra must be Nearby each other when the key is used.</strong> Unlock the enchantment, then have both remove their necklaces to reverse the swap.</p>\n</li>\n<li>\n<p>Pippin can make a replacement: enchanted water from the Wish Fish's pool plus 50 SP, or the water plus an earned favor such as returning his walking stick. The favor waives the fee, not the water.</p>\n</li>\n<li>\n<p>Taking Embra's key, negotiating her cooperation, or earning a replacement are all valid routes. Reward another well-supported magical solution at GM discretion.</p>\n</li>\n<li>\n<p>The cave barrier is a separate enchantment; unlocking the necklaces does not remove it.</p>\n</li>\n</ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!c9ab0abc65304d82"
+}

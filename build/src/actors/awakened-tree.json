@@ -54,5 +54,8 @@
       "src": "modules/pnp-end-game/art/tokens/awakened_tree.png"
     }
   },
-  "_key": "!actors!b948ef4b652142b5"
+  "_key": "!actors!b948ef4b652142b5",
+  "ownership": {
+    "default": 0
+  }
 }

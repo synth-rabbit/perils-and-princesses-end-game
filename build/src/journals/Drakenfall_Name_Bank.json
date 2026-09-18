@@ -1,0 +1,28 @@
+{
+  "_id": "6e0b038b3adbdaed",
+  "name": "Drakenfall Name Bank",
+  "pages": [
+    {
+      "_key": "!journal.pages!6e0b038b3adbdaed.90f1979c0149f389",
+      "_id": "90f1979c0149f389",
+      "name": "Drakenfall Name Bank",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>Drakenfall Name Bank</h1>\n<p>Roll d20</p>\n<table>\n<thead>\n<tr>\n<th>Roll</th>\n<th>Name</th>\n<th>Roll</th>\n<th>Name</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Arthur Thomas</td>\n<td>11</td>\n<td>Bran MacDonogh</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Anne-Marie Garnier</td>\n<td>12</td>\n<td>Delilah Hopkins</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Christopher Davis</td>\n<td>13</td>\n<td>Tomas Valdez</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Louisa Sinclair</td>\n<td>14</td>\n<td>Luz Woods</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Daxton Perry</td>\n<td>15</td>\n<td>Silas Kallotis</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Raquel Diaz</td>\n<td>16</td>\n<td>Melina Maynard</td>\n</tr>\n<tr>\n<td>7</td>\n<td>Richard Hutchinson</td>\n<td>17</td>\n<td>Julian Kincaid</td>\n</tr>\n<tr>\n<td>8</td>\n<td>Jasmine Ross</td>\n<td>18</td>\n<td>Florina Russo</td>\n</tr>\n<tr>\n<td>9</td>\n<td>Tristan Calhoun</td>\n<td>19</td>\n<td>Lamar Price</td>\n</tr>\n<tr>\n<td>10</td>\n<td>Ruby Griffiths</td>\n<td>20</td>\n<td>Myra Gil</td>\n</tr>\n</tbody>\n</table>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!6e0b038b3adbdaed"
+}

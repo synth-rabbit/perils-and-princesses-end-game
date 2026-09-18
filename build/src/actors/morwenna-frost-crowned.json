@@ -54,5 +54,8 @@
       "src": "modules/pnp-end-game/art/tokens/morwenna_frost_crowned.png"
     }
   },
-  "_key": "!actors!ba5afdd867654271"
+  "_key": "!actors!ba5afdd867654271",
+  "ownership": {
+    "default": 0
+  }
 }

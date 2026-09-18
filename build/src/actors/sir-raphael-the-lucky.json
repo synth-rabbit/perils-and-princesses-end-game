@@ -54,5 +54,8 @@
       "src": "modules/pnp-end-game/art/tokens/sir_raphael.png"
     }
   },
-  "_key": "!actors!b71f496a108e185d"
+  "_key": "!actors!b71f496a108e185d",
+  "ownership": {
+    "default": 0
+  }
 }

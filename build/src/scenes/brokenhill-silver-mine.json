@@ -2,7 +2,7 @@
   "_id": "828c0bfd9387c3be",
   "name": "Brokenhill Silver Mine",
   "active": false,
-  "navigation": true,
+  "navigation": false,
   "background": {
     "src": "modules/pnp-end-game/art/maps/brokenhill_mine.jpg"
   },
@@ -18,5 +18,8 @@
   "fog": {
     "exploration": false
   },
-  "_key": "!scenes!828c0bfd9387c3be"
+  "_key": "!scenes!828c0bfd9387c3be",
+  "ownership": {
+    "default": 0
+  }
 }

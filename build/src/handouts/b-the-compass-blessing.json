@@ -1,0 +1,28 @@
+{
+  "_id": "719e95b74b7a5f02",
+  "name": "B. The compass blessing",
+  "pages": [
+    {
+      "_key": "!journal.pages!719e95b74b7a5f02.9c37b6e47889cc62",
+      "_id": "9c37b6e47889cc62",
+      "name": "B. The compass blessing",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>B. The compass blessing</h1>\n<p>Your Silver Rose Pin points toward Princess Amy, whatever shape she wears. When she is in immediate danger, its silver light turns red. In the shifting Scorchwoods, her position gives you a steady point by which to find your way.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!719e95b74b7a5f02"
+}

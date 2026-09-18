@@ -41,7 +41,7 @@
     "save": {
       "value": "12"
     },
-    "notes": "<p>Ten-ish, wild curly hair, lopsided crown, pockets full of cream-fed stray cats. Gift: <strong>Powerful Friendship</strong> — the same gift Morwenna once carried, and the counter to the Barrier of Thorns.</p><p>After her rescue she rallies Drakenshire's knights for the march on the castle: \"She did this to me because she's afraid of me? Good. Let's give her something to be afraid of.\"</p>"
+    "notes": "<p>Amy is 22, friendly, optimistic, naive, with level-1 Powerful Friendship and Scamp as companion. Numerical combat values here are campaign placeholders, not a printed human combat profile.</p><p>After rescue she offers honorary knighthoods. Campaign tie: her friendship magic and Aurelius's purifying light can help open Morwenna's barrier. Do not assume the rescue outcome or force an immediate march.</p>"
   },
   "prototypeToken": {
     "name": "Princess Amy (Restored)",
@@ -54,5 +54,8 @@
       "src": "modules/pnp-end-game/art/tokens/princess_amy.png"
     }
   },
-  "_key": "!actors!6e61f5eeba789ab0"
+  "_key": "!actors!6e61f5eeba789ab0",
+  "ownership": {
+    "default": 0
+  }
 }

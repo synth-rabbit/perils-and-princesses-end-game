@@ -54,5 +54,8 @@
       "src": "modules/pnp-end-game/art/tokens/frostbind_wisp.png"
     }
   },
-  "_key": "!actors!bab3acfcc2084623"
+  "_key": "!actors!bab3acfcc2084623",
+  "ownership": {
+    "default": 0
+  }
 }

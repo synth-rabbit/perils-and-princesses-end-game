@@ -1,0 +1,28 @@
+{
+  "_id": "a66903b577301782",
+  "name": "Knight Hunting Parties",
+  "pages": [
+    {
+      "_key": "!journal.pages!a66903b577301782.19ef1df775a0db84",
+      "_id": "19ef1df775a0db84",
+      "name": "Knight Hunting Parties",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>Knight Hunting Parties</h1>\n<p>Roll d4</p>\n<table>\n<thead>\n<tr>\n<th>Roll</th>\n<th>Knight Party</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Sir Finnian the Magnificent</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Lady Stella the Daring</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Sir Raphael the Lucky</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Sir Damon the Unyielding</td>\n</tr>\n</tbody>\n</table>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!a66903b577301782"
+}

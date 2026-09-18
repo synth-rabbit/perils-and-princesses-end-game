@@ -4,7 +4,7 @@
   "type": "item",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "<p>An artifact that locks or unlocks the enchantment of the Magic Necklaces. The original was destroyed; <strong>Pippin Cobbleton can craft a replacement</strong> — for 50 SP or a favor, plus enchanted water from the Wish Fish's pool.</p>",
+    "description": "<p>An artifact that locks or unlocks the enchantment of the Magic Necklaces. Embra carries the intact original. Both wearers must be Nearby when it is used. Pippin can make a replacement: enchanted Pool water PLUS 50 SP, or a favor waiving the fee only. Water remains required.</p>",
     "quantity": 1,
     "cost": "",
     "weight": 0,
@@ -21,5 +21,8 @@
       "diceBonus": ""
     }
   },
-  "_key": "!items!5950a7989605616b"
+  "_key": "!items!5950a7989605616b",
+  "ownership": {
+    "default": 0
+  }
 }

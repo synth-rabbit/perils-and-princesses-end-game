@@ -54,5 +54,8 @@
       "src": "modules/pnp-end-game/art/tokens/black_ooze.png"
     }
   },
-  "_key": "!actors!54e2ba98187c559d"
+  "_key": "!actors!54e2ba98187c559d",
+  "ownership": {
+    "default": 0
+  }
 }

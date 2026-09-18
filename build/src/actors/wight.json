@@ -54,5 +54,8 @@
       "src": "modules/pnp-end-game/art/tokens/wight.png"
     }
   },
-  "_key": "!actors!9e48c3494d0ac004"
+  "_key": "!actors!9e48c3494d0ac004",
+  "ownership": {
+    "default": 0
+  }
 }

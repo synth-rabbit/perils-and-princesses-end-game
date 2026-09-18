@@ -1,0 +1,28 @@
+{
+  "_id": "311bdae24626b41d",
+  "name": "Scorchwoods Wrinkles",
+  "pages": [
+    {
+      "_key": "!journal.pages!311bdae24626b41d.ed2ed9f91717f2d5",
+      "_id": "ed2ed9f91717f2d5",
+      "name": "Scorchwoods Wrinkles",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>Scorchwoods Wrinkles</h1>\n<p>Roll d6</p>\n<table>\n<thead>\n<tr>\n<th>Roll</th>\n<th>Wrinkle</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>A group of 2d4 crystal wolves emerges from the trees. They look hungry.</td>\n</tr>\n<tr>\n<td>2</td>\n<td>You hear a small voice calling for help. A child? No, a gnome!</td>\n</tr>\n<tr>\n<td>3</td>\n<td>You encounter a party of knights looking for the dragon's lair. Roll or choose a party.</td>\n</tr>\n<tr>\n<td>4</td>\n<td>You notice a large hole torn in your pack. Did you lose anything important?</td>\n</tr>\n<tr>\n<td>5</td>\n<td>In your inattention you got turned around and lost the path.</td>\n</tr>\n<tr>\n<td>6</td>\n<td>You suddenly feel very itchy. Poison oak?</td>\n</tr>\n</tbody>\n</table>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!311bdae24626b41d"
+}

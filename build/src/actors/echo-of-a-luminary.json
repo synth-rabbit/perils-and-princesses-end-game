@@ -54,5 +54,8 @@
       "src": "modules/pnp-end-game/art/tokens/echo_of_a_luminary.png"
     }
   },
-  "_key": "!actors!bc542089c3cb8e63"
+  "_key": "!actors!bc542089c3cb8e63",
+  "ownership": {
+    "default": 0
+  }
 }

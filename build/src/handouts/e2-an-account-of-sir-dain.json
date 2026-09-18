@@ -1,0 +1,28 @@
+{
+  "_id": "88ac9e7aa3933bf2",
+  "name": "E2. An account of Sir Dain",
+  "pages": [
+    {
+      "_key": "!journal.pages!88ac9e7aa3933bf2.c945034bd5593396",
+      "_id": "c945034bd5593396",
+      "name": "E2. An account of Sir Dain",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>E2. An account of Sir Dain</h1>\n<p>Sir Dain held against Sunder the Dragon. His stand bought the time the reinforcements needed. Thousands lived because he did not give way.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!88ac9e7aa3933bf2"
+}

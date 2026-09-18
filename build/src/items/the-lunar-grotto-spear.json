@@ -4,7 +4,7 @@
   "type": "item",
   "img": "modules/pnp-end-game/art/items/lunar_grotto_spear.png",
   "system": {
-    "description": "<p><em>\"Forged from glowing sea-glass and bound in silver wire, this spear hums with the tide of subterranean waters and the light of the moon.\"</em></p><p><strong>Magic Shortspear — d6 damage (Versatile d8), Thrown 30 ft.</strong> Tailored for Princess Filly. <strong>2 Gift Dice</strong> <em>(house count — tune as desired)</em>.</p><p><strong>Returning Current:</strong> when thrown it dissolves into water on impact and instantly reforms in Filly's hand.</p><p><strong>Lunar Surge ([DICE]/[SUM]):</strong> on an attack, add [SUM] Cold/Water damage, plus [DICE]d4 Pack Hunt damage if the target is engaged with Tawny.</p><p><strong>Tidal Wave Thrust ([DICE]/[SUM]):</strong> [DICE] creatures within a Stone's Throw take [SUM] Cold damage and make a GRACE test or are knocked prone and pushed.</p><p><strong>Water Grace:</strong> spend Gift Dice to add [SUM] to GRACE tests while swimming or climbing wet rock.</p><p><strong>Recharge:</strong> submerge the tip in pristine natural water for a minute during a Picnic or Rest, or leave it in direct moonlight overnight.</p>",
+    "description": "<p><em>\"Forged from glowing sea-glass and bound in silver wire, this spear hums with the tide of subterranean waters and the light of the moon.\"</em></p><p><strong>Magic Shortspear — d6 damage (Versatile d8), Thrown 30 ft.</strong> Tailored for Princess Filly. <strong>2 Gift Dice</strong> <em>(house count — tune as desired)</em>.</p><p><strong>Returning Current:</strong> when thrown it dissolves into water on impact and instantly reforms in Filly's hand.</p><p><strong>Lunar Surge ([DICE]/[SUM]):</strong> modify the attack roll up to [SUM]; on a hit add [SUM] Cold/Water damage, plus [DICE]d4 Pack Hunt damage if the target is engaged with Tawny.</p><p><strong>Tidal Wave Thrust ([DICE]/[SUM]):</strong> [DICE] creatures within a Stone's Throw take [SUM] Cold damage and make a GRACE test or are knocked prone and pushed.</p><p><strong>Water Grace:</strong> spend Gift Dice to modify GRACE tests by [SUM] while swimming or climbing wet rock.</p><p><strong>Recharge:</strong> submerge the tip in pristine natural water for a minute during a Picnic or Rest, or leave it in direct moonlight overnight.</p>",
     "quantity": 1,
     "cost": "",
     "weight": 1,
@@ -21,5 +21,8 @@
       "diceBonus": ""
     }
   },
-  "_key": "!items!b249381395ffa3b6"
+  "_key": "!items!b249381395ffa3b6",
+  "ownership": {
+    "default": 0
+  }
 }

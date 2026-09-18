@@ -2,7 +2,7 @@
   "_id": "e893ad7132b31727",
   "name": "Stones of Remembrance",
   "active": false,
-  "navigation": true,
+  "navigation": false,
   "background": {
     "src": "modules/pnp-end-game/art/scenes/stones_of_remembrance_scene.png"
   },
@@ -18,5 +18,8 @@
   "fog": {
     "exploration": false
   },
-  "_key": "!scenes!e893ad7132b31727"
+  "_key": "!scenes!e893ad7132b31727",
+  "ownership": {
+    "default": 0
+  }
 }

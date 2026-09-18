@@ -2,7 +2,7 @@
   "_id": "5d80317325a16a93",
   "name": "Castle Throne Room",
   "active": false,
-  "navigation": true,
+  "navigation": false,
   "background": {
     "src": "modules/pnp-end-game/art/scenes/castle_throne_scene.png"
   },
@@ -18,5 +18,8 @@
   "fog": {
     "exploration": false
   },
-  "_key": "!scenes!5d80317325a16a93"
+  "_key": "!scenes!5d80317325a16a93",
+  "ownership": {
+    "default": 0
+  }
 }

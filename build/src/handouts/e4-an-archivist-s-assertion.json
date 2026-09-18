@@ -1,0 +1,28 @@
+{
+  "_id": "91b3c26d7aa23e7c",
+  "name": "E4. An archivist's assertion",
+  "pages": [
+    {
+      "_key": "!journal.pages!91b3c26d7aa23e7c.5a4e7b5bb9fb170a",
+      "_id": "5a4e7b5bb9fb170a",
+      "name": "E4. An archivist's assertion",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>E4. An archivist's assertion</h1>\n<p>Stories claim that Prince Gemini befriended the dragon Cobalt and left his kingdom to share their adventures. Surely this is a tale for children. It seems far more likely that Cobalt ate him.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!91b3c26d7aa23e7c"
+}

@@ -54,5 +54,8 @@
       "src": "modules/pnp-end-game/art/tokens/thornheart_construct.png"
     }
   },
-  "_key": "!actors!863d1a9185e85ea8"
+  "_key": "!actors!863d1a9185e85ea8",
+  "ownership": {
+    "default": 0
+  }
 }

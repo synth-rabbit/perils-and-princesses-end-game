@@ -1,0 +1,28 @@
+{
+  "_id": "198226ac753d9f5f",
+  "name": "The Lunar Grotto Spear",
+  "pages": [
+    {
+      "_key": "!journal.pages!198226ac753d9f5f.47a7253af73e81b9",
+      "_id": "47a7253af73e81b9",
+      "name": "The Lunar Grotto Spear",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>The Lunar Grotto Spear</h1>\n<p><img alt=\"\" src=\"modules/pnp-end-game/art/items/lunar_grotto_spear.png\" /></p>\n<blockquote>\n<p><em>\"Forged from glowing sea-glass and bound in silver wire, this spear hums with the tide of subterranean waters and the light of the moon.\"</em></p>\n</blockquote>\n<ul>\n<li>\n<p><strong>Type:</strong> Magic Shortspear (d6 damage, Thrown 30 ft, Versatile d8)</p>\n</li>\n<li>\n<p><strong>Tailored For:</strong> Princess Filly</p>\n</li>\n</ul>\n<hr />\n<h2>Passive Abilities</h2>\n<ul>\n<li>\n<p><strong>Returning Current:</strong><br />\n  When thrown, the spear dissolves into a stream of pure water upon impact and instantly reforms in Filly's hand.</p>\n</li>\n<li>\n<p><strong>Water Grace:</strong><br />\n  Spend Gift Dice to modify any <strong>GRACE test</strong> by <code>[SUM]</code> when swimming or climbing wet, slick rock surfaces.</p>\n</li>\n</ul>\n<hr />\n<h2>Gift Abilities (<code>[SUM]</code> &amp; <code>[DICE]</code>)</h2>\n<ul>\n<li><strong>Lunar Surge:</strong><br />\n  When making a melee or thrown attack with the spear, choose to roll 1 or more Gift Dice:</li>\n<li>Modify your attack roll up to <code>[SUM]</code>.</li>\n<li>If the attack hits, deal <code>[SUM]</code> additional <strong>Cold/Water damage</strong>.</li>\n<li>\n<p><strong>Pack Hunt:</strong> If Tawny is engaged with the target, deal an extra <code>[DICE]d4</code> damage!</p>\n</li>\n<li>\n<p><strong>Tidal Wave Thrust:</strong><br />\n  Thrust the spear into the ground or water, spending 1 or more Gift Dice to release a crashing wave of subterranean water:</p>\n</li>\n<li><code>[DICE]</code> creatures within a Stone's Throw take <code>[SUM]</code> <strong>Cold damage</strong> and must succeed on a <strong>GRACE test</strong> or fall prone and be pushed back <code>[SUM]</code> feet.</li>\n</ul>\n<hr />\n<h2>Gift Dice &amp; Recharge Rules</h2>\n<ul>\n<li>\n<p><strong>Gift Dice Mechanics:</strong><br />\n  Roll Gift Dice when activating Gift abilities. On a <strong>1–2–3</strong>, the Gift Die returns to your pool immediately. On a <strong>4–5–6</strong>, the die is consumed.</p>\n</li>\n<li>\n<p><strong>How to Recharge:</strong><br />\n  Submerging the sea-glass tip of the spear in a pristine natural water source (such as the cyan pool in Area 3, the Blue Orb basin in Area 5, or the Pristine Pond in Location 11) for 1 minute during a <strong>Picnic or Rest</strong> OR exposing the spear to direct moonlight overnight restores all consumed Gift Dice.</p>\n</li>\n</ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!198226ac753d9f5f"
+}

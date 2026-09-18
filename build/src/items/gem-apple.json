@@ -4,7 +4,7 @@
   "type": "item",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "<p>Crystalline fruit from the Scorchwoods orchard. Eating one makes you <em>feel weird</em> — and a gift of gem apples <strong>pacifies a knight captain</strong> (decreases the Knight Tracker). Sir Damon cannot be pacified by one; he is not alive. Magus Ulrik can be — but must be tricked into eating it.</p>",
+    "description": "<p>Crystalline fruit from the Scorchwoods orchard. Eating one makes you <em>feel weird</em> — and a gift of gem apples <strong>pacifies a knight captain</strong> (decreases the Knight Tracker by 1; living captains will not willingly repeat the trick). Sir Damon cannot be pacified by one; he is not alive. Magus Ulrik can be — but must be tricked into eating it. Fresh or candied fruit works on captains; the Wish Fish needs a fresh apple with a live worm. Fruit becomes dull stone outside the Scorchwoods.</p>",
     "quantity": 1,
     "cost": "",
     "weight": 0,
@@ -21,5 +21,8 @@
       "diceBonus": ""
     }
   },
-  "_key": "!items!4508e580b5032afc"
+  "_key": "!items!4508e580b5032afc",
+  "ownership": {
+    "default": 0
+  }
 }

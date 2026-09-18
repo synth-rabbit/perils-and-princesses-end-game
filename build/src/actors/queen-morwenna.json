@@ -54,5 +54,8 @@
       "src": "modules/pnp-end-game/art/tokens/queen_morwenna.png"
     }
   },
-  "_key": "!actors!efbad3ce9d2dabc4"
+  "_key": "!actors!efbad3ce9d2dabc4",
+  "ownership": {
+    "default": 0
+  }
 }

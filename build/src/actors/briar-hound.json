@@ -54,5 +54,8 @@
       "src": "modules/pnp-end-game/art/tokens/briar_hound.png"
     }
   },
-  "_key": "!actors!7c15ddd6345826b4"
+  "_key": "!actors!7c15ddd6345826b4",
+  "ownership": {
+    "default": 0
+  }
 }

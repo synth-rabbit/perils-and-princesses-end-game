@@ -21,5 +21,8 @@
       "diceBonus": ""
     }
   },
-  "_key": "!items!29e541c93fefe469"
+  "_key": "!items!29e541c93fefe469",
+  "ownership": {
+    "default": 0
+  }
 }

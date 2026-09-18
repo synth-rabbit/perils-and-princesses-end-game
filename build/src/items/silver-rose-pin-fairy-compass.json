@@ -4,7 +4,7 @@
   "type": "item",
   "img": "modules/pnp-end-game/art/items/silver_rose_pin.png",
   "system": {
-    "description": "<p>The PPS member's pin — designed long ago by the Society's founder. After Aurelius's blessing it acts as a <strong>Fairy Compass</strong>: it points toward Princess Amy no matter what body she is in, glows warm when moving toward her, cool when away, and <strong>flares red when she is in immediate danger</strong>.</p><p>Shown to those who matter, it opens doors: fey, gnomes, and honest knights know what it means.</p>",
+    "description": "<p>The PPS member's pin — designed long ago by the Society's founder. After Aurelius's blessing it acts as a <strong>Fairy Compass</strong>: it points toward Princess Amy no matter what body she is in, glows warm when moving toward her, cool when away, and <strong>flares red when she is in immediate danger</strong>.</p><p>Its fixed reference lets this party navigate the shifting forest without a compulsory navigation test on each move. Recognition of a pin is not automatic trust or proof of the swap.</p>",
     "quantity": 1,
     "cost": "",
     "weight": 0,
@@ -21,5 +21,8 @@
       "diceBonus": ""
     }
   },
-  "_key": "!items!53dc906ccaac93a9"
+  "_key": "!items!53dc906ccaac93a9",
+  "ownership": {
+    "default": 0
+  }
 }

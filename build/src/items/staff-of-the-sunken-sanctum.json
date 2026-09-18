@@ -4,7 +4,7 @@
   "type": "item",
   "img": "modules/pnp-end-game/art/items/staff_sunken_sanctum.png",
   "system": {
-    "description": "<p><strong>Magic Silverwood Staff — d8 damage, spellcasting focus. 2 Gift Dice.</strong> Tailored for Princess Marigold; claimed from the Sunken Sanctum's Guardian orb.</p><p><strong>Sanctuary Aegis:</strong> whenever Marigold heals an ally or spends a Heart Die, a water bubble grants the target +1 Armor for 1 round.</p><p><strong>Radiant Wave:</strong> strike the ground to release a 15-foot pulse — undead, oozes, and corrupted beasts take d6 Radiant damage and make a WITS test or are pushed back.</p><p><strong>Recharge:</strong> rest the staff in pristine water.</p>",
+    "description": "<p><strong>Magic Silverwood Staff — d6 Bludgeoning damage, spellcasting focus.</strong> Tailored for Princess Marigold; claimed from the Sunken Sanctum's Guardian orb.</p><p><strong>Sanctuary Aegis:</strong> whenever Marigold heals an ally or spends a Heart Die, a water bubble grants the target +1 Armor for 1 round.</p><p><strong>Radiant Wave (1/Rest):</strong> strike the ground to release a 15-foot pulse — undead, oozes, and corrupted beasts take d6 Radiant damage and make a WITS test or are pushed back.</p><p><strong>Sacred Command Word: Aethelgard.</strong> Triggers Radiant Wave to purge shadow corruption and pacify corrupted guardians, per the established campaign item.</p>",
     "quantity": 1,
     "cost": "",
     "weight": 1,
@@ -17,9 +17,12 @@
     },
     "roll": {
       "diceNum": 1,
-      "diceSize": "d8",
+      "diceSize": "d6",
       "diceBonus": ""
     }
   },
-  "_key": "!items!5788130b0d4df50a"
+  "_key": "!items!5788130b0d4df50a",
+  "ownership": {
+    "default": 0
+  }
 }

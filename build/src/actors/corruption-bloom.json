@@ -54,5 +54,8 @@
       "src": "modules/pnp-end-game/art/tokens/corruption_bloom.png"
     }
   },
-  "_key": "!actors!62c098ed949f45ad"
+  "_key": "!actors!62c098ed949f45ad",
+  "ownership": {
+    "default": 0
+  }
 }

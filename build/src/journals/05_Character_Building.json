@@ -1,0 +1,28 @@
+{
+  "_id": "1d6f48186e4ccd65",
+  "name": "Character Building",
+  "pages": [
+    {
+      "_key": "!journal.pages!1d6f48186e4ccd65.4bc5f86809982dfb",
+      "_id": "4bc5f86809982dfb",
+      "name": "Character Building",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>Character Building</h1>\n<p>To create your character follow these steps:</p>\n<ol>\n<li><strong>GIFT:</strong> Determine your Fairy Godmother and the Gift that sets you apart. This is your unique magical skill that will grow with your character. It's kind of like a “class\" in traditional role-playing games.</li>\n<li><strong>STATS:</strong> Randomly roll your Virtue scores and your Heart Points (HP). These are the core of your character's inner strength.</li>\n<li><strong>PERSONALITY and TALENTS:</strong> Create a description of your Princess's wants, goals and hidden talents. These will help you play the role, make decisions and immerse yourself in the world.</li>\n<li><strong>STUFF:</strong> Determine what stuff you have—the equipment, clothing, money and weapons you begin your adventure with.</li>\n</ol>\n<h2>To Roll or To Choose</h2>\n<p>Stats must be randomly rolled, but work with your group and GM to decide if your characters' other elements will be random, by choice or some combination. Randomly rolling can defeat analysis paralysis and make a unique, fun character that you might not have created on your own.</p>\n<h2>Gifts</h2>\n<p>Your Gift gives you unique abilities that grow in strength and breadth as you gain experience and confidence. Refer to the corresponding Gift pages to see specific abilities.</p>\n<p>As part of your Gift, you get:</p>\n<ul>\n<li>\n<p>Unique items (and how many inventory spaces they take up in parentheses)</p>\n</li>\n<li>\n<p>Talents associated with your Gift</p>\n</li>\n<li>\n<p>Innate abilities you can use at any time</p>\n</li>\n<li>\n<p>Special abilities you invoke by spending Gift Dice</p>\n</li>\n</ul>\n<p>Gift abilities are open-ended, quirky, whimsical and unpredictable. As you play this game, think of creative uses for your Gifts. GMs are encouraged to reward clever ideas from the players.</p>\n<p><strong>Note for Gift abilities:</strong> </p>\n<ul>\n<li>\n<p><code>[DICE]</code> = However many Gift Dice you decide to roll. </p>\n</li>\n<li>\n<p><code>[SUM]</code> = The total rolled on your Gift Dice.</p>\n</li>\n</ul>\n<p>Your Gift Dice return on a roll of 1–2–3. On a 4–5–6 they are used up until you Rest.</p>\n<h2>Mishaps (doubles on Gift Dice)</h2>\n<p>Whenever you roll doubles on Gift Dice, a Mishap occurs in addition to the effect of the ability. See your Gift's specific Mishap table.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!1d6f48186e4ccd65"
+}

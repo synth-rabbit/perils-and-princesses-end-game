@@ -1,0 +1,28 @@
+{
+  "_id": "74af19fc3fc957ca",
+  "name": "C. The gnome's stick",
+  "pages": [
+    {
+      "_key": "!journal.pages!74af19fc3fc957ca.3be92162890ffc65",
+      "_id": "3be92162890ffc65",
+      "name": "C. The gnome's stick",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>C. The gnome's stick</h1>\n<p>Gnomish Brilliance Grows Year Over Year</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!74af19fc3fc957ca"
+}

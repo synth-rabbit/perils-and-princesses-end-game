@@ -1,0 +1,28 @@
+{
+  "_id": "64b7a41a41e7c4b2",
+  "name": "Silver Rose Fairy Compass",
+  "pages": [
+    {
+      "_key": "!journal.pages!64b7a41a41e7c4b2.586e975cf82a5e94",
+      "_id": "586e975cf82a5e94",
+      "name": "Silver Rose Fairy Compass",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>Silver Rose Fairy Compass</h1>\n<p><strong>Planned campaign gift; not yet granted as of session 9.</strong> Aurelius blesses the party's existing Silver Rose Pins during the session 10 transition. This replaces the book's Fairy Godmother compass without adding a new quest.</p>\n<p>The compass always points toward <strong>Amy herself</strong>, irrespective of her body. It glows red when she is in immediate danger. The party uses this fixed reference to navigate the Scorchwoods without the knights' usual disorientation (book p. 25). It does not reveal the key, identify every disguised person, or automatically know the route to an unseen person other than Amy.</p>\n<p>Once Amy is safe, the compass continues pointing to Amy; it is not a universal quest detector. Record the gift only after the scene is played.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!64b7a41a41e7c4b2"
+}

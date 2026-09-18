@@ -41,7 +41,7 @@
     "save": {
       "value": "12"
     },
-    "notes": "<p><strong>Attacks twice: Sword of Starlight (d8)</strong> — 1 GD: aura of starlight forces anyone fighting her (enemy or ally) to reroll a d20; recharges on a sincere wish on the evening star.</p><p>Youngest of four famous Daring sisters, desperate to live up to the name. Won't ally with anyone who hasn't proven their mettle; needs convincing evidence before believing the swap — but she already suspects Damon (\"he fights like a machine\") and noticed the false Amy stopped caring about her cats.</p><p>Travels with the twins Diana and Beck. If her party reaches the lair first, she attacks immediately — dissuading her mid-fight is rolled with disadvantage.</p>"
+    "notes": "<p><strong>Attacks twice: Sword of Starlight (d8)</strong> — 1 GD: aura of starlight forces anyone fighting her (enemy or ally) to reroll a d20; recharges on a sincere wish on the evening star.</p><p>Youngest of four famous Daring sisters, desperate to live up to the name. Won't ally with anyone who hasn't proven their mettle; needs convincing evidence before believing the swap — but she already suspects Damon (\"he fights like a machine\") and noticed the false Amy stopped caring about her cats.</p><p>Travels with the twins Diana and Beck. If her party reaches the lair first, she attacks immediately, dealing 4 damage to Amy per keyed move or Spend Time; dissuading her mid-fight is rolled with disadvantage.</p>"
   },
   "prototypeToken": {
     "name": "Lady Stella the Daring",
@@ -54,5 +54,8 @@
       "src": "modules/pnp-end-game/art/tokens/lady_stella.png"
     }
   },
-  "_key": "!actors!66fa4b5a51490b15"
+  "_key": "!actors!66fa4b5a51490b15",
+  "ownership": {
+    "default": 0
+  }
 }

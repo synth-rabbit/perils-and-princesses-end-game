@@ -41,7 +41,7 @@
     "save": {
       "value": "15"
     },
-    "notes": "<p>Guardian of the Enchanted Pool. Grants wishes the way fey do — sideways — and its pool's water is the enchanted ingredient Pippin needs for the necklace key.</p><p>Non-combatant; if threatened it simply dives beyond reach. Its favor is won with quests, not force (see the Wish Fish Quests table in the vault). <em>House stats.</em></p>"
+    "notes": "<p>Controls the enchanted pool: water recedes from containers until he agrees to share. Invulnerable while in his water. Does not grant arbitrary wishes; numerical values are house placeholders.</p><p>Wants a fresh crystal apple with a live worm. Candied apples do not work. Ask Hesperia before picking. One suitable apple buys the needed water; extra water can prompt another quest.</p>"
   },
   "prototypeToken": {
     "name": "Wish Fish",
@@ -54,5 +54,8 @@
       "src": "modules/pnp-end-game/art/tokens/wish_fish.png"
     }
   },
-  "_key": "!actors!93c1981c0e191fa5"
+  "_key": "!actors!93c1981c0e191fa5",
+  "ownership": {
+    "default": 0
+  }
 }

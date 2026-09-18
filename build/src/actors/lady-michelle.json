@@ -54,5 +54,8 @@
       "src": "modules/pnp-end-game/art/tokens/lady_michelle.png"
     }
   },
-  "_key": "!actors!ef922601c8d5be97"
+  "_key": "!actors!ef922601c8d5be97",
+  "ownership": {
+    "default": 0
+  }
 }

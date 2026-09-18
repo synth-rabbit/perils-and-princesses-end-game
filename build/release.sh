@@ -7,6 +7,8 @@ set -e
 cd "$(dirname "$0")/.."
 python3 tools/make_tokens.py
 python3 tools/generate_src.py
+python3 tools/generate_journals.py
+python3 tools/validate_release.py
 sh build/build_packs.sh
 sh build/make_zip.sh
 VERSION=$(python3 -c "import json;print(json.load(open('build/module.json'))['version'])")

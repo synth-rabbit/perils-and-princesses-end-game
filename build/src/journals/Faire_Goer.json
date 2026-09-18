@@ -1,0 +1,28 @@
+{
+  "_id": "8c64b24b4aa0ccb2",
+  "name": "Faire Goer",
+  "pages": [
+    {
+      "_key": "!journal.pages!8c64b24b4aa0ccb2.690a7550ce8e650c",
+      "_id": "690a7550ce8e650c",
+      "name": "Faire Goer",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>Faire Goer</h1>\n<p>Roll d6</p>\n<p>This faire goer...\n| Roll | Description |\n|---|---|\n| 1 | has been waiting for the faire all year. |\n| 2 | was dragged to the faire by their kids. |\n| 3 | is overly competitive—a sore loser and a sore winner. |\n| 4 | has never been to the faire before. |\n| 5 | traveled a long way to visit the faire. |\n| 6 | is obsessed with the history of dragons. |</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!8c64b24b4aa0ccb2"
+}

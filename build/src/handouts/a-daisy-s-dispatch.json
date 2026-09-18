@@ -1,0 +1,28 @@
+{
+  "_id": "f0a96115b616fe92",
+  "name": "A. Daisy's dispatch",
+  "pages": [
+    {
+      "_key": "!journal.pages!f0a96115b616fe92.39748305c66ed706",
+      "_id": "39748305c66ed706",
+      "name": "A. Daisy's dispatch",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>A. Daisy's dispatch</h1>\n<p>To Filly, Vega, and Marigold,</p>\n<p>A dragon hunt has been proclaimed in Drakenshire. Four parties are entering the Scorchwoods: Sir Finnian the Magnificent, Lady Stella the Daring, Sir Raphael the Lucky, and Sir Damon the Unyielding.</p>\n<p>Aurelius believes the life at stake is Princess Amy's. Find her before the hunters do. A royal command is not proof that the person giving it can be trusted.</p>\n<p>Finnian is accompanying the princess who issued the hunt. Reports also place Magus Ulrik with Damon. We have reason to suspect Ulrik's involvement in the Queen's affairs, but little that would persuade a proud knight without evidence.</p>\n<p>Learn what happened. Protect Amy. Find allies where you can. Your Silver Rose Pins will help once Aurelius has blessed them.</p>\n<p>Nim has instructions to deliver this into your hands, not into a conveniently nearby hole.</p>\n<p>Daisy of Silverspire — PPS</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!f0a96115b616fe92"
+}

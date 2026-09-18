@@ -1,0 +1,28 @@
+{
+  "_id": "6419c9817f5f6c41",
+  "name": "Wounds, Trauma, and Ailments",
+  "pages": [
+    {
+      "_key": "!journal.pages!6419c9817f5f6c41.f8b9b7cc02770ec5",
+      "_id": "f8b9b7cc02770ec5",
+      "name": "Wounds, Trauma, and Ailments",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>Wounds, Trauma, and Ailments</h1>\n<h2>Ailments</h2>\n<p>Ailments give you disadvantage on tests of a particular Virtue. The three Ailments are: </p>\n<ul>\n<li>\n<p><strong>Weary</strong> (RESOLVE) </p>\n</li>\n<li>\n<p><strong>Woozy</strong> (GRACE) </p>\n</li>\n<li>\n<p><strong>Befuddled</strong> (WITS)</p>\n</li>\n</ul>\n<h2>Wounds</h2>\n<p>If you reach 0 HP, you cannot act or Move until stabilized with healing or magic. Roll a d8 on the Wounded table below. Damage greater than double your max HP results in an immediate Trauma point.</p>\n<p><strong>Wounded Table (d8):</strong>\n1. <strong>Just a Flesh Wound:</strong> Hurt, but becoming battle-hardened. Once healed, your max HP increases by one.\n2. <strong>What Doesn't Kill You:</strong> Weary for three days, after which your resolve increases by 1.\n3. <strong>Rattled:</strong> Passed out but OK. Woozy until you have a Picnic or Rest.\n4. <strong>Scarred:</strong> You have a gnarly visible scar. Makes for a good story. Might impress some people. Might scare others.\n5. <strong>Clonked:</strong> You're disoriented after a hit to the head, loss of blood or shock. Befuddle until you Rest.\n6. <strong>Cracked:</strong> You can barely walk and are in pain. Weary and Woozy until you find a safe haven to spend the night in.\n7. <strong>Lingering Injury:</strong> Impairment that ends after three weeks or magical restoration. Specifics at GM's discretion. Once healed, add d4 to your max HP.\n8. <strong>Traumatized:</strong> Mark one point of Trauma.</p>\n<h2>Trauma</h2>\n<p>If you suffer Trauma, roll on the Trauma table:\n1. Can't use GD for 24 hours.\n2. Can't use GD for 24 hours, and terrified of the cause of your Trauma until you overcome your fear.\n3. It's all over. Potential outcomes: retirement, magical slumber, capture, tragic death or other end at the table's discretion.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!6419c9817f5f6c41"
+}

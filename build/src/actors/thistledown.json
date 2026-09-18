@@ -54,5 +54,8 @@
       "src": "modules/pnp-end-game/art/tokens/thistledown.png"
     }
   },
-  "_key": "!actors!be34807ba0cd994b"
+  "_key": "!actors!be34807ba0cd994b",
+  "ownership": {
+    "default": 0
+  }
 }

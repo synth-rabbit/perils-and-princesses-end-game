@@ -4,7 +4,7 @@
   "type": "item",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "<p>A pair of necklaces of gnomish origin. <strong>When two different people wear these at the same time, they switch bodies.</strong> Locked by gnomish enchantment — unremovable without the Magical Key.</p>",
+    "description": "<p>A paired gnomish enchantment swaps two wearers' bodies. Embra locked it with a separate key, preventing removal. Both wearers must be Nearby to use the key; unlock then remove both necklaces. Cave barrier is separate.</p>",
     "quantity": 1,
     "cost": "",
     "weight": 0,
@@ -21,5 +21,8 @@
       "diceBonus": ""
     }
   },
-  "_key": "!items!99f2ef39d507d163"
+  "_key": "!items!99f2ef39d507d163",
+  "ownership": {
+    "default": 0
+  }
 }

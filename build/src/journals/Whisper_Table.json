@@ -1,0 +1,28 @@
+{
+  "_id": "95f00957202cd8a0",
+  "name": "Whisper Table",
+  "pages": [
+    {
+      "_key": "!journal.pages!95f00957202cd8a0.6c4b7cbaa56809b8",
+      "_id": "6c4b7cbaa56809b8",
+      "name": "Whisper Table",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>Whisper Table</h1>\n<p>Roll d10</p>\n<table>\n<thead>\n<tr>\n<th>Roll</th>\n<th>Whisper</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>“It doesn’t matter if she’s been acting strangely. She’s the princess.”</td>\n</tr>\n<tr>\n<td>2</td>\n<td>“OK, lesson learned. Do NOT compare Lady Stella to her sisters.”</td>\n</tr>\n<tr>\n<td>3</td>\n<td>“There’s not enough silver in the world to get me to go near those stones again. I’m here to fight dragons, not ghosts.”</td>\n</tr>\n<tr>\n<td>4</td>\n<td>“I don’t get Sir Raphael at all. What kind of knight brings his lute to slay a dragon?”</td>\n</tr>\n<tr>\n<td>5</td>\n<td>“I’ll be honest. I’m more scared of Sir Damon than the dragon.”</td>\n</tr>\n<tr>\n<td>6</td>\n<td>“I’ve got nothing against magic, but that hooded guy who follows around Sir Damon gives me the creeps.”</td>\n</tr>\n<tr>\n<td>7</td>\n<td>“I’ve heard gnomish ale is to die for. They’re supposed to live in the forest somewhere, you know!”</td>\n</tr>\n<tr>\n<td>8</td>\n<td>“Remember, don’t take any of the dragon’s treasure. That’s how you end up cursed!”</td>\n</tr>\n<tr>\n<td>9</td>\n<td>“I REALLY hope we don’t run into the field of yellow flowers again. My sides still hurt from laughing.</td>\n</tr>\n<tr>\n<td>10</td>\n<td>“Yeah, the pool is supposed to be enchanted? That’s what I’ve heard anyway.”</td>\n</tr>\n</tbody>\n</table>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!95f00957202cd8a0"
+}

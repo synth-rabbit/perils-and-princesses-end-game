@@ -54,5 +54,8 @@
       "src": "modules/pnp-end-game/art/tokens/pippin_cobbleton.png"
     }
   },
-  "_key": "!actors!87ad7c19cda317ad"
+  "_key": "!actors!87ad7c19cda317ad",
+  "ownership": {
+    "default": 0
+  }
 }

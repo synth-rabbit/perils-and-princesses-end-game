@@ -71,7 +71,7 @@ def scene(name, rel_art, nav=True):
         "_id": i,
         "name": name,
         "active": False,
-        "navigation": nav,
+        "navigation": False,
         "background": {"src": f"modules/{MODULE_ID}/art/{rel_art}"},
         "width": w,
         "height": h,
@@ -147,27 +147,31 @@ ACTORS = [
 
     # ---------- The Princess and the Dragon: knights & Scorchwoods ----------
     npc("Dragon Amy", 24, 16, 3, "dragon_amy.png", notes(
-        "<strong>Bite (d12) / Claws (d8). Fire Breath:</strong> Nearby area, 10 damage or 5 on a successful GRACE test. <em>She does not want to fight.</em>",
-        "Princess Amy of Drakenshire, trapped in the dragon Embra's body by swapped gnomish necklaces. Clumsy in the huge body; fiercely protective of Scamp the squirrel; speaks with a young girl's voice.",
-        "Her gift — <strong>Powerful Friendship</strong> — is the only force that can shatter the Barrier of Thorns. If she dies in this body, the barrier is permanent.")),
+        "<strong>One attack: Bite (d12) OR Claws (d8).</strong> Tests to evade her clumsy physical attacks have advantage. Fire breath: wide area Nearby, 10 damage / 5 on GRACE, once per Rest. She does not deliberately attack rescuers.",
+        "Amy is 22, trapped in Embra's medium-sized black dragon body. Existing portrait may differ. Scamp recognizes her. Begin with the separate Dragon Panic hazards in the GM journal, not normal breath.",
+        "Campaign tie: Amy's Powerful Friendship and Aurelius's light can open the thorn barrier. If she dies, the swap becomes permanent; a changed rescue or assault plan needs fresh prep, not an automatic end to the campaign.")),
+
     npc("Sir Damon the Unyielding", 8, 10, 3, "sir_damon.png", notes(
-        "<strong>Attacks twice: Battle axe (d10).</strong> Blood-red armor, throne-of-thorns sigil, never speaks more than a few words.",
-        "Not a man — a homunculus of blood and earth built by Magus Ulrik on Queen Morwenna's orders. Only the head looks human. His single mission: kill Amy while she is a dragon.",
-        "Ulrik must be within a Stone's Throw to command him; beyond that Damon continues his last order. He cannot be pacified, bribed, or fed a crystal fruit — he is not alive.",
-        "<em>House riders (optional):</em> <strong>Construct</strong> — immune to terror and charm (Roar, Enchanting Voice). <strong>Blood-Forged</strong> — at 0 HP he collapses into mud and reforms at nightfall unless the killing blow was silver or radiant.")),
+        "<strong>Attacks twice: Battle axe (d10).</strong> Black armor with a campaign thorn sigil. Only his head looks human.",
+        "Ulrik created him from blood and earth. Commands require Ulrik within a Stone's Throw; beyond that Damon continues his last order. Separation does not deactivate him.",
+        "Cannot be persuaded out of killing Amy or pacified by a crystal apple. Ulrik can be tricked into eating one. No added blanket charm/fear immunity or resurrection rule.",
+        "At the lair: immediate assault, 8 damage to Amy per keyed move or Spend Time until the PCs intervene.")),
+
     npc("Magus Ulrik", 10, 15, 0, "magus_ulrik.png", notes(
-        "<strong>Staff (d6). 3 Gift Dice</strong> — casts spells (Bind, Fireball, Disguise are good picks). SAVE 15: he shrugs off most gift effects thrown at him.",
-        "Morwenna's field commander, embedded in Drakenshire's court. Created Sir Damon, engineered the body-swap necklaces, planted them on Princess Amy.",
-        "Carries <strong>intelligence documents</strong> revealing Morwenna's operations and stronghold, and a <strong>Grimoire</strong> with instructions for creating a humanoid servant like Damon.",
-        "Duplicitous: if his ruse is discovered he sets Damon on the party; he may instead pretend to ally so they lead him to the lair.")),
+        "<strong>Staff (d6). 3 Gift Dice:</strong> Animate, Restoration, Disguise, Haste.",
+        "Campaign tie: Morwenna's agent supplied the necklaces to Embra, who chose the deception. Created Damon; commands only within a Stone's Throw. Outside that range the last command continues.",
+        "May feign alliance to discover the cave. A genuinely living target: a gem apple works if he is tricked into eating it. Carries the grimoire; WITS with disadvantage to read, failure Befuddles. Its recipe does not instantly create an ally.",
+        "Optional correspondence in the handout pack links him to Morwenna. Release only if actually recovered.")),
+
     npc("Sir Finnian the Magnificent", 6, 10, 3, "sir_finnian.png", notes(
-        "<strong>Attacks twice: Sword (d8).</strong> Gleaming armor, flowing hair, practiced poses. Vain, boastful — and genuinely loyal to Princess Amy.",
-        "Told about the swap (GRACE test to convince; automatic with Daisy's dispatch): his bravado collapses and he becomes a devoted ally. \"I would never hurt Princess Amy. NEVER. What do we do?\"",
-        "Travels with his squire Robin and Royal Guards. If his party reaches the lair first, they attack Dragon Amy — 4 damage per point traveled and per instance of Spending Time until stopped.")),
+        "<strong>Attacks twice: Sword (d8).</strong> Vain, boastful, genuinely protective. Needs convincing evidence of the swap; Daisy's dispatch is not an automatic alliance.",
+        "Travels with Embra in a carriage, three attendants, Robin, eight Royal Guards and four pack mules. Embra carries the original key.",
+        "At the lair: deliberates for one keyed move before attacking; thereafter 4 damage to Amy per keyed move or Spend Time. Evidence and a heroic rescue role can win him over.")),
+
     npc("Lady Stella the Daring", 6, 12, 3, "lady_stella.png", notes(
         "<strong>Attacks twice: Sword of Starlight (d8)</strong> — 1 GD: aura of starlight forces anyone fighting her (enemy or ally) to reroll a d20; recharges on a sincere wish on the evening star.",
         "Youngest of four famous Daring sisters, desperate to live up to the name. Won't ally with anyone who hasn't proven their mettle; needs convincing evidence before believing the swap — but she already suspects Damon (\"he fights like a machine\") and noticed the false Amy stopped caring about her cats.",
-        "Travels with the twins Diana and Beck. If her party reaches the lair first, she attacks immediately — dissuading her mid-fight is rolled with disadvantage.")),
+        "Travels with the twins Diana and Beck. If her party reaches the lair first, she attacks immediately, dealing 4 damage to Amy per keyed move or Spend Time; dissuading her mid-fight is rolled with disadvantage.")),
     npc("Sir Raphael the Lucky", 6, 12, 2, "sir_raphael.png", notes(
         "<strong>Attacks twice: Sword (d8).</strong> A busker knighted by accident of talent; would rather be a bard. Only raises his sword to defend.",
         "Inclined to believe the swap story — he has noticed the false Amy's erratic behavior. If the party helps him find resolve for his musical life, he pledges his party's aid (healing potions, a distraction, a plan).",
@@ -186,31 +190,40 @@ ACTORS = [
     npc("Sir Parker", 5, 11, 1, "sir_parker.png", notes(
         "<strong>Dagger (d6).</strong> A thief Raphael was meant to apprehend and instead gave a second chance. Nimble, loyal, plays the panpipes.",
         "<em>House stats — the module leaves him unstatted.</em> Advantage on GRACE tests for sneaking, picking pockets, and locks.")),
-    npc("Princess Embra (Impostor)", 6, 12, 0, "princess_embra.png", notes(
-        "The dragon Embra in Princess Amy's stolen body, living pampered at Drakenshire court and sending knights to kill her own former body — with Amy in it.",
-        "Cunning, jaded, opportunistic; the swap was engineered by Ulrik, and Embra took the bargain. Wears one of the two gnomish crystal necklaces. Non-combatant in this body — she talks, bargains, and flees.")),
+    npc("Princess Embra (Impostor)", 8, 15, 0, "princess_embra.png", notes(
+        "<strong>Crystal dagger (d6).</strong> On damage 5–6 it shatters for an extra d6. Tests to evade her clumsy physical attacks have advantage.",
+        "Embra, age 220, in Amy's adult human body. Carries the original necklace key, Ring of Fire (1 GD), Pixie Dust (Float d4 hours), and a healing potion. The original key is intact.",
+        "Travels with Finnian in a carriage with three attendants. Enjoys royal luxury and ordered the hunt to kill Amy. Can bargain for a better life and willingly reverse the swap.",
+        "Both wearers must be Nearby to use the key, then remove both necklaces. The cave barrier is separate. Keep her identity hidden in player token labels.")),
+
     npc("Embra (Dragon Form)", 24, 16, 3, "dragon_amy.png", notes(
         "<strong>Bite (d12) / two Claws (d8). Fire Breath:</strong> wide area Nearby, 20 damage or 10 on a successful GRACE test; recharges on Rest.",
         "Embra restored to her own body — the same body Amy wore, so use the same token. Whether she is an enemy at that point depends entirely on how the party handled her.")),
     npc("Princess Amy (Restored)", 6, 12, 0, "princess_amy.png", notes(
-        "Ten-ish, wild curly hair, lopsided crown, pockets full of cream-fed stray cats. Gift: <strong>Powerful Friendship</strong> — the same gift Morwenna once carried, and the counter to the Barrier of Thorns.",
-        "After her rescue she rallies Drakenshire's knights for the march on the castle: \"She did this to me because she's afraid of me? Good. Let's give her something to be afraid of.\"")),
+        "Amy is 22, friendly, optimistic, naive, with level-1 Powerful Friendship and Scamp as companion. Numerical combat values here are campaign placeholders, not a printed human combat profile.",
+        "After rescue she offers honorary knighthoods. Campaign tie: her friendship magic and Aurelius's purifying light can help open Morwenna's barrier. Do not assume the rescue outcome or force an immediate march.")),
+
     npc("Scamp the Squirrel", 1, 12, 0, "scamp_squirrel.png", notes(
-        "Amy's small, bright-eyed squirrel. Chatters angrily at scary parts of stories. Was tucked under her chin through the whole ordeal. The bravest member of the party and must not be harmed.")),
+        "Amy's protective animal companion. Can pass the cave barrier, recognize Amy, describe observed knight movements, and guide toward landmarks. Amy may lend him to the party.",
+        "Not omniscient or mechanically invulnerable. Numerical values are campaign placeholders; treat as a companion rather than forcing combat.")),
+
     npc("Pippin Cobbleton", 6, 11, 0, "pippin_cobbleton.png", notes(
         "Master gnomish craftsman of the Scorchwoods settlement. Can build a <strong>replacement key</strong> to unlock the body-swap necklaces — for 50 SP or a favor, plus enchanted water from the Wish Fish's pool.",
         "His jeweled walking stick was stolen by the Boneyard wolf pups; returning it is the easy way into his good graces.")),
     npc("Tifa Bramblebush", 4, 10, 0, "tifa.png", notes(
-        "Insecure gnome artificer who fled Drakenshire after sensing dark magic in the crystal necklaces she was made to work on. Sheltering with Pippin's settlement.",
-        "Knows how the necklace enchantment works and what Ulrik is; her knowledge plus Pippin's crafting is the path to reversing the swap. <em>House stats — noncombatant.</em>")),
+        "Brilliant, timid gnome artificer. In this campaign she shelters with Pippin's settlement and can provide testimony about Ulrik's commission. This placement is a campaign addition.",
+        "Helpful witness, not an additional gate to the key. Pippin needs enchanted water plus 50 SP or a favor waiving the fee. The original key on Embra is an independent route. Numerical values are house stats.")),
+
     npc("Hesperia", 10, 15, 0, "hesperia.png", notes(
-        "<strong>Unarmed (1). 3 Gift Dice.</strong> Kind. Haughty. Strict. Nature spirit and elder of the Scorchwoods; a lore source for the forest's twisted paths, the dragons' history, and the Dragonfilch curse.")),
+        "<strong>Unarmed (1). 3 Gift Dice.</strong> Kind. Haughty. Strict. Bound to her grove; casts Tangle and plant-only Animate. Ask before picking apples. Knows Gemini and Cobalt were friends; tree gossip is limited to observed events.")),
     npc("Wish Fish", 3, 15, 0, "wish_fish.png", notes(
-        "Guardian of the Enchanted Pool. Grants wishes the way fey do — sideways — and its pool's water is the enchanted ingredient Pippin needs for the necklace key.",
-        "Non-combatant; if threatened it simply dives beyond reach. Its favor is won with quests, not force (see the Wish Fish Quests table in the vault). <em>House stats.</em>")),
+        "Controls the enchanted pool: water recedes from containers until he agrees to share. Invulnerable while in his water. Does not grant arbitrary wishes; numerical values are house placeholders.",
+        "Wants a fresh crystal apple with a live worm. Candied apples do not work. Ask Hesperia before picking. One suitable apple buys the needed water; extra water can prompt another quest.")),
+
     npc("Crystal Wolf", 4, 6, 0, "crystal_wolf.png", notes(
-        "<strong>Attacks once or twice: Bite (d6) or Claws (d4).</strong> Massive wolves whose fangs and claws have turned to unyielding diamond.",
-        "A pack of 3d4 dens in the Boneyard's dragon skeleton; their pups chew Pippin's stolen walking stick. Territorial, keen-sensed. <strong>Pack morale:</strong> they break and flee when half the pack is down. SAVE 6 — a big Roar legitimately routs them.")),
+        "<strong>Attacks once or twice: Bite (d6) or Claws (d4).</strong> Territorial wolves with diamond-hard fangs and claws.",
+        "Boneyard den: 3d4, pups have Pippin's walking stick. Travel Wrinkle: 2d4. Animal speech, food, and trading are valid approaches. No automatic half-pack rout or added pack advantage.")),
+
     npc("Gnomish Warrior Statue", 4, 8, 2, "gnomish_warrior_statues.png", notes(
         "<strong>Stone Swords (d4).</strong> Four crystal-eyed statues ring the gnome village stump; a wrong password animates them.",
         "If defeated, a guard gnome pops out to chastise the party and shoo them off — but may let them in on a successful GRACE test.")),
@@ -292,9 +305,9 @@ ITEMS = [
         "<em>\"Forged from glowing sea-glass and bound in silver wire, this spear hums with the tide of subterranean waters and the light of the moon.\"</em>",
         "<strong>Magic Shortspear — d6 damage (Versatile d8), Thrown 30 ft.</strong> Tailored for Princess Filly. <strong>2 Gift Dice</strong> <em>(house count — tune as desired)</em>.",
         "<strong>Returning Current:</strong> when thrown it dissolves into water on impact and instantly reforms in Filly's hand.",
-        "<strong>Lunar Surge ([DICE]/[SUM]):</strong> on an attack, add [SUM] Cold/Water damage, plus [DICE]d4 Pack Hunt damage if the target is engaged with Tawny.",
+        "<strong>Lunar Surge ([DICE]/[SUM]):</strong> modify the attack roll up to [SUM]; on a hit add [SUM] Cold/Water damage, plus [DICE]d4 Pack Hunt damage if the target is engaged with Tawny.",
         "<strong>Tidal Wave Thrust ([DICE]/[SUM]):</strong> [DICE] creatures within a Stone's Throw take [SUM] Cold damage and make a GRACE test or are knocked prone and pushed.",
-        "<strong>Water Grace:</strong> spend Gift Dice to add [SUM] to GRACE tests while swimming or climbing wet rock.",
+        "<strong>Water Grace:</strong> spend Gift Dice to modify GRACE tests by [SUM] while swimming or climbing wet rock.",
         "<strong>Recharge:</strong> submerge the tip in pristine natural water for a minute during a Picnic or Rest, or leave it in direct moonlight overnight."),
         die="d6", weight=1, art="lunar_grotto_spear.png"),
     item("Dewdrop Elixir of Invisibility", notes(
@@ -304,27 +317,27 @@ ITEMS = [
 
     # ---------- Already carried: reference entry ----------
     item("Staff of the Sunken Sanctum", notes(
-        "<strong>Magic Silverwood Staff — d8 damage, spellcasting focus. 2 Gift Dice.</strong> Tailored for Princess Marigold; claimed from the Sunken Sanctum's Guardian orb.",
+        "<strong>Magic Silverwood Staff — d6 Bludgeoning damage, spellcasting focus.</strong> Tailored for Princess Marigold; claimed from the Sunken Sanctum's Guardian orb.",
         "<strong>Sanctuary Aegis:</strong> whenever Marigold heals an ally or spends a Heart Die, a water bubble grants the target +1 Armor for 1 round.",
-        "<strong>Radiant Wave:</strong> strike the ground to release a 15-foot pulse — undead, oozes, and corrupted beasts take d6 Radiant damage and make a WITS test or are pushed back.",
-        "<strong>Recharge:</strong> rest the staff in pristine water."),
-        die="d8", weight=1, art="staff_sunken_sanctum.png"),
+        "<strong>Radiant Wave (1/Rest):</strong> strike the ground to release a 15-foot pulse — undead, oozes, and corrupted beasts take d6 Radiant damage and make a WITS test or are pushed back.",
+        "<strong>Sacred Command Word: Aethelgard.</strong> Triggers Radiant Wave to purge shadow corruption and pacify corrupted guardians, per the established campaign item."),
+        die="d6", weight=1, art="staff_sunken_sanctum.png"),
     item("Silver Rose Pin (Fairy Compass)", notes(
         "The PPS member's pin — designed long ago by the Society's founder. After Aurelius's blessing it acts as a <strong>Fairy Compass</strong>: it points toward Princess Amy no matter what body she is in, glows warm when moving toward her, cool when away, and <strong>flares red when she is in immediate danger</strong>.",
-        "Shown to those who matter, it opens doors: fey, gnomes, and honest knights know what it means."),
+        "Its fixed reference lets this party navigate the shifting forest without a compulsory navigation test on each move. Recognition of a pin is not automatic trust or proof of the swap."),
         weight=0, art="silver_rose_pin.png"),
 
     # ---------- The Princess and the Dragon: story items ----------
     item("The Magic Necklaces", notes(
-        "A pair of necklaces of gnomish origin. <strong>When two different people wear these at the same time, they switch bodies.</strong> Locked by gnomish enchantment — unremovable without the Magical Key."), weight=0, art=None),
+        "A paired gnomish enchantment swaps two wearers' bodies. Embra locked it with a separate key, preventing removal. Both wearers must be Nearby to use the key; unlock then remove both necklaces. Cave barrier is separate."), weight=0, art=None),
     item("The Gnomish Magical Key", notes(
-        "An artifact that locks or unlocks the enchantment of the Magic Necklaces. The original was destroyed; <strong>Pippin Cobbleton can craft a replacement</strong> — for 50 SP or a favor, plus enchanted water from the Wish Fish's pool."), weight=0),
+        "An artifact that locks or unlocks the enchantment of the Magic Necklaces. Embra carries the intact original. Both wearers must be Nearby when it is used. Pippin can make a replacement: enchanted Pool water PLUS 50 SP, or a favor waiving the fee only. Water remains required."), weight=0),
     item("Magus Ulrik's Grimoire", notes(
         "Parsing this esoteric, arcane text requires a <strong>WITS test with disadvantage</strong>; failure causes Befuddlement. It details a recipe for a humanoid servant made from earth and blood — how Sir Damon was made."), weight=1, art=None),
     item("Tifa's Journal", notes(
         "Contains notes on how to cast the spell <strong>Animate</strong>. By Spending Time studying the journal, you can cast Animate with your own Gift Dice."), weight=1),
     item("Gem Apple", notes(
-        "Crystalline fruit from the Scorchwoods orchard. Eating one makes you <em>feel weird</em> — and a gift of gem apples <strong>pacifies a knight captain</strong> (decreases the Knight Tracker). Sir Damon cannot be pacified by one; he is not alive. Magus Ulrik can be — but must be tricked into eating it."), weight=0),
+        "Crystalline fruit from the Scorchwoods orchard. Eating one makes you <em>feel weird</em> — and a gift of gem apples <strong>pacifies a knight captain</strong> (decreases the Knight Tracker by 1; living captains will not willingly repeat the trick). Sir Damon cannot be pacified by one; he is not alive. Magus Ulrik can be — but must be tricked into eating it. Fresh or candied fruit works on captains; the Wish Fish needs a fresh apple with a live worm. Fruit becomes dull stone outside the Scorchwoods."), weight=0),
 
     # ---------- The Princess and the Dragon: weapons & hoard ----------
     item("Crystal Dagger", notes(
@@ -422,6 +435,14 @@ SCENES = [
     scene("Castle Great Hall", "scenes/castle_great_hall_scene.png"),
     scene("Castle Throne Room", "scenes/castle_throne_scene.png"),
 ]
+
+for document in ACTORS + ITEMS + SCENES:
+    document["ownership"] = {"default": 0}
+for document in ACTORS:
+    if document["name"] == "Princess Embra (Impostor)":
+        document["prototypeToken"]["name"] = "Princess Amy"
+        document["prototypeToken"]["displayName"] = 0
+
 
 def emit(docs, sub):
     out = os.path.join(ROOT, "build", "src", sub)

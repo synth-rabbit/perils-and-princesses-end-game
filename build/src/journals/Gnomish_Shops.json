@@ -1,0 +1,28 @@
+{
+  "_id": "a7fb51e5d00520a5",
+  "name": "Gnomish Shops",
+  "pages": [
+    {
+      "_key": "!journal.pages!a7fb51e5d00520a5.efd1bf0f94c0ed0b",
+      "_id": "efd1bf0f94c0ed0b",
+      "name": "Gnomish Shops",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>Gnomish Shops</h1>\n<p>Roll d4</p>\n<table>\n<thead>\n<tr>\n<th>Roll</th>\n<th>Shop</th>\n<th>Description</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Tough Breaks</td>\n<td>A shop specializing in repairs of all types. Breaks, rips, malfunctions—all taken care of here! Getting a fix requires Spending Time.</td>\n</tr>\n<tr>\n<td>2</td>\n<td>The Crown Jewel</td>\n<td>A pub serving up traditional gnomish ales. For the Princesses, the ale mugs are the size of shot glasses.</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Glorious Greatswords</td>\n<td>The finest purveyor of gnomish greatswords in the land. Of course, a gnomish greatsword is about the size (and effectiveness) of a dagger to a human. Regular greatswords cost 10 sp. Crystal greatswords cost 20 sp.</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Candy’s Apples</td>\n<td>A stall selling candied apples, manned by a gnome named Candy. She picks the apples from the crystal grove and Candy can tell the Princesses of the spirit there.</td>\n</tr>\n</tbody>\n</table>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!a7fb51e5d00520a5"
+}

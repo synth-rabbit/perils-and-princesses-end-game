@@ -1,0 +1,28 @@
+{
+  "_id": "5c03a544bd4f3ede",
+  "name": "Faire Wrinkles",
+  "pages": [
+    {
+      "_key": "!journal.pages!5c03a544bd4f3ede.841544ab35e211e7",
+      "_id": "841544ab35e211e7",
+      "name": "Faire Wrinkles",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>Faire Wrinkles</h1>\n<p>Roll d6</p>\n<table>\n<thead>\n<tr>\n<th>Roll</th>\n<th>Wrinkle</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>A small, sticky child gloms onto your legs, crying about a lost parent.</td>\n</tr>\n<tr>\n<td>2</td>\n<td>That dragon tail you ate was tasty, but it’s not agreeing with you. You look a little green.</td>\n</tr>\n<tr>\n<td>3</td>\n<td>One of your competitors loudly accuses you of cheating and challenges you.</td>\n</tr>\n<tr>\n<td>4</td>\n<td>A pickpocket bumps into you, attempting to steal something valuable.</td>\n</tr>\n<tr>\n<td>5</td>\n<td>It sure is hot today! Be careful to not become Weary.</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Magpies swarm the Dragon’s Hoard, trying to steal prizes! The attendant calls for help.</td>\n</tr>\n</tbody>\n</table>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!5c03a544bd4f3ede"
+}

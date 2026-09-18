@@ -54,5 +54,8 @@
       "src": "modules/pnp-end-game/art/tokens/vine_crawler.png"
     }
   },
-  "_key": "!actors!71168dc420a46f31"
+  "_key": "!actors!71168dc420a46f31",
+  "ownership": {
+    "default": 0
+  }
 }

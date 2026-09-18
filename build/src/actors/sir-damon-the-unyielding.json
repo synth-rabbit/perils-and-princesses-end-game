@@ -41,7 +41,7 @@
     "save": {
       "value": "10"
     },
-    "notes": "<p><strong>Attacks twice: Battle axe (d10).</strong> Blood-red armor, throne-of-thorns sigil, never speaks more than a few words.</p><p>Not a man — a homunculus of blood and earth built by Magus Ulrik on Queen Morwenna's orders. Only the head looks human. His single mission: kill Amy while she is a dragon.</p><p>Ulrik must be within a Stone's Throw to command him; beyond that Damon continues his last order. He cannot be pacified, bribed, or fed a crystal fruit — he is not alive.</p><p><em>House riders (optional):</em> <strong>Construct</strong> — immune to terror and charm (Roar, Enchanting Voice). <strong>Blood-Forged</strong> — at 0 HP he collapses into mud and reforms at nightfall unless the killing blow was silver or radiant.</p>"
+    "notes": "<p><strong>Attacks twice: Battle axe (d10).</strong> Black armor with a campaign thorn sigil. Only his head looks human.</p><p>Ulrik created him from blood and earth. Commands require Ulrik within a Stone's Throw; beyond that Damon continues his last order. Separation does not deactivate him.</p><p>Cannot be persuaded out of killing Amy or pacified by a crystal apple. Ulrik can be tricked into eating one. No added blanket charm/fear immunity or resurrection rule.</p><p>At the lair: immediate assault, 8 damage to Amy per keyed move or Spend Time until the PCs intervene.</p>"
   },
   "prototypeToken": {
     "name": "Sir Damon the Unyielding",
@@ -54,5 +54,8 @@
       "src": "modules/pnp-end-game/art/tokens/sir_damon.png"
     }
   },
-  "_key": "!actors!a1b6970b5f96b557"
+  "_key": "!actors!a1b6970b5f96b557",
+  "ownership": {
+    "default": 0
+  }
 }

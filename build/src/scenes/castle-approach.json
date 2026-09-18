@@ -2,7 +2,7 @@
   "_id": "326c7f25e6ba0595",
   "name": "Castle Approach",
   "active": false,
-  "navigation": true,
+  "navigation": false,
   "background": {
     "src": "modules/pnp-end-game/art/scenes/castle_approach_scene.png"
   },
@@ -18,5 +18,8 @@
   "fog": {
     "exploration": false
   },
-  "_key": "!scenes!326c7f25e6ba0595"
+  "_key": "!scenes!326c7f25e6ba0595",
+  "ownership": {
+    "default": 0
+  }
 }

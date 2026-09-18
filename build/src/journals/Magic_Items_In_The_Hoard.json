@@ -1,0 +1,28 @@
+{
+  "_id": "fec95b4c1eca8367",
+  "name": "Magic Items in the Hoard",
+  "pages": [
+    {
+      "_key": "!journal.pages!fec95b4c1eca8367.ffc1fc9a80d75259",
+      "_id": "ffc1fc9a80d75259",
+      "name": "Magic Items in the Hoard",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>Magic Items in the Hoard</h1>\n<p>Roll d6</p>\n<table>\n<thead>\n<tr>\n<th>Roll</th>\n<th>Magic Item</th>\n<th>Description</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Blitzenaxt (2)</td>\n<td>(d10 damage): This axe has 2 Gift Dice. Summon a bolt of lightning to add [SUM] damage to a successful attack made with Blitzenaxt. Recharge by leaving it out during a powerful storm.</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Dragonfire Shield (2)</td>\n<td>Reduce incoming damage by 1, unless the damage is from dragon fire, in which case negate the damage completely and the shield absorbs and stores the fire. As a Reaction, you may activate the shield to release the fire, dealing d6 damage to a Nearby target.</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Cloak of Shadows (1)</td>\n<td>The wearer makes Virtue tests to remain unseen while in dim light with advantage. When charged, activate to become completely invisible for d10 minutes. Recharge by wearing the cloak while traveling under a new moon.</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Spectacles of Discernment</td>\n<td>Anyone who wears these glasses tests with advantage to see hidden things, search areas, appraise items, and discern the true nature of things. Anything said while wearing them seems condescending and rubs people the wrong way.</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Swan’s Grace Pendant</td>\n<td>While wearing this necklace, your GRACE score is one point higher.</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Ring of Refraction</td>\n<td>When charged, distorts the image of its wearer during battle. An enemy targeting them specifically attacks with disadvantage. When an attack misses, the effect fades. Recharge by Spending Time staring into the ring's mirror. The mirror reflects a grim and twisted version of the one who wears it, and staring into it causes Befuddlement.</td>\n</tr>\n</tbody>\n</table>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!fec95b4c1eca8367"
+}

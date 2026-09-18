@@ -1,0 +1,28 @@
+{
+  "_id": "04bc1fae868249bc",
+  "name": "Booth Operator",
+  "pages": [
+    {
+      "_key": "!journal.pages!04bc1fae868249bc.0c54273bf8ef66d9",
+      "_id": "0c54273bf8ef66d9",
+      "name": "Booth Operator",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>Booth Operator</h1>\n<p>Roll d6</p>\n<p>This booth operator...\n| Roll | Description |\n|---|---|\n| 1 | rigs the game against the players. |\n| 2 | gives out extra tickets if they like you. |\n| 3 | is not running the booth they wanted to run. |\n| 4 | has a crush on another booth operator. |\n| 5 | is an unprepared last-minute replacement. |\n| 6 | speaks with their mouth stuffed with dragon tails. |</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!04bc1fae868249bc"
+}

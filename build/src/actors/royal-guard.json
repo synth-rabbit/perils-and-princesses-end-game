@@ -54,5 +54,8 @@
       "src": "modules/pnp-end-game/art/tokens/generic_guard.png"
     }
   },
-  "_key": "!actors!515d8902e07eddee"
+  "_key": "!actors!515d8902e07eddee",
+  "ownership": {
+    "default": 0
+  }
 }

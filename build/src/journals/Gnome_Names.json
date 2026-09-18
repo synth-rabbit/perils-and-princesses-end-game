@@ -1,0 +1,28 @@
+{
+  "_id": "b78024651ac66400",
+  "name": "Gnome Names",
+  "pages": [
+    {
+      "_key": "!journal.pages!b78024651ac66400.1c69858610a50eec",
+      "_id": "1c69858610a50eec",
+      "name": "Gnome Names",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>Gnome Names</h1>\n<p>Roll d6</p>\n<table>\n<thead>\n<tr>\n<th>Roll</th>\n<th>Gnome Name</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Nelly Whittlewomp</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Bricker Switchstitch</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Dolly Hammerheart</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Tanrick Stouthide</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Lila Marbledust</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Mervys Tinkertap</td>\n</tr>\n</tbody>\n</table>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!b78024651ac66400"
+}

@@ -41,7 +41,7 @@
     "save": {
       "value": "10"
     },
-    "notes": "<p><strong>Attacks twice: Sword (d8).</strong> Gleaming armor, flowing hair, practiced poses. Vain, boastful — and genuinely loyal to Princess Amy.</p><p>Told about the swap (GRACE test to convince; automatic with Daisy's dispatch): his bravado collapses and he becomes a devoted ally. \"I would never hurt Princess Amy. NEVER. What do we do?\"</p><p>Travels with his squire Robin and Royal Guards. If his party reaches the lair first, they attack Dragon Amy — 4 damage per point traveled and per instance of Spending Time until stopped.</p>"
+    "notes": "<p><strong>Attacks twice: Sword (d8).</strong> Vain, boastful, genuinely protective. Needs convincing evidence of the swap; Daisy's dispatch is not an automatic alliance.</p><p>Travels with Embra in a carriage, three attendants, Robin, eight Royal Guards and four pack mules. Embra carries the original key.</p><p>At the lair: deliberates for one keyed move before attacking; thereafter 4 damage to Amy per keyed move or Spend Time. Evidence and a heroic rescue role can win him over.</p>"
   },
   "prototypeToken": {
     "name": "Sir Finnian the Magnificent",
@@ -54,5 +54,8 @@
       "src": "modules/pnp-end-game/art/tokens/sir_finnian.png"
     }
   },
-  "_key": "!actors!5b4d496cc81a50b5"
+  "_key": "!actors!5b4d496cc81a50b5",
+  "ownership": {
+    "default": 0
+  }
 }

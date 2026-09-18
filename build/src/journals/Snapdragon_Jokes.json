@@ -1,0 +1,28 @@
+{
+  "_id": "ae8517bbe5f89182",
+  "name": "Snapdragon Jokes",
+  "pages": [
+    {
+      "_key": "!journal.pages!ae8517bbe5f89182.239404db9c32fd9c",
+      "_id": "239404db9c32fd9c",
+      "name": "Snapdragon Jokes",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>Snapdragon Jokes</h1>\n<p>Roll d8</p>\n<table>\n<thead>\n<tr>\n<th>Roll</th>\n<th>Joke</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>What is a dragon’s favorite instrument? <em>The horns.</em></td>\n</tr>\n<tr>\n<td>2</td>\n<td>Why are dragons such good musicians? <em>Because they know their scales.</em></td>\n</tr>\n<tr>\n<td>3</td>\n<td>What is a dragon’s favorite snack? <em>Firecrackers.</em></td>\n</tr>\n<tr>\n<td>4</td>\n<td>Why are dragons boring storytellers? <em>They have such long tales.</em></td>\n</tr>\n<tr>\n<td>5</td>\n<td>Why don’t dragons come up with plans? <em>They prefer to wing it.</em></td>\n</tr>\n<tr>\n<td>6</td>\n<td>What does a knight and a piece of bread have in common? <em>A little firebreath and they're both toast.</em></td>\n</tr>\n<tr>\n<td>7</td>\n<td>What do you say to an angry dragon? <em>No need to get fired up.</em></td>\n</tr>\n<tr>\n<td>8</td>\n<td>Why are dragons such bad hiking partners? <em>Because they're always drag'n behind.</em></td>\n</tr>\n</tbody>\n</table>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!ae8517bbe5f89182"
+}

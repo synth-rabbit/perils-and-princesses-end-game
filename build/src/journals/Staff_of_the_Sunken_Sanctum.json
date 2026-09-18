@@ -1,0 +1,28 @@
+{
+  "_id": "71a34049456f5b31",
+  "name": "Staff of the Sunken Sanctum",
+  "pages": [
+    {
+      "_key": "!journal.pages!71a34049456f5b31.ea5d6db7bdd345db",
+      "_id": "ea5d6db7bdd345db",
+      "name": "Staff of the Sunken Sanctum",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>Staff of the Sunken Sanctum</h1>\n<p><img alt=\"\" src=\"modules/pnp-end-game/art/items/staff_sunken_sanctum.png\" /></p>\n<blockquote>\n<p><em>\"Carved from ancient silverwood and crowned with a sphere of living water, this sacred fey staff hums with the soothing purity of subterranean springs.\"</em></p>\n</blockquote>\n<ul>\n<li>\n<p><strong>Type:</strong> Magic Quarterstaff (d6 Bludgeoning damage) / Spellcasting Focus</p>\n</li>\n<li>\n<p><strong>Tailored For:</strong> Princess Marigold</p>\n</li>\n</ul>\n<hr />\n<h2>Magical Properties</h2>\n<ul>\n<li>\n<p><strong>Sanctuary Aegis:</strong><br />\n  Whenever Marigold heals an ally or spends a Heart Die, a protective water bubble forms around the target, granting them <strong>+1 Armor for 1 round</strong>.</p>\n</li>\n<li>\n<p><strong>Radiant Wave (1/Rest):</strong><br />\n  Strike the staff against the ground to release a 15-foot pulse of holy fey water. Undead, oozes, and corrupted beasts within the area take <strong>d6 Radiant damage</strong> and must make a <strong>WITS test</strong> or be pushed back 10 feet.</p>\n</li>\n<li>\n<p><strong>Sacred Command Word (\"Aethelgard\"):</strong><br />\n  Speaking the ancient command word <em>\"Aethelgard\"</em> carved into the Shrine Keeper's journal instantly triggers <strong>Radiant Wave</strong>, automatically purging shadow corruption and pacifying corrupted guardians without a roll.</p>\n</li>\n</ul>\n<hr />\n<h2>Where Found</h2>\n<p>Discovered on the moonlit altar in the <strong>Sunken Shrine of the Blue Orb</strong> within <strong>12. A Series of Rocky Passages</strong>, guarded by Fenris the Corrupted Werewolf Sentinel.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!71a34049456f5b31"
+}

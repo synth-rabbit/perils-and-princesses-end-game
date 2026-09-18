@@ -2,7 +2,7 @@
   "id": "pnp-end-game",
   "title": "Perils & Princesses: End Game",
   "description": "Campaign content for the final arc: the last corrupted footholds, The Princess and the Dragon, and the assault on Queen Morwenna's castle.",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "compatibility": {
     "minimum": "13",
     "verified": "14"
@@ -58,8 +58,30 @@
       "system": "perilsandprincesses",
       "flags": {},
       "ownership": {
-        "PLAYER": "OBSERVER",
-        "TRUSTED": "OBSERVER",
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "pnp-endgame-journals",
+      "label": "End Game GM Guide",
+      "path": "packs/pnp-endgame-journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "pnp-endgame-handouts",
+      "label": "End Game Handouts \u2014 Reveal Individually",
+      "path": "packs/pnp-endgame-handouts",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
         "ASSISTANT": "OWNER"
       }
     }
@@ -72,10 +94,12 @@
       "packs": [
         "pnp-endgame-actors",
         "pnp-endgame-scenes",
-        "pnp-endgame-items"
+        "pnp-endgame-items",
+        "pnp-endgame-journals",
+        "pnp-endgame-handouts"
       ]
     }
   ],
   "manifest": "https://synth-rabbit.github.io/perils-and-princesses-end-game/module.json",
-  "download": "https://synth-rabbit.github.io/perils-and-princesses-end-game/pnp-end-game-0.4.0.zip"
+  "download": "https://synth-rabbit.github.io/perils-and-princesses-end-game/pnp-end-game-0.5.0.zip"
 }

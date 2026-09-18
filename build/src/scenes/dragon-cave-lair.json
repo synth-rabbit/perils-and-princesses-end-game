@@ -2,7 +2,7 @@
   "_id": "44692f1f89d878aa",
   "name": "Dragon Cave Lair",
   "active": false,
-  "navigation": true,
+  "navigation": false,
   "background": {
     "src": "modules/pnp-end-game/art/scenes/scorchwoods_dragon_cave_scene.png"
   },
@@ -18,5 +18,8 @@
   "fog": {
     "exploration": false
   },
-  "_key": "!scenes!44692f1f89d878aa"
+  "_key": "!scenes!44692f1f89d878aa",
+  "ownership": {
+    "default": 0
+  }
 }

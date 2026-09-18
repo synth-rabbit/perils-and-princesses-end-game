@@ -1,52 +1,35 @@
 # Perils & Princesses: End Game
 
-Foundry VTT module for the final arc of the Perils & Princesses campaign: the last
-corrupted footholds (session 9), *The Princess and the Dragon*, and the assault on
-Queen Morwenna's castle. Built for the
-[perilsandprincesses](https://github.com/helloshyann/perilsandprincesses) system,
-Foundry v13+.
+Foundry VTT module for the final campaign arc, using the perilsandprincesses system on Foundry v13+. Current release: **0.5.0**.
 
-**Install in Foundry** → Add-on Modules → Install Module → manifest URL:
+Install/update manifest:
 
 ```
 https://synth-rabbit.github.io/perils-and-princesses-end-game/module.json
 ```
 
-## What's in it
+## Contents
 
-| Pack | Contents |
-|---|---|
-| End Game Actors | 42 NPCs and monsters: the mine and pond encounters, the four knight parties and their retinues, the Scorchwoods cast, and the castle-assault roster (Morwenna, both phases, and seven new thorn/frost adversaries) |
-| End Game Scenes | 11 gridless scenes: the Scorchwoods overworld, Brokenhill Mine battlemap, and nine location backdrops |
+- 42 actors: mine/pond, Scorchwoods knight parties and cast, existing castle roster.
+- 44 draggable items: campaign rewards, story tools, hoard and faire items.
+- 14 gridless scene sources: existing map/backdrop assets; no new walls in this release.
+- 28 private GM journals: session 10, complete adventure runbook, hunt tracker, reference material and optional faire.
+- 9 individually releasable handouts, private by default.
 
-Actor `notes` carry the run-notes: attacks, special rules, roleplay hooks, and the
-house riders (Sir Damon's construct rules, Crystal Wolf pack morale, the
-Frost-Crowned finale's friendship mechanic).
+Open **End Game GM Guide → Session 10 Prep: The Last Clear Water** to begin. The adventure runbook covers all ten locations, both key routes and possible endings. See [CHANGELOG.md](CHANGELOG.md) for corrections and remaining live setup.
 
-## Repo layout
+All packs are GM-only by default because story items, actors and maps contain spoilers. Grant players only the individual imported documents they should know. Existing imported world documents and PC sheets are not automatically updated by installing this module. Stable compendium IDs preserve references, but do not promise automatic in-place world replacement.
 
-```
-module.json + pnp-end-game-<v>.zip   hosted release (GitHub Pages serves these)
-build/module.json                    the manifest source of truth
-build/src/{actors,scenes}/*.json     pack document sources (committed)
-build/art/                           portraits, scene art, maps shipped in the zip
-tools/generate_src.py                regenerates build/src from its data tables
-ART_PROMPTS.md                       prompts for art that doesn't exist yet
-MAPS_NEEDED.md                       battlemaps still to find/make (GM-sourced)
-```
+## Sources and build
 
-## Releasing a new version
+`build/module.json` is the manifest source. `tools/generate_src.py` owns actor/item/scene definitions. `content/gm/` and `content/handouts/` are portable Markdown release snapshots; `tools/generate_journals.py` renders them into linked Foundry journals. Unbundled vault references become readable labels rather than broken links. The runbook is the canonical adventure guide; vault histories and private character sheets are not shipped.
 
-1. Edit content in `tools/generate_src.py` (actors/scenes) or drop art into `build/art/`.
-2. Bump `version` **and** the `download` URL in `build/module.json`.
-3. Run:
+Install Python dependencies from `requirements.txt`; Node/npm and macOS `sips` are also used by the existing pipeline. The pack compiler is pinned to @foundryvtt/foundryvtt-cli 3.0.4.
 
-```
-sh build/release.sh
-```
+1. Edit generator definitions or Markdown sources; put art under `build/art/`.
+2. Bump version and download URL in `build/module.json`.
+3. Run `sh build/release.sh`. It regenerates tokens and sources, validates them, packs the databases and creates the versioned zip plus root manifest.
+4. Review changes, commit, and push to main. GitHub Pages serves the root manifest and archive.
+5. Verify the hosted manifest/archive, then check actual imports in Foundry separately.
 
-4. Commit and push. GitHub Pages (main branch, root) serves the new
-   `module.json` and zip; Foundry sees the update at the same manifest URL.
-
-Actor ids are deterministic (hashed from the name), so re-imports update in
-place instead of duplicating.
+Do not delete older release archives as incidental cleanup. Source JSON is generated and committed; update its source rather than editing generated files alone.

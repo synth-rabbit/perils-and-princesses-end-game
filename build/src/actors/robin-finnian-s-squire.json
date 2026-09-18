@@ -54,5 +54,8 @@
       "src": "modules/pnp-end-game/art/tokens/robin_squire.png"
     }
   },
-  "_key": "!actors!c8db2857654543b2"
+  "_key": "!actors!c8db2857654543b2",
+  "ownership": {
+    "default": 0
+  }
 }

@@ -2,7 +2,7 @@
   "_id": "11603e765555254f",
   "name": "Crystal Orchard",
   "active": false,
-  "navigation": true,
+  "navigation": false,
   "background": {
     "src": "modules/pnp-end-game/art/scenes/crystal_orchard_scene.png"
   },
@@ -18,5 +18,8 @@
   "fog": {
     "exploration": false
   },
-  "_key": "!scenes!11603e765555254f"
+  "_key": "!scenes!11603e765555254f",
+  "ownership": {
+    "default": 0
+  }
 }

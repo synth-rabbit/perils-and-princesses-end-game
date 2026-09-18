@@ -1,0 +1,28 @@
+{
+  "_id": "2c3d43924aec2e19",
+  "name": "Wish Fish Quests",
+  "pages": [
+    {
+      "_key": "!journal.pages!2c3d43924aec2e19.93445bd1f112d6da",
+      "_id": "93445bd1f112d6da",
+      "name": "Wish Fish Quests",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>Wish Fish Quests</h1>\n<p>Roll d4</p>\n<table>\n<thead>\n<tr>\n<th>Roll</th>\n<th>Quest</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Steal him the plume from Sir Finnian’s helmet.</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Compose and perform a beautiful poem about his magnificence.</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Fetch him some gems to line the bottom of his pool.</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Pass along an insult to an Pippin Cobbleton.</td>\n</tr>\n</tbody>\n</table>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!2c3d43924aec2e19"
+}

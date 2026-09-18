@@ -7,8 +7,8 @@ cd "$(dirname "$0")"
 # Remove stale packs first so a renamed or dropped pack can't survive
 # into the release zip.
 rm -rf packs
-for p in actors items scenes; do
+for p in actors items scenes journals handouts; do
   [ -d "src/$p" ] || continue
-  npx --yes @foundryvtt/foundryvtt-cli@latest package pack "pnp-endgame-$p" \
+  npx --yes @foundryvtt/foundryvtt-cli@3.0.4 package pack "pnp-endgame-$p" \
     --id pnp-end-game --type Module --in "src/$p" --out packs
 done

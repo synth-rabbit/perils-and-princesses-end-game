@@ -1,0 +1,28 @@
+{
+  "_id": "28007d0862d1b45f",
+  "name": "E1. A note on a dragon's treasure",
+  "pages": [
+    {
+      "_key": "!journal.pages!28007d0862d1b45f.79d9db9ae095714a",
+      "_id": "79d9db9ae095714a",
+      "name": "E1. A note on a dragon's treasure",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>E1. A note on a dragon's treasure</h1>\n<p>Treasure stolen from a dragon's hoard carries a curse. What the dragon willingly gives is another matter: a gift may leave the hoard without bringing its curse upon the recipient.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!28007d0862d1b45f"
+}

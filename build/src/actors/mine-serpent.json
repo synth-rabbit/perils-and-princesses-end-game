@@ -54,5 +54,8 @@
       "src": "modules/pnp-end-game/art/tokens/deadly_serpents.png"
     }
   },
-  "_key": "!actors!511f4917b1591909"
+  "_key": "!actors!511f4917b1591909",
+  "ownership": {
+    "default": 0
+  }
 }

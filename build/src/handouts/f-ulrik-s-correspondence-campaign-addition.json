@@ -1,0 +1,28 @@
+{
+  "_id": "6a650cbf111836cf",
+  "name": "F. A signed note",
+  "pages": [
+    {
+      "_key": "!journal.pages!6a650cbf111836cf.c37812d9c0c6406f",
+      "_id": "c37812d9c0c6406f",
+      "name": "F. A signed note",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>F. A signed note</h1>\n<p>The necklaces have reached Embra. Her desire for a human life should do the rest.</p>\n<p>Damon must remain close enough to receive my commands. Once the hunt reaches the cave, the Queen's purpose takes precedence over Drakenshire's honors.</p>\n<p>Amy must not stand beside Aurelius at the thorns.</p>\n<p>— U.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!6a650cbf111836cf"
+}

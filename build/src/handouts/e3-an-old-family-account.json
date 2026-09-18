@@ -1,0 +1,28 @@
+{
+  "_id": "7ed12a9fd42c19d8",
+  "name": "E3. An old family account",
+  "pages": [
+    {
+      "_key": "!journal.pages!7ed12a9fd42c19d8.daf6048f5b67d90e",
+      "_id": "daf6048f5b67d90e",
+      "name": "E3. An old family account",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>E3. An old family account</h1>\n<p>Pitch was a mighty dragon, an ancestor of Embra and larger than she is. Though famed for his strength, he was defeated. His immense skeleton now shelters the wolves of the Scorchwoods.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!7ed12a9fd42c19d8"
+}

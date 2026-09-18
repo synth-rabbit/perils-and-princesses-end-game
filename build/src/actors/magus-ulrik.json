@@ -41,7 +41,7 @@
     "save": {
       "value": "15"
     },
-    "notes": "<p><strong>Staff (d6). 3 Gift Dice</strong> — casts spells (Bind, Fireball, Disguise are good picks). SAVE 15: he shrugs off most gift effects thrown at him.</p><p>Morwenna's field commander, embedded in Drakenshire's court. Created Sir Damon, engineered the body-swap necklaces, planted them on Princess Amy.</p><p>Carries <strong>intelligence documents</strong> revealing Morwenna's operations and stronghold, and a <strong>Grimoire</strong> with instructions for creating a humanoid servant like Damon.</p><p>Duplicitous: if his ruse is discovered he sets Damon on the party; he may instead pretend to ally so they lead him to the lair.</p>"
+    "notes": "<p><strong>Staff (d6). 3 Gift Dice:</strong> Animate, Restoration, Disguise, Haste.</p><p>Campaign tie: Morwenna's agent supplied the necklaces to Embra, who chose the deception. Created Damon; commands only within a Stone's Throw. Outside that range the last command continues.</p><p>May feign alliance to discover the cave. A genuinely living target: a gem apple works if he is tricked into eating it. Carries the grimoire; WITS with disadvantage to read, failure Befuddles. Its recipe does not instantly create an ally.</p><p>Optional correspondence in the handout pack links him to Morwenna. Release only if actually recovered.</p>"
   },
   "prototypeToken": {
     "name": "Magus Ulrik",
@@ -54,5 +54,8 @@
       "src": "modules/pnp-end-game/art/tokens/magus_ulrik.png"
     }
   },
-  "_key": "!actors!9136786d7c1dd5d2"
+  "_key": "!actors!9136786d7c1dd5d2",
+  "ownership": {
+    "default": 0
+  }
 }

@@ -2,7 +2,7 @@
   "_id": "c28e8710bba69aaf",
   "name": "Gnome Village",
   "active": false,
-  "navigation": true,
+  "navigation": false,
   "background": {
     "src": "modules/pnp-end-game/art/scenes/gnome_village_scene.png"
   },
@@ -18,5 +18,8 @@
   "fog": {
     "exploration": false
   },
-  "_key": "!scenes!c28e8710bba69aaf"
+  "_key": "!scenes!c28e8710bba69aaf",
+  "ownership": {
+    "default": 0
+  }
 }

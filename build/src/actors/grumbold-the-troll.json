@@ -54,5 +54,8 @@
       "src": "modules/pnp-end-game/art/tokens/grumbold_troll.png"
     }
   },
-  "_key": "!actors!4f45ef14bfaf5f1f"
+  "_key": "!actors!4f45ef14bfaf5f1f",
+  "ownership": {
+    "default": 0
+  }
 }

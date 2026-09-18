@@ -41,7 +41,7 @@
     "save": {
       "value": "12"
     },
-    "notes": "<p>Amy's small, bright-eyed squirrel. Chatters angrily at scary parts of stories. Was tucked under her chin through the whole ordeal. The bravest member of the party and must not be harmed.</p>"
+    "notes": "<p>Amy's protective animal companion. Can pass the cave barrier, recognize Amy, describe observed knight movements, and guide toward landmarks. Amy may lend him to the party.</p><p>Not omniscient or mechanically invulnerable. Numerical values are campaign placeholders; treat as a companion rather than forcing combat.</p>"
   },
   "prototypeToken": {
     "name": "Scamp the Squirrel",
@@ -54,5 +54,8 @@
       "src": "modules/pnp-end-game/art/tokens/scamp_squirrel.png"
     }
   },
-  "_key": "!actors!0c1b326f39bb277d"
+  "_key": "!actors!0c1b326f39bb277d",
+  "ownership": {
+    "default": 0
+  }
 }

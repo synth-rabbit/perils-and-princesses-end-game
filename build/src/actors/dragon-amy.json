@@ -41,7 +41,7 @@
     "save": {
       "value": "16"
     },
-    "notes": "<p><strong>Bite (d12) / Claws (d8). Fire Breath:</strong> Nearby area, 10 damage or 5 on a successful GRACE test. <em>She does not want to fight.</em></p><p>Princess Amy of Drakenshire, trapped in the dragon Embra's body by swapped gnomish necklaces. Clumsy in the huge body; fiercely protective of Scamp the squirrel; speaks with a young girl's voice.</p><p>Her gift — <strong>Powerful Friendship</strong> — is the only force that can shatter the Barrier of Thorns. If she dies in this body, the barrier is permanent.</p>"
+    "notes": "<p><strong>One attack: Bite (d12) OR Claws (d8).</strong> Tests to evade her clumsy physical attacks have advantage. Fire breath: wide area Nearby, 10 damage / 5 on GRACE, once per Rest. She does not deliberately attack rescuers.</p><p>Amy is 22, trapped in Embra's medium-sized black dragon body. Existing portrait may differ. Scamp recognizes her. Begin with the separate Dragon Panic hazards in the GM journal, not normal breath.</p><p>Campaign tie: Amy's Powerful Friendship and Aurelius's light can open the thorn barrier. If she dies, the swap becomes permanent; a changed rescue or assault plan needs fresh prep, not an automatic end to the campaign.</p>"
   },
   "prototypeToken": {
     "name": "Dragon Amy",
@@ -54,5 +54,8 @@
       "src": "modules/pnp-end-game/art/tokens/dragon_amy.png"
     }
   },
-  "_key": "!actors!3cd12cf5cc6098bf"
+  "_key": "!actors!3cd12cf5cc6098bf",
+  "ownership": {
+    "default": 0
+  }
 }

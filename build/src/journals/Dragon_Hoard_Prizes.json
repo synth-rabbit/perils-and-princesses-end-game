@@ -1,0 +1,28 @@
+{
+  "_id": "434d99fb71f24857",
+  "name": "Dragon's Hoard Prizes",
+  "pages": [
+    {
+      "_key": "!journal.pages!434d99fb71f24857.22f965c2b2909ca5",
+      "_id": "22f965c2b2909ca5",
+      "name": "Dragon's Hoard Prizes",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>Dragon's Hoard Prizes</h1>\n<p>Roll d10</p>\n<table>\n<thead>\n<tr>\n<th>Roll</th>\n<th>Prize</th>\n<th>Description</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Small Bag of Raspberry Candy</td>\n<td>Four pieces of candy. Each instantly restores d4 HP.</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Granny Bachmann’s Miracle Elixir</td>\n<td>A disgusting mixture of herbs and vegetables that cures any one Ailment. Once taken, you reek like rotten garlic for 24 hours. Bottle has d4 uses.</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Friendship Bracelets</td>\n<td>A set of matching bracelets. You choose the colors! The wearers can send telepathic messages to each other.</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Superb Glue</td>\n<td>Holds anything in place and can only be unstuck through magical means. D6 uses.</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Toy Bubble Wand</td>\n<td>Shoots out a large stream of harmless bubbles. Works three times per day.</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Toy Sword Signed by Sir Finnian</td>\n<td>Useless for fighting but valuable to his fans.</td>\n</tr>\n<tr>\n<td>7</td>\n<td>Picnic Basket (1)</td>\n<td>When used to have a Picnic, restores d4 HP to one person partaking in the Picnic.</td>\n</tr>\n<tr>\n<td>8</td>\n<td>Stuffed Toy Animal</td>\n<td>Assorted animals (no dragons, of course). When clutching this stuffed toy, gain advantage on Virtue tests related to fear or disruption of sleep.</td>\n</tr>\n<tr>\n<td>9</td>\n<td>Gnomish Trick Whistle</td>\n<td>When blown, only those who the holder wants to can hear its piercing sound. Has a range of Over Yonder.</td>\n</tr>\n<tr>\n<td>10</td>\n<td>Artisan Perfume</td>\n<td>A small vial of fine perfume with a sweet and alluring scent. When worn, roll any GRACE tests to be charming with advantage for one hour (or until the scent is washed off). The scent from the perfume also attracts any insects and animals in the area. Vial has d4 uses.</td>\n</tr>\n</tbody>\n</table>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!434d99fb71f24857"
+}

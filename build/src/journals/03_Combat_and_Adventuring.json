@@ -1,0 +1,28 @@
+{
+  "_id": "d9add24ff569f7db",
+  "name": "Combat and Adventuring",
+  "pages": [
+    {
+      "_key": "!journal.pages!d9add24ff569f7db.3bff7b6e2d967524",
+      "_id": "3bff7b6e2d967524",
+      "name": "Combat and Adventuring",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>Combat and Adventuring</h1>\n<h2>Initiative</h2>\n<p>Test WITS. If successful, you act before the enemy. If failed, act after. Proceed in the same order every round. Rolling a 1 is critical, you may perform two Actions your first turn.</p>\n<h2>Fighting</h2>\n<p>On your turn you can:\n1. Move somewhere Nearby.\n2. Do one Action. You may also React once per round during anyone's turn (e.g. using a Gift ability or spending Heart Dice).</p>\n<h3>Attacking</h3>\n<ul>\n<li>\n<p>Test <strong>RESOLVE</strong> for At Hand attacks. </p>\n</li>\n<li>\n<p>Test <strong>GRACE</strong> for ranged attacks. </p>\n</li>\n<li>\n<p>If you succeed, roll damage dice. Rolling a 1 is critical; roll two damage dice and add them.</p>\n</li>\n</ul>\n<h3>Defending</h3>\n<ul>\n<li>\n<p>Test <strong>GRACE</strong> to avoid enemy attacks. </p>\n</li>\n<li>\n<p>Subtract Armor value from total damage. </p>\n</li>\n<li>\n<p>Rolling a 20 on defense is critical for the enemy; ignore your Armor value when taking damage.</p>\n</li>\n</ul>\n<h3>Antics</h3>\n<p>Grappling, tripping, shoving or other maneuvers of your invention during combat are resolved with a Virtue test of RESOLVE, GRACE, or WITS.</p>\n<h3>Reactions</h3>\n<p>Once per round you can React when it's not your turn. This is when you can spend your Heart Dice to help a friend's Virtue test. Some special abilities allow you to do unique things during a Reaction.</p>\n<h2>Recovering</h2>\n<ul>\n<li>\n<p><strong>Picnic:</strong> Short break once per day. Spend Time and consume one meal. Spend Heart Dice to recover HP. </p>\n</li>\n<li>\n<p><strong>Rest:</strong> 8-hour break in a safe place. Consume one meal. Restores all HP, HD and GD.</p>\n</li>\n</ul>\n<h2>Wrinkles</h2>\n<p>When the party Spends Time, the GM may roll to see if there's a Wrinkle (a complication, random encounter, or other setback). The dice rolled depends on how dangerous the location is. Wrinkles occur when a 1 is rolled. </p>\n<ul>\n<li>\n<p>Safe Haven: None </p>\n</li>\n<li>\n<p>Wild: d6 </p>\n</li>\n<li>\n<p>Unfamiliar: d8 </p>\n</li>\n<li>\n<p>Dangerous: d4</p>\n</li>\n</ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!d9add24ff569f7db"
+}
