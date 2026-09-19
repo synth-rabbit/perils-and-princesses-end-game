@@ -1,0 +1,25 @@
+{
+  "_id": "ddf03d3eb3d02e4c",
+  "name": "Scorchwoods — The Road Beyond",
+  "active": false,
+  "navigation": false,
+  "background": {
+    "src": "modules/pnp-end-game/art/scenes/scorchwoods_conclusion_scene.png"
+  },
+  "width": 1672,
+  "height": 941,
+  "padding": 0,
+  "backgroundColor": "#000000",
+  "grid": {
+    "type": 0,
+    "size": 100
+  },
+  "tokenVision": false,
+  "fog": {
+    "exploration": false
+  },
+  "_key": "!scenes!ddf03d3eb3d02e4c",
+  "ownership": {
+    "default": 0
+  }
+}

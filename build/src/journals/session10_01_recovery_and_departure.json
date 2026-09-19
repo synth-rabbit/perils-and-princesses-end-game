@@ -1,0 +1,28 @@
+{
+  "_id": "314e707f604137fe",
+  "name": "Session 10 Scene 1: Recovery and Departure",
+  "pages": [
+    {
+      "_key": "!journal.pages!314e707f604137fe.e028e1d56526f7ff",
+      "_id": "e028e1d56526f7ff",
+      "name": "Session 10 Scene 1: Recovery and Departure",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>Session 10 Scene 1: Recovery and Departure</h1>\n<blockquote>\n<p><strong>Session hub:</strong> @UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.259d736156c0e268]{session10 prep} · <strong>Assets:</strong> @UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.0da13e7285047afe]{session10 asset checklist}\n<strong>Run from this note:</strong> narration, dialogue and routine scene rulings are included below. Reference links are optional background.\n<strong>Table time:</strong> 15 min · <strong>Optional reference:</strong> @UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.229394898ce8db16]{princess and dragon runbook}</p>\n</blockquote>\n<h2>Run the scene</h2>\n<p><strong>Foundry scene:</strong> <strong>Brokenhill Silver Mine</strong>.</p>\n<blockquote>\n<p><em>For the first time since you entered Brokenhill Mine, the air smells of cold stone instead of sickness. Tawny's new silver claws catch the morning light. Grumbold takes one enormous, sneeze-free breath. Beyond the trees, one patch of corruption still clings to the forest: the pond.</em></p>\n</blockquote>\n<p><strong>Direction:</strong> Welcome them back with their victory, then let each player describe one recovery action. Resolve the safe Rest before another dangerous encounter. Do not replay the mine or retrospectively manufacture a reward scene. Filly's enthusiasm for future animal forms and Vega's elementals are level-4 hopes; they remain level 3.</p>\n<p>If the players want to revisit old NPCs, let that happen briefly. Do not assume Marigold's mysterious whisper has been explained by this adventure. The “blue butterfly place” is <strong>Enchanted Realm location 11</strong>, not the later Wish Fish pool.</p>\n<h2>Narration, conversations and player choices</h2>\n<h3>Settle the recovery before departure</h3>\n<p><strong>GM:</strong> Ask each player to check their live sheet. Filly was reported at 0 HP and “doubly befuddled”; Marigold's final wound was not recorded. Resolve stabilization and persistent wound effects before treating an eight-hour safe Rest as completed. A Rest restores HP, Heart Dice and Gift Dice; a Picnic spends Heart Dice and does not refresh them. The hunt has not started.</p>\n<p><strong>Say to the players:</strong> “Before we leave the mine, let's settle your recovery. What does each of you do to help the others through the night?” Let their answers supply the details; do not narrate that injuries vanished before checking them.</p>\n<p><strong>Grumbold — slow, delighted, occasionally testing his own nose:</strong></p>\n<blockquote>\n<p>“I slept. A whole sleep. Without waking up inside a sneeze.”</p>\n</blockquote>\n<p>If they mention their broken equipment:</p>\n<blockquote>\n<p>“Rotten stuff, that slime. But it didn't get the silver, did it? There's a lesson there. An expensive lesson.”</p>\n</blockquote>\n<p>If they ask what is next:</p>\n<blockquote>\n<p>“You said there was water still worth saving. Go on, then. I've got breathing to catch up on.”</p>\n</blockquote>\n<p><strong>Inventory in one pass:</strong> Vega has Vein-Breaker and a silver punching glove, Filly a silver spike, Tawny silver claws. Their three raw silver chunks are spent. Remove Filly's hatchet and Vega's cutlass/spyglass. Each PC received a Stone Strength potion and goggles. Ask who holds the reported 76 SP; do not choose an allocation for them. Keep other unconfirmed mine treasure unawarded.</p>\n<h3>Narrate the road to the pond</h3>\n<blockquote>\n<p><em>Behind you, the mine settles into ordinary darkness. Ahead, the woodland is beginning to remember its colors. A green shoot pushes through a blackened leaf. A butterfly lands on Tawny's nose, decides against it, and flutters toward the sound of water.</em></p>\n</blockquote>\n<p><strong>Prompt:</strong> “Who takes the lead, and what is the first sign of the forest recovering that your character notices?” A short answer each is enough. If they want another stop, respect it; this transition adds no compulsory encounter.</p>\n<h2>Scene assets and setup</h2>\n<ul>\n<li>\n<p>@UUID[Compendium.pnp-end-game.pnp-endgame-items.Item.d9a738b4d9f4c14a]{Vein Breaker}; existing PC and Tawny tokens; current character sheets.</p>\n</li>\n<li>\n<p>Art reference: <a href=\"modules/pnp-end-game/art/tokens/grumbold_troll.png\">npcs/assets/grumbold troll.png</a>. Reuse the existing asset; no duplicate image file is needed here.</p>\n</li>\n<li>\n<p>Import module scenes/actors only if not already in the world. A portrait file does not establish token setup.</p>\n</li>\n<li>\n<p>Keep GM notes, puzzle answers and unrevealed identities private. Reveal only the relevant player handout text.</p>\n</li>\n</ul>\n<h2>Leaving the scene</h2>\n<p>Continue to @UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.414c1654d021ea44]{session10 02 pond pranks and riddle}. Record actual choices, spent resources and discoveries. Once the hunt has begun, carry its tracker forward without resetting it between scenes.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!314e707f604137fe"
+}

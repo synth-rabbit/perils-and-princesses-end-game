@@ -420,6 +420,8 @@ for _it in ITEMS:
         _it["img"] = _ICON_OVERRIDES[_it["name"]]
 
 SCENES = [
+    scene("Stump Entrance", "scenes/stump_entrance_scene.png"),
+    scene("Scorchwoods — The Road Beyond", "scenes/scorchwoods_conclusion_scene.png"),
     scene("The Scorchwoods (Overworld)", "maps/scorchwoods_map.jpg"),
     scene("Brokenhill Silver Mine", "maps/brokenhill_mine.jpg"),
     scene("Dragon Cave Lair", "scenes/scorchwoods_dragon_cave_scene.png"),

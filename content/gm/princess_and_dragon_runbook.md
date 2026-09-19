@@ -18,7 +18,7 @@ Run the book's rescue, competing knights, gnome bargain, and ten locations. The 
 | Subject | Rule for this run | Source / reason |
 |---|---|---|
 | Amy | Age 22; kind, optimistic, naive; level-1 Powerful Friendship as a human | Book pp. 8, 44. The session 9 draft's child portrayal is superseded. |
-| Embra's body | Medium-sized black dragon; Amy controls it clumsily | Book p. 6. Existing red art is an illustration mismatch, not a new rule. |
+| Embra's body | Medium-sized black dragon; Amy controls it clumsily | Book p. 6. Shared portrait now depicts a larger-looking black dragon; artwork does not change the combat profile. |
 | Rescue hook | Aurelius's vision, nightmare, Daisy's message, and blessed Silver Rose Pins replace the Fairy Godmother briefing | Existing campaign connection; session 10 gives only the actionable briefing. |
 | Necklace key | **Original intact and carried by Princess Embra.** Pippin can make a replacement. | Book pp. 5, 14. Disregard the destroyed-key claim in old prep/module text. |
 | Navigation | The Amy-pointing compass lets this party navigate without the knights' usual confusion | Book p. 25. No compulsory navigation test at every move. |
@@ -82,6 +82,8 @@ Once calm, let Amy explain in her own words:
 
 ## 4. Travel and the hunt — book pp. 10–11, 25
 
+**Foundry scene:** **The Scorchwoods (Overworld)** is the GM travel reference. Inspect/crop secret routes before sharing. The exact module scene for each destination appears under its location card below; import scenes from **End Game Scenes** first.
+
 Use the detailed sheet in [[princess_and_dragon_tracker]]. These procedures continue across sessions; an out-of-game session ending does not advance the tracker.
 
 1. Name destination, route, purpose, and companions. Use the existing Scorchwoods map; do not invent compulsory detours.
@@ -142,6 +144,8 @@ Run descriptions and keyed detail from the linked location files. The following 
 
 ### 1. Cave — printed pp. 26–28
 
+**Foundry scene:** **Dragon Cave Lair**. Use for the opening and return/rescue scenes; add a simple tunnel/barrier/hoard sketch if tactical positions matter.
+
 🔗 [[01_Cave]]. Start with Dragon Panic in section 3. Return here for the rescue finale.
 
 - **Choice:** protect Amy, investigate the necklace, inspect treasure, or find a route out. The front barrier stops the dragon body; it does not stop the other PCs, humans, or Scamp.
@@ -151,6 +155,8 @@ Run descriptions and keyed detail from the linked location files. The following 
 - **Campaign clue:** a thorn sigil matches the nightmare; it suggests Morwenna's involvement. Ulrik's correspondence provides the stronger documentary link. The sigil adds no new immunity.
 
 ### 2. Boneyard — printed p. 29
+
+**Foundry scene:** **The Boneyard**.
 
 🔗 [[02_Boneyard]] · [[Crystal_Wolf]]
 
@@ -163,6 +169,8 @@ Run descriptions and keyed detail from the linked location files. The following 
 
 ### 3. Stump — printed p. 30
 
+**Foundry scene:** no dedicated stump scene in module 0.5.0. Create a simple world scene named **Stump Entrance**, with the five colored knotholes and four statue positions; keep the correct sequence GM-only.
+
 🔗 [[03_Stump]] · [[Gnomish_Warrior_Statue]]
 
 > *Four small stone warriors watch a broad stump. Tiny feet have worn a path through the grass. Five knotholes catch the light in different colors.*
@@ -174,6 +182,8 @@ Run descriptions and keyed detail from the linked location files. The following 
 - Check Tawny's route rather than assuming a lioness fits every gnome passage. Leaving her outside or negotiating help is a logistical choice, not an automatic separation ambush.
 
 ### 4. Gnomes — printed pp. 31–33
+
+**Foundry scene:** **Gnome Village**.
 
 🔗 [[04_Gnomes]] · [[Pippin_Cobbleton]] · [[Tifa]] · [[Gnomish_Shops]] · [[Gnome_Names]]
 
@@ -189,6 +199,8 @@ Run descriptions and keyed detail from the linked location files. The following 
 
 ### 5. Pool — printed pp. 34–35
 
+**Foundry scene:** **Enchanted Pool**. This is the Wish Fish location, distinct from the Pristine Pond used at the start of session 10.
+
 🔗 [[05_Pool]] · [[Wish_Fish_Quests]]
 
 > *You lower a cup toward the shining water. The whole surface leans away. A golden fish rises beneath it, looking delighted with himself. “Oh, were you trying to get something?”*
@@ -201,6 +213,8 @@ Run descriptions and keyed detail from the linked location files. The following 
 
 ### 6. Flowers — printed p. 35
 
+**Foundry scene:** **Snapdragon Field**.
+
 🔗 [[06_Flowers]] · [[Snapdragon_Jokes]]
 
 > *Yellow flowers turn toward you. One whispers to its neighbor, “Wait for it.” The field begins to giggle.*
@@ -211,6 +225,8 @@ Run descriptions and keyed detail from the linked location files. The following 
 - Table pacing: a quick comic obstacle, not a compulsory hour of real-time roleplay.
 
 ### 7. Orchard — printed p. 37
+
+**Foundry scene:** **Crystal Orchard**.
 
 🔗 [[07_Orchard]] · [[Hesperia]]
 
@@ -224,6 +240,8 @@ Run descriptions and keyed detail from the linked location files. The following 
 
 ### 8. Stones — printed p. 38
 
+**Foundry scene:** **Stones of Remembrance**. Use the backdrop for the illusion; no mandatory Wight token or fight.
+
 🔗 [[08_Stones]]
 
 > *The birds stop singing. Between scorched standing stones, voices whisper orders to soldiers who are no longer there. Beneath it all is one exhausted thought: “We failed.”*
@@ -236,6 +254,8 @@ Run descriptions and keyed detail from the linked location files. The following 
 
 ### 9. Cottage — printed p. 40
 
+**Foundry scene:** **Abandoned Cottage**. Reveal the cottage handouts separately as the papers are examined.
+
 🔗 [[09_Cottage]] · [[princess_and_dragon_handouts]]
 
 > *Rain has softened the papers beneath a broken roof. Sketches of dragons cover the walls. One bundle of notes is tied shut so tightly the string has cut the paper.*
@@ -246,6 +266,8 @@ Run descriptions and keyed detail from the linked location files. The following 
 - This is not confirmation that Marigold's old southern whisper was Dain. That unresolved campaign thread stays unresolved unless deliberately developed later.
 
 ### 10. Camp — printed p. 41
+
+**Foundry scene:** **Knight Camp**. Populate with the party or parties actually present.
 
 🔗 [[10_Camp]] · [[Whisper_Table]]
 
@@ -291,3 +313,9 @@ Useful stopping points: calm Amy and choose a plan; earn an alliance or learn th
 **Level advancement:** do not silently level the PCs during prep. They remain level 3 until awarded advancement in play. The pond completion is a sensible GM checkpoint under [[05_Character_Building]], but no advancement is assumed here. Track animals seen for Filly; verify the Night Market pet and any new abilities against sheets before using them.
 
 **Next prep needs:** [[session10_asset_checklist]] is the single asset and future module handoff for this packet. The module is intentionally unchanged.
+
+## Full scene scripts and map confirmation — 2026-09-19
+
+All remaining rescue locations and endings now have standalone narration, dialogue, choices, rules and setup in [[session10_prep]]. Use [[session10_15_laughing_flowers]], [[session10_16_crystal_orchard]], [[session10_17_stones_of_remembrance]], [[session10_18_archivist_cottage]], [[session10_19_rescue_finale]], and [[session10_20_conclusion]] when reached. These are prepared possibilities, not played events. Unvisited notes can move to later session folders.
+
+The GM already has Dragon’s Cave, Boneyard, Knight Camp and Gnome Village maps. Use those; no replacement maps are needed. A new stump illustration is available at [[locations/The_Scorchwoods/assets/stump_entrance_scene.png]], superseding earlier suggestions to create its backdrop. See [[session10_asset_checklist]] for current asset status.

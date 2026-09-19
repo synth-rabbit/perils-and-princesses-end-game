@@ -1,0 +1,25 @@
+{
+  "_id": "5df61924fb383418",
+  "name": "Stump Entrance",
+  "active": false,
+  "navigation": false,
+  "background": {
+    "src": "modules/pnp-end-game/art/scenes/stump_entrance_scene.png"
+  },
+  "width": 1672,
+  "height": 940,
+  "padding": 0,
+  "backgroundColor": "#000000",
+  "grid": {
+    "type": 0,
+    "size": 100
+  },
+  "tokenVision": false,
+  "fog": {
+    "exploration": false
+  },
+  "_key": "!scenes!5df61924fb383418",
+  "ownership": {
+    "default": 0
+  }
+}

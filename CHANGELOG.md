@@ -1,5 +1,13 @@
 # Release notes
 
+## 0.6.0 — 2026-09-19
+
+Adds all 20 standalone session 10 scene scripts, including remaining Scorchwoods locations, rescue finale and outcome-sensitive conclusion. Refreshed GM hub, runbook and asset guidance preserve the adventure as unplayed.
+
+Refreshes five Scorchwoods backdrops (the Wish Fish is prominent in the Enchanted Pool), adds Stump Entrance and Scorchwoods — The Road Beyond scenes, and updates the larger text-free dragon and single gnome statue portraits/tokens. Existing document IDs remain stable. Totals: 42 actors, 44 items, 16 scenes, 48 GM journals, 9 handouts.
+
+The GM already has Dragon’s Cave, Boneyard, Knight Camp, Gnome Village and Pristine Pond maps/scenes. This supersedes the old missing-map guidance below; no replacement is needed. Import only desired module scenes or use the art on existing scenes. All packs remain private by default. Updating the module does not replace imported world documents or PC sheets.
+
 ## 0.5.0 — 2026-09-18
 
 Session 10 and the complete Princess and the Dragon rescue are now available as a private GM journal pack, with nine separately releasable player handouts. Includes a reusable hunt tracker, reference tables and rules, pond encounter, campaign ties, and optional faire reserve. No planned scene is marked as played.

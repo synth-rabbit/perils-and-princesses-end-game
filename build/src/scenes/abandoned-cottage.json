@@ -6,8 +6,8 @@
   "background": {
     "src": "modules/pnp-end-game/art/scenes/abandoned_cottage_scene.png"
   },
-  "width": 1024,
-  "height": 1024,
+  "width": 1672,
+  "height": 941,
   "padding": 0,
   "backgroundColor": "#000000",
   "grid": {
