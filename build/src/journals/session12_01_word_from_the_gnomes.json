@@ -1,0 +1,28 @@
+{
+  "_id": "067a3b26a7945594",
+  "name": "Session 12 Scene 1: Word from the Gnomes",
+  "pages": [
+    {
+      "_key": "!journal.pages!067a3b26a7945594.360166a3d2e27e5a",
+      "_id": "360166a3d2e27e5a",
+      "name": "Session 12 Scene 1: Word from the Gnomes",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>Session 12 Scene 1: Word from the Gnomes</h1>\n<blockquote>\n<p><strong>Hub:</strong> @UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.13d197135b66ddb3]{session12 prep} · <strong>Assets:</strong> @UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.7c942240b293606f]{session12 asset checklist}\n<strong>Table time:</strong> 15 min · <strong>Foundry:</strong> your existing <strong>Knight Camp</strong> map, populated before play</p>\n</blockquote>\n<h2>Entry</h2>\n<p>Open exactly where session 11 stopped: Filly, Vega and Tawny at the edge of the knight camp, the compass needle quivering at the best tent in it.</p>\n<blockquote>\n<p><em>The compass has stopped swinging. It points across the trampled grass, past a cook-fire and a line of tethered mules, at a polished carriage with a griffon painted on the door. Eight guards in Drakenshire blue stand round it. You are still deciding what to do about that when something tugs your bootlace.</em></p>\n</blockquote>\n<h2>Pippin keeps a promise</h2>\n<p>A gnome courier, out of breath, with a folded note twice her height. Pippin said he would research the necklaces. He has.</p>\n<blockquote>\n<p><strong>Read aloud: Pippin's note</strong></p>\n<p><em>Customers,</em>\n<em>Looked it up as promised. Two wearers, two necklaces, one lock. Three things you should know before you do anything hasty, and I gather you are the hasty sort.</em>\n<em>1. The key only turns when BOTH wearers are Nearby each other. Bring them together first.</em>\n<em>2. BOTH must be alive. If one dies wearing hers, the other stays as she is for good. So whatever you were planning to do to the young lady in the carriage, don't, not yet.</em>\n<em>3. Once it's undone, each is exactly who she was, where the other was standing.</em>\n<em>No charge for this one. P. Cobbleton.</em>\n<em>P.S. Fifty silver was a fair price and you know it.</em></p>\n</blockquote>\n<p><strong>Direction:</strong> this is the one fact the players must have before the fight. They said last session that they mean to kill the dragon; the dragon is currently wearing Amy's body. <strong>If Embra dies in the camp, Amy is a dragon forever</strong> and the Barrier never breaks. Say it plainly if the note does not land: <em>take her alive, take her to the cave.</em></p>\n<h2>Marigold rides in</h2>\n<p>⭐ <strong>Marigold spotlight.</strong> She has been at the cave with Amy.</p>\n<blockquote>\n<p><em>A squirrel comes down the nearest pine head-first, chattering. Behind him, somewhat scratched and carrying a staff, is Marigold.</em></p>\n</blockquote>\n<p><strong>Scamp</strong> fetched her: the pins went warm, and Amy sent them both. She brings three things:</p>\n<ul>\n<li>\n<p><strong>Amy's message:</strong> \"Tell them I'm not scared. Tell them I'm a bit scared.\"</p>\n</li>\n<li>\n<p><strong>News:</strong> the cave's force field came back after Lady Michelle left. Amy is safe behind it, and stuck behind it.</p>\n</li>\n<li>\n<p><strong>Scamp himself</strong>, who is evidence: he will run <em>from</em> the carriage, not to it.</p>\n</li>\n</ul>\n<p>Give Filly and Vega's players two minutes to catch Marigold up in character: the cure, the compass, Sir Raphael, the plan to keep what they stole.</p>\n<h2>What they can see from here</h2>\n<ul>\n<li>\n<p><strong>The carriage:</strong> \"Princess Amy\" inside (Embra), three attendants fussing.</p>\n</li>\n<li>\n<p><strong>Sir Finnian the Magnificent</strong>, gleaming, practising a speech. His squire <strong>Robin</strong> holds the mirror.</p>\n</li>\n<li>\n<p><strong>Eight royal guards:</strong> four round the carriage, four at dice by the fire.</p>\n</li>\n<li>\n<p><strong>A black tent</strong> at the far edge, flaps tied shut, no guard. (Damon and Ulrik's. They left in the night; see scene 4.)</p>\n</li>\n<li>\n<p><strong>No other captains.</strong> Stella's party is out hunting. Raphael's, if the players look, is camped apart, tuning up.</p>\n</li>\n</ul>\n<h2>Choices</h2>\n<table>\n<thead>\n<tr>\n<th>They want to</th>\n<th>Go to</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Walk in and talk</td>\n<td>Scene 2</td>\n</tr>\n<tr>\n<td>Sneak to the carriage</td>\n<td>Scene 2, starting at \"Getting close\", with GRACE tests; the Dewdrop Elixir gets one hero there unseen</td>\n</tr>\n<tr>\n<td>Start the fight</td>\n<td>Scene 3, with surprise: the four guards at dice do not act in round one</td>\n</tr>\n<tr>\n<td>Fetch Raphael first</td>\n<td>Two minutes of lute. He agrees to \"stand somewhere visible and look disappointed in everyone.\" He arrives in round 3 of scene 3</td>\n</tr>\n</tbody>\n</table>\n<h2>Scene assets</h2>\n<ul>\n<li>\n<p>Background: your <strong>Knight Camp</strong> map. Tokens: carriage marker, Finnian, Robin, 8 guards, 3 attendants (markers), Embra labelled <strong>Princess Amy</strong>, a black tent marker.</p>\n</li>\n<li>\n<p>Pippin's note is read aloud; no handout image.</p>\n</li>\n<li>\n<p>Scamp token with Marigold.</p>\n</li>\n</ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!067a3b26a7945594"
+}

@@ -1,5 +1,17 @@
 # Release notes
 
+## 0.7.0 — 2026-10-06
+
+**Rosehold, Queen Morwenna's castle, as a six-level dungeon crawl.** Six new scenes (Thornwall, Outer Ward, Hall of the Rose, Undercroft, Galleries, Frozen Spire) on painted maps, each with a square grid, walls, doors (including locked and secret ones), ambient lights, fog exploration and GM-only room labels. Maps ship as WebP (about 12 MB for all six); full-size PNG sources are kept out of the release in `build/art_sources/`.
+
+Wall and door positions were measured by eye from the paintings and have **not been tested in a live Foundry world**. Expect to nudge a few. Geometry lives in `tools/rosehold_scenes.py`. Token vision is on in these scenes: player tokens need vision enabled. Three things are placed that the paintings do not show: the Barracks door (B5), the postern and Armory secret doors (Level 1). The Barrier of Thorns breach, the keep's Oath Door, the thorn-sealed Well door, the Vault door, the cell fronts and the Rose Window start locked.
+
+**Queen Morwenna is much harder** by GM ruling: HP 30, Armor 1, two actions a round, protected by Vow Pillars; Morwenna, Frost-Crowned is HP 45 to 65, SAVE 16, Armor 2. New **Vow Pillar** actor (no art yet). The Wight now matches the core book (one attack, Bind and Fog).
+
+New GM journals: castle runbook and tracker, the castle overview and six level notes (with keyed GM plans), the four founders, Ally Calls, castle wrinkles, whispers and treasures, and session 12 (hub, checklist, seven scenes). Totals: 43 actors, 44 items, 22 scenes.
+
+Existing document IDs are unchanged. Updating the module does not replace documents already imported into a world.
+
 ## 0.6.0 — 2026-09-19
 
 Adds all 20 standalone session 10 scene scripts, including remaining Scorchwoods locations, rescue finale and outcome-sensitive conclusion. Refreshed GM hub, runbook and asset guidance preserve the adventure as unplayed.

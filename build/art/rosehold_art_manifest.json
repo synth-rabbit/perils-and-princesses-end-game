@@ -1,0 +1,82 @@
+[
+  {
+    "file": "build/art/portraits/vow_pillar.png",
+    "status": "skipped",
+    "note": "Already exists from prior run; earlier painterly style does not match revised cute cartoon brief. Preserved per no-overwrite instruction."
+  },
+  {
+    "file": "build/art/portraits/thornsworn_guard.png",
+    "status": "created",
+    "note": "Collar thorn rendered as a star-shaped brooch; halberd has little top margin."
+  },
+  {
+    "file": "build/art/portraits/thornsworn_sergeant.png",
+    "status": "created",
+    "note": ""
+  },
+  {
+    "file": "build/art/portraits/ice_gargoyle.png",
+    "status": "created",
+    "note": ""
+  },
+  {
+    "file": "build/art/portraits/glass_raven.png",
+    "status": "created",
+    "note": ""
+  },
+  {
+    "file": "build/art/portraits/mudling.png",
+    "status": "created",
+    "note": ""
+  },
+  {
+    "file": "build/art/portraits/young_morwenna.png",
+    "status": "created",
+    "note": ""
+  },
+  {
+    "file": "build/art/portraits/echo_hilde.png",
+    "status": "created",
+    "note": ""
+  },
+  {
+    "file": "build/art/portraits/echo_aethelgard.png",
+    "status": "created",
+    "note": ""
+  },
+  {
+    "file": "build/art/portraits/echo_lirael.png",
+    "status": "created",
+    "note": ""
+  },
+  {
+    "file": "build/art/portraits/echo_wren.png",
+    "status": "created",
+    "note": ""
+  },
+  {
+    "file": "build/art/portraits/mortar_troll_jailer.png",
+    "status": "created",
+    "note": ""
+  },
+  {
+    "file": "build/art/portraits/skillet_goblin_cook.png",
+    "status": "created",
+    "note": ""
+  },
+  {
+    "file": "build/art/portraits/bramble_wolfhound.png",
+    "status": "created",
+    "note": ""
+  },
+  {
+    "file": "build/art/portraits/lady_vespera_prisoner.png",
+    "status": "created",
+    "note": ""
+  },
+  {
+    "file": "build/art/portraits/the_ghoul_guard.png",
+    "status": "created",
+    "note": ""
+  }
+]

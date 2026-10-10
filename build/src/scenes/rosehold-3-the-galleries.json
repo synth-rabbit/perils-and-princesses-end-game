@@ -1,0 +1,1781 @@
+{
+  "_id": "d56d0afa791a72b8",
+  "name": "Rosehold 3 — The Galleries",
+  "active": false,
+  "navigation": false,
+  "background": {
+    "src": "modules/pnp-end-game/art/maps/map_rosehold_3_galleries.webp"
+  },
+  "width": 6144,
+  "height": 4096,
+  "padding": 0,
+  "backgroundColor": "#000000",
+  "grid": {
+    "type": 1,
+    "size": 128,
+    "distance": 5,
+    "units": "ft"
+  },
+  "tokenVision": true,
+  "fog": {
+    "exploration": true
+  },
+  "environment": {
+    "darknessLevel": 0.2,
+    "globalLight": {
+      "enabled": true,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    }
+  },
+  "walls": [
+    {
+      "_id": "fc76f80bf2f737ec",
+      "c": [
+        2148,
+        568,
+        2148,
+        792
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 2,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.fc76f80bf2f737ec"
+    },
+    {
+      "_id": "47707cd0eccc4424",
+      "c": [
+        1248,
+        1300,
+        1488,
+        1300
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 1,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.47707cd0eccc4424"
+    },
+    {
+      "_id": "26be082cdfa8c68a",
+      "c": [
+        2968,
+        1300,
+        3200,
+        1300
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 1,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.26be082cdfa8c68a"
+    },
+    {
+      "_id": "95f0cb1a8ea71e25",
+      "c": [
+        2148,
+        1840,
+        2148,
+        2072
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 1,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.95f0cb1a8ea71e25"
+    },
+    {
+      "_id": "4c2266d80adf4e62",
+      "c": [
+        4020,
+        1712,
+        4020,
+        1944
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 1,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.4c2266d80adf4e62"
+    },
+    {
+      "_id": "076afc6bb1fc48b3",
+      "c": [
+        2960,
+        2712,
+        3200,
+        2712
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 1,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.076afc6bb1fc48b3"
+    },
+    {
+      "_id": "449ead007cb43b69",
+      "c": [
+        2148,
+        3000,
+        2148,
+        3232
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 1,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.449ead007cb43b69"
+    },
+    {
+      "_id": "de1569232f4da7d3",
+      "c": [
+        4020,
+        3000,
+        4020,
+        3232
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 1,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.de1569232f4da7d3"
+    },
+    {
+      "_id": "19d9a3d93f25ecfc",
+      "c": [
+        572,
+        168,
+        2148,
+        168
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.19d9a3d93f25ecfc"
+    },
+    {
+      "_id": "d61ce6ab38aff112",
+      "c": [
+        2308,
+        168,
+        3864,
+        168
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.d61ce6ab38aff112"
+    },
+    {
+      "_id": "3bd6e7438b8c3b9b",
+      "c": [
+        4020,
+        168,
+        5588,
+        168
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.3bd6e7438b8c3b9b"
+    },
+    {
+      "_id": "622c16c6b2236225",
+      "c": [
+        572,
+        1300,
+        1248,
+        1300
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.622c16c6b2236225"
+    },
+    {
+      "_id": "6fdf9d597850939d",
+      "c": [
+        1488,
+        1300,
+        2148,
+        1300
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.6fdf9d597850939d"
+    },
+    {
+      "_id": "d8133a9052dc2d80",
+      "c": [
+        2308,
+        1300,
+        2968,
+        1300
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.d8133a9052dc2d80"
+    },
+    {
+      "_id": "f9f0d1ad90ef4cbe",
+      "c": [
+        3200,
+        1300,
+        3864,
+        1300
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.f9f0d1ad90ef4cbe"
+    },
+    {
+      "_id": "2f00ffd0ab9b482f",
+      "c": [
+        4020,
+        2048,
+        5588,
+        2048
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.2f00ffd0ab9b482f"
+    },
+    {
+      "_id": "d7861a8970e3b934",
+      "c": [
+        572,
+        1460,
+        1248,
+        1460
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.d7861a8970e3b934"
+    },
+    {
+      "_id": "764d0d7c93f155d5",
+      "c": [
+        1488,
+        1460,
+        2148,
+        1460
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.764d0d7c93f155d5"
+    },
+    {
+      "_id": "d98c2aa3d79d2056",
+      "c": [
+        2308,
+        1460,
+        2968,
+        1460
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.d98c2aa3d79d2056"
+    },
+    {
+      "_id": "b6b985e4dda25524",
+      "c": [
+        3200,
+        1460,
+        3864,
+        1460
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.b6b985e4dda25524"
+    },
+    {
+      "_id": "8404420f4867f122",
+      "c": [
+        572,
+        3740,
+        2148,
+        3740
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.8404420f4867f122"
+    },
+    {
+      "_id": "4febd7e2e0a08d4e",
+      "c": [
+        2308,
+        3740,
+        3864,
+        3740
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.4febd7e2e0a08d4e"
+    },
+    {
+      "_id": "51aba5401fda1c55",
+      "c": [
+        4020,
+        3740,
+        5588,
+        3740
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.51aba5401fda1c55"
+    },
+    {
+      "_id": "59b55d134c7370fb",
+      "c": [
+        2308,
+        2712,
+        2960,
+        2712
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.59b55d134c7370fb"
+    },
+    {
+      "_id": "5b4973bf6121eafd",
+      "c": [
+        3200,
+        2712,
+        3864,
+        2712
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.5b4973bf6121eafd"
+    },
+    {
+      "_id": "9c0a5a431b7badba",
+      "c": [
+        4020,
+        2220,
+        5588,
+        2220
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.9c0a5a431b7badba"
+    },
+    {
+      "_id": "8cf1e7ab484dffd8",
+      "c": [
+        2148,
+        568,
+        2308,
+        568
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.8cf1e7ab484dffd8"
+    },
+    {
+      "_id": "e29fc660f361625b",
+      "c": [
+        2148,
+        792,
+        2308,
+        792
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.e29fc660f361625b"
+    },
+    {
+      "_id": "32ca760367c84b54",
+      "c": [
+        2148,
+        1840,
+        2308,
+        1840
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.32ca760367c84b54"
+    },
+    {
+      "_id": "1f6be2a4c13ccd3f",
+      "c": [
+        2148,
+        2072,
+        2308,
+        2072
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.1f6be2a4c13ccd3f"
+    },
+    {
+      "_id": "71b9ae63ef76152b",
+      "c": [
+        3864,
+        1712,
+        4020,
+        1712
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.71b9ae63ef76152b"
+    },
+    {
+      "_id": "86c9059f7425801b",
+      "c": [
+        3864,
+        1944,
+        4020,
+        1944
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.86c9059f7425801b"
+    },
+    {
+      "_id": "2a6dd41b3584b552",
+      "c": [
+        2148,
+        3000,
+        2308,
+        3000
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.2a6dd41b3584b552"
+    },
+    {
+      "_id": "3d25e3e7740cc5a8",
+      "c": [
+        3864,
+        3000,
+        4020,
+        3000
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.3d25e3e7740cc5a8"
+    },
+    {
+      "_id": "4d0004071fcee276",
+      "c": [
+        2148,
+        3232,
+        2308,
+        3232
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.4d0004071fcee276"
+    },
+    {
+      "_id": "8f9e73a78d0a639f",
+      "c": [
+        3864,
+        3232,
+        4020,
+        3232
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.8f9e73a78d0a639f"
+    },
+    {
+      "_id": "80ba1bf9a7da03d2",
+      "c": [
+        572,
+        168,
+        572,
+        1300
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.80ba1bf9a7da03d2"
+    },
+    {
+      "_id": "3e2523a1c6daa105",
+      "c": [
+        572,
+        1460,
+        572,
+        3740
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.3e2523a1c6daa105"
+    },
+    {
+      "_id": "ae3d1ae680eb7897",
+      "c": [
+        2148,
+        168,
+        2148,
+        568
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.ae3d1ae680eb7897"
+    },
+    {
+      "_id": "23d9181f435eb189",
+      "c": [
+        2148,
+        792,
+        2148,
+        1300
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.23d9181f435eb189"
+    },
+    {
+      "_id": "1062bfeb2baa13f2",
+      "c": [
+        2148,
+        1460,
+        2148,
+        1840
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.1062bfeb2baa13f2"
+    },
+    {
+      "_id": "5da2e07a2023fd0e",
+      "c": [
+        2148,
+        2072,
+        2148,
+        3000
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.5da2e07a2023fd0e"
+    },
+    {
+      "_id": "2afa1c0bc182ea62",
+      "c": [
+        2148,
+        3232,
+        2148,
+        3740
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.2afa1c0bc182ea62"
+    },
+    {
+      "_id": "20542b460b4620a6",
+      "c": [
+        2308,
+        168,
+        2308,
+        568
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.20542b460b4620a6"
+    },
+    {
+      "_id": "dcb803d969510a3b",
+      "c": [
+        2308,
+        792,
+        2308,
+        1300
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.dcb803d969510a3b"
+    },
+    {
+      "_id": "b627fa9fbb734f9b",
+      "c": [
+        2308,
+        1460,
+        2308,
+        1840
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.b627fa9fbb734f9b"
+    },
+    {
+      "_id": "b4ff317a62788135",
+      "c": [
+        2308,
+        2072,
+        2308,
+        3000
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.b4ff317a62788135"
+    },
+    {
+      "_id": "605fef04dd0394a5",
+      "c": [
+        2308,
+        3232,
+        2308,
+        3740
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.605fef04dd0394a5"
+    },
+    {
+      "_id": "08b09a88dc8f4e4a",
+      "c": [
+        3864,
+        168,
+        3864,
+        1300
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.08b09a88dc8f4e4a"
+    },
+    {
+      "_id": "a7521eeb7d4db10e",
+      "c": [
+        3864,
+        1460,
+        3864,
+        1712
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.a7521eeb7d4db10e"
+    },
+    {
+      "_id": "3ccbd92d73f5dfe4",
+      "c": [
+        3864,
+        1944,
+        3864,
+        3000
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.3ccbd92d73f5dfe4"
+    },
+    {
+      "_id": "c6ef9f95a7ae1d09",
+      "c": [
+        3864,
+        3232,
+        3864,
+        3740
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.c6ef9f95a7ae1d09"
+    },
+    {
+      "_id": "9c7969f22ab04584",
+      "c": [
+        4020,
+        168,
+        4020,
+        1712
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.9c7969f22ab04584"
+    },
+    {
+      "_id": "aab95fdf2ebe8b43",
+      "c": [
+        4020,
+        1944,
+        4020,
+        2048
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.aab95fdf2ebe8b43"
+    },
+    {
+      "_id": "afd9fbe7ee1ca2a1",
+      "c": [
+        4020,
+        2220,
+        4020,
+        3000
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.afd9fbe7ee1ca2a1"
+    },
+    {
+      "_id": "8938ea54c91fa137",
+      "c": [
+        4020,
+        3232,
+        4020,
+        3740
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.8938ea54c91fa137"
+    },
+    {
+      "_id": "0edab92de062dc96",
+      "c": [
+        5588,
+        168,
+        5588,
+        2048
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.0edab92de062dc96"
+    },
+    {
+      "_id": "ac1537adf3872096",
+      "c": [
+        5588,
+        2220,
+        5588,
+        3740
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.ac1537adf3872096"
+    },
+    {
+      "_id": "885f25517aede2a2",
+      "c": [
+        1248,
+        1300,
+        1248,
+        1460
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.885f25517aede2a2"
+    },
+    {
+      "_id": "63c8cab9cbf912da",
+      "c": [
+        1488,
+        1300,
+        1488,
+        1460
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.63c8cab9cbf912da"
+    },
+    {
+      "_id": "4fe959b5df998d89",
+      "c": [
+        2968,
+        1300,
+        2968,
+        1460
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.4fe959b5df998d89"
+    },
+    {
+      "_id": "4cc297eb3364630c",
+      "c": [
+        3200,
+        1300,
+        3200,
+        1460
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.4cc297eb3364630c"
+    },
+    {
+      "_id": "6451c8ba9139df88",
+      "c": [
+        4672,
+        168,
+        4672,
+        380
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.6451c8ba9139df88"
+    },
+    {
+      "_id": "f8c6fbade913a4a9",
+      "c": [
+        4672,
+        380,
+        4672,
+        560
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 1,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.f8c6fbade913a4a9"
+    },
+    {
+      "_id": "4afe680664b53d02",
+      "c": [
+        4672,
+        560,
+        4672,
+        1000
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.4afe680664b53d02"
+    },
+    {
+      "_id": "392cc0b7b3a9e6eb",
+      "c": [
+        4672,
+        1000,
+        4672,
+        1180
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 1,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.392cc0b7b3a9e6eb"
+    },
+    {
+      "_id": "691ab31d013ac9e0",
+      "c": [
+        4672,
+        1180,
+        4672,
+        1600
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.691ab31d013ac9e0"
+    },
+    {
+      "_id": "75fb409cdd523d56",
+      "c": [
+        4672,
+        1600,
+        4672,
+        1780
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 1,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.75fb409cdd523d56"
+    },
+    {
+      "_id": "bbab093678e7b6d9",
+      "c": [
+        4672,
+        1780,
+        4672,
+        2048
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.bbab093678e7b6d9"
+    },
+    {
+      "_id": "25ee44be02c67554",
+      "c": [
+        4020,
+        760,
+        4672,
+        760
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.25ee44be02c67554"
+    },
+    {
+      "_id": "7c4784e63b695de8",
+      "c": [
+        4020,
+        1352,
+        4672,
+        1352
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.7c4784e63b695de8"
+    },
+    {
+      "_id": "1ca0bd7d1dc427c9",
+      "c": [
+        5128,
+        168,
+        5128,
+        520
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.1ca0bd7d1dc427c9"
+    },
+    {
+      "_id": "30542b215150088b",
+      "c": [
+        5128,
+        520,
+        5128,
+        700
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 1,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.30542b215150088b"
+    },
+    {
+      "_id": "b90b63593337256e",
+      "c": [
+        5128,
+        700,
+        5128,
+        1480
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.b90b63593337256e"
+    },
+    {
+      "_id": "70c5ca0f3afa9549",
+      "c": [
+        5128,
+        1480,
+        5128,
+        1660
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 1,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.70c5ca0f3afa9549"
+    },
+    {
+      "_id": "30c1e87d4e170111",
+      "c": [
+        5128,
+        1660,
+        5128,
+        2048
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.30c1e87d4e170111"
+    },
+    {
+      "_id": "0164a7cd6fe648eb",
+      "c": [
+        5128,
+        1060,
+        5588,
+        1060
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "_key": "!scenes.walls!d56d0afa791a72b8.0164a7cd6fe648eb"
+    }
+  ],
+  "lights": [
+    {
+      "_id": "90417609fe945a48",
+      "x": 4880,
+      "y": 420,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "config": {
+        "dim": 35,
+        "bright": 18,
+        "color": "#ff7733",
+        "alpha": 0.4,
+        "angle": 360,
+        "animation": {
+          "type": "torch",
+          "speed": 3,
+          "intensity": 3
+        }
+      },
+      "flags": {},
+      "_key": "!scenes.lights!d56d0afa791a72b8.90417609fe945a48"
+    },
+    {
+      "_id": "35eb2934b8465c9c",
+      "x": 1400,
+      "y": 780,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "config": {
+        "dim": 15,
+        "bright": 5,
+        "color": "#aa66ff",
+        "alpha": 0.4,
+        "angle": 360,
+        "animation": {
+          "type": "pulse",
+          "speed": 3,
+          "intensity": 3
+        }
+      },
+      "flags": {},
+      "_key": "!scenes.lights!d56d0afa791a72b8.35eb2934b8465c9c"
+    },
+    {
+      "_id": "46e6ebfd2e3225d7",
+      "x": 4192,
+      "y": 2560,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "config": {
+        "dim": 8,
+        "bright": 3,
+        "color": "#ff4422",
+        "alpha": 0.4,
+        "angle": 360,
+        "animation": {
+          "type": "pulse",
+          "speed": 3,
+          "intensity": 3
+        }
+      },
+      "flags": {},
+      "_key": "!scenes.lights!d56d0afa791a72b8.46e6ebfd2e3225d7"
+    },
+    {
+      "_id": "4cca2f269b0120ea",
+      "x": 4432,
+      "y": 2560,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "config": {
+        "dim": 8,
+        "bright": 3,
+        "color": "#ff4422",
+        "alpha": 0.4,
+        "angle": 360,
+        "animation": {
+          "type": "pulse",
+          "speed": 3,
+          "intensity": 3
+        }
+      },
+      "flags": {},
+      "_key": "!scenes.lights!d56d0afa791a72b8.4cca2f269b0120ea"
+    },
+    {
+      "_id": "784812a0a9a75a36",
+      "x": 4672,
+      "y": 2560,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "config": {
+        "dim": 8,
+        "bright": 3,
+        "color": "#ff4422",
+        "alpha": 0.4,
+        "angle": 360,
+        "animation": {
+          "type": "pulse",
+          "speed": 3,
+          "intensity": 3
+        }
+      },
+      "flags": {},
+      "_key": "!scenes.lights!d56d0afa791a72b8.784812a0a9a75a36"
+    },
+    {
+      "_id": "360e979244e2d193",
+      "x": 4912,
+      "y": 2560,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "config": {
+        "dim": 8,
+        "bright": 3,
+        "color": "#ff4422",
+        "alpha": 0.4,
+        "angle": 360,
+        "animation": {
+          "type": "pulse",
+          "speed": 3,
+          "intensity": 3
+        }
+      },
+      "flags": {},
+      "_key": "!scenes.lights!d56d0afa791a72b8.360e979244e2d193"
+    },
+    {
+      "_id": "1317aa1f254e503c",
+      "x": 5152,
+      "y": 2560,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "config": {
+        "dim": 8,
+        "bright": 3,
+        "color": "#ff4422",
+        "alpha": 0.4,
+        "angle": 360,
+        "animation": {
+          "type": "pulse",
+          "speed": 3,
+          "intensity": 3
+        }
+      },
+      "flags": {},
+      "_key": "!scenes.lights!d56d0afa791a72b8.1317aa1f254e503c"
+    },
+    {
+      "_id": "ea66277abaa60b2a",
+      "x": 5392,
+      "y": 2560,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "config": {
+        "dim": 8,
+        "bright": 3,
+        "color": "#ff4422",
+        "alpha": 0.4,
+        "angle": 360,
+        "animation": {
+          "type": "pulse",
+          "speed": 3,
+          "intensity": 3
+        }
+      },
+      "flags": {},
+      "_key": "!scenes.lights!d56d0afa791a72b8.ea66277abaa60b2a"
+    }
+  ],
+  "drawings": [
+    {
+      "_id": "b5b3780f17e0ffdf",
+      "x": 2348,
+      "y": 2752,
+      "shape": {
+        "type": "r",
+        "width": 900,
+        "height": 96
+      },
+      "text": "E7 Upper Landing: DOWN to C7",
+      "fontSize": 48,
+      "textColor": "#ffe066",
+      "textAlpha": 1,
+      "fillType": 0,
+      "strokeWidth": 0,
+      "strokeAlpha": 0,
+      "hidden": true,
+      "locked": true,
+      "flags": {},
+      "_key": "!scenes.drawings!d56d0afa791a72b8.b5b3780f17e0ffdf"
+    },
+    {
+      "_id": "91415d2a9a14f40c",
+      "x": 2348,
+      "y": 1500,
+      "shape": {
+        "type": "r",
+        "width": 690,
+        "height": 96
+      },
+      "text": "E1 Gallery of Mirrors",
+      "fontSize": 48,
+      "textColor": "#ffe066",
+      "textAlpha": 1,
+      "fillType": 0,
+      "strokeWidth": 0,
+      "strokeAlpha": 0,
+      "hidden": true,
+      "locked": true,
+      "flags": {},
+      "_key": "!scenes.drawings!d56d0afa791a72b8.91415d2a9a14f40c"
+    },
+    {
+      "_id": "f5402933a61ac360",
+      "x": 612,
+      "y": 1500,
+      "shape": {
+        "type": "r",
+        "width": 690,
+        "height": 96
+      },
+      "text": "E2 Map Room & Library",
+      "fontSize": 48,
+      "textColor": "#ffe066",
+      "textAlpha": 1,
+      "fillType": 0,
+      "strokeWidth": 0,
+      "strokeAlpha": 0,
+      "hidden": true,
+      "locked": true,
+      "flags": {},
+      "_key": "!scenes.drawings!d56d0afa791a72b8.f5402933a61ac360"
+    },
+    {
+      "_id": "7f760e9190d4df7b",
+      "x": 4060,
+      "y": 2260,
+      "shape": {
+        "type": "r",
+        "width": 630,
+        "height": 96
+      },
+      "text": "E3 Ulrik's Workshop",
+      "fontSize": 48,
+      "textColor": "#ffe066",
+      "textAlpha": 1,
+      "fillType": 0,
+      "strokeWidth": 0,
+      "strokeAlpha": 0,
+      "hidden": true,
+      "locked": true,
+      "flags": {},
+      "_key": "!scenes.drawings!d56d0afa791a72b8.7f760e9190d4df7b"
+    },
+    {
+      "_id": "4e39789b0062315e",
+      "x": 4060,
+      "y": 208,
+      "shape": {
+        "type": "r",
+        "width": 1020,
+        "height": 96
+      },
+      "text": "E4 Luminaries' Rooms (warm room)",
+      "fontSize": 48,
+      "textColor": "#ffe066",
+      "textAlpha": 1,
+      "fillType": 0,
+      "strokeWidth": 0,
+      "strokeAlpha": 0,
+      "hidden": true,
+      "locked": true,
+      "flags": {},
+      "_key": "!scenes.drawings!d56d0afa791a72b8.4e39789b0062315e"
+    },
+    {
+      "_id": "500c4488583ad605",
+      "x": 612,
+      "y": 208,
+      "shape": {
+        "type": "r",
+        "width": 720,
+        "height": 96
+      },
+      "text": "E5 Winter Conservatory",
+      "fontSize": 48,
+      "textColor": "#ffe066",
+      "textAlpha": 1,
+      "fillType": 0,
+      "strokeWidth": 0,
+      "strokeAlpha": 0,
+      "hidden": true,
+      "locked": true,
+      "flags": {},
+      "_key": "!scenes.drawings!d56d0afa791a72b8.500c4488583ad605"
+    },
+    {
+      "_id": "4a2d077883927230",
+      "x": 2348,
+      "y": 208,
+      "shape": {
+        "type": "r",
+        "width": 1290,
+        "height": 96
+      },
+      "text": "E6 Queen's Solar: UP to Spire; dumbwaiter",
+      "fontSize": 48,
+      "textColor": "#ffe066",
+      "textAlpha": 1,
+      "fillType": 0,
+      "strokeWidth": 0,
+      "strokeAlpha": 0,
+      "hidden": true,
+      "locked": true,
+      "flags": {},
+      "_key": "!scenes.drawings!d56d0afa791a72b8.4a2d077883927230"
+    },
+    {
+      "_id": "833840cce91c1bb8",
+      "x": 2160,
+      "y": 480,
+      "shape": {
+        "type": "r",
+        "width": 240,
+        "height": 96
+      },
+      "text": "secret",
+      "fontSize": 48,
+      "textColor": "#ffe066",
+      "textAlpha": 1,
+      "fillType": 0,
+      "strokeWidth": 0,
+      "strokeAlpha": 0,
+      "hidden": true,
+      "locked": true,
+      "flags": {},
+      "_key": "!scenes.drawings!d56d0afa791a72b8.833840cce91c1bb8"
+    }
+  ],
+  "_key": "!scenes!d56d0afa791a72b8",
+  "ownership": {
+    "default": 0
+  }
+}

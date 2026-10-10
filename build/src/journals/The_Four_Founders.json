@@ -1,0 +1,28 @@
+{
+  "_id": "470935ba9bf636fa",
+  "name": "The Four Founders",
+  "pages": [
+    {
+      "_key": "!journal.pages!470935ba9bf636fa.54a78aa244188c4b",
+      "_id": "54a78aa244188c4b",
+      "name": "The Four Founders",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>The Four Founders</h1>\n<p>Morwenna's four friends, who founded the Perils and Princesses Society with her at @UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.cde61798bfdf1c71]{Rosehold} and could not save her from the Frostbind curse. They are long dead. What remains in the castle are their <strong>Echoes</strong>: each one frozen at the moment she last tried. All four use @UUID[Compendium.pnp-end-game.pnp-endgame-actors.Actor.bc542089c3cb8e63]{Echo of a Luminary}.</p>\n<table>\n<thead>\n<tr>\n<th>Founder</th>\n<th>Room</th>\n<th>Who she was</th>\n<th>What frees her</th>\n<th>Whisper</th>\n<th>Keepsake</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Hilde the Shieldmaiden</strong></td>\n<td>A4 Gatehouse</td>\n<td>Blunt, brave, the Society's first Knight-Protector. Barred the gate to keep Morwenna <em>in</em> until help came.</td>\n<td>Tell her the gate can open now: someone has come. <strong>RESOLVE</strong> test; advantage if a hero stands between her and a friend.</td>\n<td>\"She never once asked us to leave. We left.\"</td>\n<td><strong>Hilde's Buckler</strong></td>\n</tr>\n<tr>\n<td><strong>Aethelgard the Gardener</strong></td>\n<td>B4 Briar Court</td>\n<td>Healer and keeper of the Sunken Sanctum. Tried to prune the thorns back by hand, every day, until her hands gave out. The staff Marigold carries was hers.</td>\n<td>Take the shears and help her finish the row. <strong>WITS</strong> test, or automatic for the bearer of the Staff of the Sunken Sanctum who speaks her name.</td>\n<td>\"The cold is not her. It is a thing that sits where her heart was. Pull it out by the root.\"</td>\n<td><strong>Aethelgard's Shears</strong></td>\n</tr>\n<tr>\n<td><strong>Lirael the Songkeeper</strong></td>\n<td>C3 Banquet Hall</td>\n<td>Of Silverspire; Daisy's great-aunt. Sang at Morwenna's door for a year and a day.</td>\n<td>Finish her song. Any honest attempt at the last verse: <strong>GRACE</strong> test, advantage if two heroes sing together.</td>\n<td>\"She could still hear me. She told me so, the last night. She said it hurt.\"</td>\n<td><strong>The Songkeeper's Chime</strong></td>\n</tr>\n<tr>\n<td><strong>Wren the Cartographer</strong></td>\n<td>E2 Map Room</td>\n<td>The youngest. Mapped every road looking for a cure and came home with nothing.</td>\n<td>Show her a road she never found: tell her how <em>you</em> got here. <strong>WITS</strong> test, advantage if the hero names three friends who helped along the way.</td>\n<td>\"There was never a cure to find out there. It was always going to be someone staying.\"</td>\n<td><strong>Wren's True Map</strong></td>\n</tr>\n</tbody>\n</table>\n<p>Keepsake rules are in @UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.f4b0b12b4e9ee480]{Rosehold Treasures}. The fifth chair at the round table, the one wrapped in thorns, is Morwenna's own.</p>\n<p><strong>Why Marigold heard a whisper:</strong> the voice that named her Guardian at the Sunken Sanctum and called \"come find me\" in the Rocky Passages was Aethelgard's. The staff's unused command word is her name. When Marigold says it in the Briar Court, the Echo turns and says, <em>\"You came the long way round. So did I.\"</em></p>\n<p>Campaign NPCs; none of this has been revealed in play.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!470935ba9bf636fa"
+}

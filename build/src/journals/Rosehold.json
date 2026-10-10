@@ -1,0 +1,28 @@
+{
+  "_id": "cde61798bfdf1c71",
+  "name": "Rosehold",
+  "pages": [
+    {
+      "_key": "!journal.pages!cde61798bfdf1c71.6ddbbc7776a16a59",
+      "_id": "6ddbbc7776a16a59",
+      "name": "Rosehold",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>Rosehold</h1>\n<p><strong>Queen Morwenna's castle</strong>, high on the Fangtooth peaks of the White-Capped Mountains, behind a wall of ice grown through with black thorns. Before the curse it was the first headquarters of the Perils and Princesses Society. Nobody alive in the Society knows that.</p>\n<blockquote>\n<p>Run it from @UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.fa6597afb86e582d]{rosehold runbook} (pressure track, allies, session plan, the ending) with @UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.168a20ce123acb41]{rosehold tracker} open. Assets and Foundry setup: rosehold asset list.</p>\n</blockquote>\n<p>Names the table has used for it: the Fairy Queen's stronghold, the ice wall to the north, the palace in the Fangtooth Mountains. They are all this place. The ice wall and the Barrier of Thorns are one thing: ice with thorns frozen through it.</p>\n<h2>Levels</h2>\n<table>\n<thead>\n<tr>\n<th>Level</th>\n<th>Note</th>\n<th>Rooms</th>\n<th>Floor plan</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>0</td>\n<td>@UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.cf5d4639928d11ad]{00 The Thornwall}</td>\n<td>A1 Muster · A2 Causeway · A3 Barrier · A4 Gatehouse</td>\n<td><code>rosehold_0_thornwall</code></td>\n</tr>\n<tr>\n<td>1</td>\n<td>@UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.3425a0f468cbc304]{01 The Outer Ward}</td>\n<td>B1 Court · B2 Kennels · B3 Stables · B4 Briar Court · B5 Barracks · B6 Armory · B7 Raven Tower</td>\n<td><code>rosehold_1_outer_ward</code></td>\n</tr>\n<tr>\n<td>2</td>\n<td>@UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.d3cdccc26a359528]{02 The Hall of the Rose}</td>\n<td>C1 Oath Door · C2 Great Hall · C3 Banquet Hall · C4 Kitchens · C5 Portraits · C6 Servants' Stair · C7 Grand Stair</td>\n<td><code>rosehold_2_hall_of_the_rose</code></td>\n</tr>\n<tr>\n<td>−1</td>\n<td>@UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.c10765eb089ed929]{03 The Undercroft}</td>\n<td>D1 Cistern · D2 Cells · D3 Guardroom · D4 Crypt · D5 Relic Vault · D6 Frostbind Well</td>\n<td><code>rosehold_u_undercroft</code></td>\n</tr>\n<tr>\n<td>3</td>\n<td>@UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.b21fef9084bc3b6e]{04 The Galleries}</td>\n<td>E1 Mirrors · E2 Map Room · E3 Ulrik's Workshop · E4 Luminaries' Rooms · E5 Conservatory · E6 Solar · E7 Landing</td>\n<td><code>rosehold_3_galleries</code></td>\n</tr>\n<tr>\n<td>4</td>\n<td>@UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.db73690eb40eebe9]{05 The Frozen Spire}</td>\n<td>F1 Stair of Vows · F2 Antechamber · F3 Throne Room · F4 Rose Window</td>\n<td><code>rosehold_4_frozen_spire</code></td>\n</tr>\n</tbody>\n</table>\n<p>Floor plans are in <code>maps/morwennas_castle/</code>, each as a keyed GM copy and an unkeyed player copy. <strong>The castle is meant to be run as a dungeon crawl: one big Foundry scene per level, linked by the stairs.</strong> <strong>Painted maps for all six levels were made on 2026-10-05</strong>: 1536 px originals in <code>maps/morwennas_castle/painted_originals/</code> (with <code>manifest.json</code>), and 4× upscales in the module's <code>build/art/maps/</code>.</p>\n<h2>How the levels connect</h2>\n<pre><code class=\"language-text\">            F3 Throne Room ── F4 Rose Window\n                 │\n            F2 Antechamber\n                 │\n            F1 Stair of Vows\n                 │\n E5 ─ E6 Solar ──┘        E4 Luminaries' Rooms (warm)\n  │    │                    │\n E2 ─ E1 Mirrors ───────────┘\n  │    │\n  └── E7 Landing ── E3 Ulrik\n       │\n C6 ~ C7 Grand Stair        C4 Kitchens (warm)\n  │    │                     │\n C5 ─ C2 Great Hall ─ C3 Banquet\n  │    │\n  │   C1 Oath Door\n  │    │\n  │   B1 Court ─ B2..B7        A4 Gatehouse ─ A3 Barrier ─ A2 Causeway ─ A1 Muster\n  │\n D0 ─ D1 Cistern ─ D2 Cells ─ D5 Vault\n            │        │          ┆ (secret)\n            └────── D3 ─ D4 Crypt\n                     │\n                    D6 Frostbind Well\n</code></pre>\n<p><strong>Three ways in:</strong> the gate (A2 → A3 → A4), under the wall with Bannik (to D1), or over it with Puca's catapult (to B7). <strong>Shortcuts:</strong> the secret passage C6 ~ C7; the secret door E5 ~ E6; the crypt's secret stair D4 ┆ D5; Nim's Poof!.</p>\n<p><strong>Warm rooms:</strong> the Kitchens (C4) and the Luminaries' Rooms (E4) are the only places a Rest is possible inside the walls.</p>\n<h2>What is true here</h2>\n<ul>\n<li>\n<p><strong>The castle listens.</strong> Noise, wasted time and escaped ravens raise <strong>the Cold</strong>.</p>\n</li>\n<li>\n<p><strong>Silver, fire and friendship work.</strong> Almost everything here is thorn, ice or grief, and the party has spent ten sessions collecting exactly the right tools.</p>\n</li>\n<li>\n<p><strong>Morwenna founded the Society.</strong> The banners, the round table, the pins and the oath are hers. The players do not know this going in; the castle tells them room by room.</p>\n</li>\n<li>\n<p><strong>She can be saved.</strong> The four Echoes and her journal say how.</p>\n</li>\n</ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!cde61798bfdf1c71"
+}

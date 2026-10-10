@@ -41,7 +41,7 @@
     "save": {
       "value": "14"
     },
-    "notes": "<p><strong>Attacks twice: Frozen Blade (d8).</strong> Resistant to normal weapons — silver strikes true. The honored dead of the old headquarters' crypt, risen cold when the curse took the halls.</p><p>Optional castle encounter; use sparingly — one wight is a scene, three are a wall.</p>"
+    "notes": "<p><strong>Sword (d8). 2 Gift Dice: Bind and Fog.</strong> Enchanted and silvered weapons ignore its Armor. If Wounded by a wight, test WITS or suffer the Doom Curse. The honored dead of the old headquarters' crypt, risen cold when the curse took the halls.</p><p>Optional castle encounter; use sparingly — one wight is a scene, three are a wall.</p>"
   },
   "prototypeToken": {
     "name": "Wight",

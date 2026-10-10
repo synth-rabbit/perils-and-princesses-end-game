@@ -19,11 +19,11 @@
       }
     },
     "hp": {
-      "value": 14,
-      "max": 14
+      "value": 45,
+      "max": 45
     },
     "armor": {
-      "value": 1
+      "value": 2
     },
     "level": {
       "value": 1
@@ -39,9 +39,9 @@
       "box3": false
     },
     "save": {
-      "value": "15"
+      "value": "16"
     },
-    "notes": "<p><strong>Ice Shard (d8, ranged) plus one spell per turn.</strong> Armor 1 (rime). When Queen Morwenna first falls to 0 HP, the Frostbind curse surges: the thorn throne erupts (everyone Nearby: GRACE test or d6), and she rises frost-crowned — the curse itself fighting through her.</p><p><strong>Fighting the curse with friendship:</strong> a hero who spends a Heart Die while declaring a true memory of friendship (with each other, with an NPC, with Amy) deals d6 damage to the curse that ignores Armor. Amy's Powerful Friendship, if she is present, deals d8 the same way once per round.</p><p>At 0 HP: the ice shatters. If the party chose to reach her, Morwenna collapses weeping — \"You came. After all this time... someone came.\" If they only fought, she falls, and Aurelius mourns his friend.</p>"
+    "notes": "<p><strong>Acts twice a round. Each action: two Ice Shards (d10, ranged), or one Shard and a spell.</strong> +5 HP for each Echo that was not freed (45 to 65). Gift Dice restored to 6; same spells as the Queen.</p><p><strong>Rising:</strong> when the Queen reaches 0 HP the throne erupts: everyone Nearby tests GRACE or takes 2d6. <strong>The ice takes it:</strong> a passed SAVE against a Gift or spell means no damage. <strong>Aura of cold:</strong> a hero starting their turn Nearby tests RESOLVE or becomes Weary. Six vine crawlers rise from the throne each round.</p><p><strong>Winter's Breath:</strong> she inhales for one action (announce it); on her next action a wide cone a Stone's Throw long deals 16 damage, 8 on GRACE. Once, and once more when she first falls below half HP.</p><p><strong>Fighting the curse with friendship:</strong> a hero who spends a Heart Die while telling a true memory of friendship deals 2d6 that ignores Armor and allows no SAVE. Amy does the same for 2d8 once per round. If the last damage is friendship damage, Morwenna lives. True Love's Kiss ends the phase outright if all four whispers are known; otherwise 6d6 friendship damage.</p><p>If the Frostbind Well was purified: Armor 0, no Bubble, no second Winter's Breath. At 0 HP the ice shatters: saved, she whispers \"You came. After all this time... someone came.\" Slain, Aurelius mourns his friend.</p>"
   },
   "prototypeToken": {
     "name": "Morwenna, Frost-Crowned",

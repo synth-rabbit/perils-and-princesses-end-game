@@ -1,0 +1,28 @@
+{
+  "_id": "1e4073f222b2931e",
+  "name": "Rosehold Whispers",
+  "pages": [
+    {
+      "_key": "!journal.pages!1e4073f222b2931e.70817b1c8126e637",
+      "_id": "70817b1c8126e637",
+      "name": "Rosehold Whispers",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>Rosehold Whispers</h1>\n<p>Queen Morwenna speaks through mirrors, sheets of ice and the thorns themselves. Use one line when the Cold rises, when a mirror wakes, or when a scene needs her voice. She is never ranting; she is tired and certain.</p>\n<p>Roll d10</p>\n<table>\n<thead>\n<tr>\n<th>Roll</th>\n<th>Whisper</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>\"You wear my pin. Did they tell you who made it? No. They wouldn't.\"</td>\n</tr>\n<tr>\n<td>2</td>\n<td>\"Four of them swore they would never leave me. Count the chairs.\"</td>\n</tr>\n<tr>\n<td>3</td>\n<td><em>(to Filly)</em> \"You talk to every beast you meet and still think you got here by mistake. I know that feeling. It doesn't pass.\"</td>\n</tr>\n<tr>\n<td>4</td>\n<td><em>(to Vega)</em> \"You have died for these people twice already, little prince. How many times do you owe them?\"</td>\n</tr>\n<tr>\n<td>5</td>\n<td><em>(to Marigold)</em> \"You ran from a home too. I only ran further. Ask them what happens when you stop being useful.\"</td>\n</tr>\n<tr>\n<td>6</td>\n<td>\"The unicorn used to let me braid flowers into his mane. He did not come either.\"</td>\n</tr>\n<tr>\n<td>7</td>\n<td>\"That girl outside thinks friendship is a kind of light. It is. Lights go out.\"</td>\n</tr>\n<tr>\n<td>8</td>\n<td>\"Take what you like from the vaults. Everyone does, in the end. It is the only honest thing people do.\"</td>\n</tr>\n<tr>\n<td>9</td>\n<td>\"I am not angry with you. I want you to understand that. I am simply going to be proven right.\"</td>\n</tr>\n<tr>\n<td>10</td>\n<td><em>(very quietly, and only once)</em> \"...Is someone there?\"</td>\n</tr>\n</tbody>\n</table>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!1e4073f222b2931e"
+}

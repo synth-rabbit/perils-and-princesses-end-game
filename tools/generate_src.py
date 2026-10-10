@@ -7,7 +7,10 @@ Actor ids are deterministic (sha1 of name) so rebuilds never duplicate documents
 
 Run from the repo root:  python3 tools/generate_src.py
 """
-import hashlib, json, os, re, struct, subprocess
+import hashlib, json, os, re, struct, subprocess, sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import rosehold_scenes
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MODULE_ID = "pnp-end-game"
@@ -229,14 +232,21 @@ ACTORS = [
         "If defeated, a guard gnome pops out to chastise the party and shoo them off — but may let them in on a successful GRACE test.")),
 
     # ---------- Act V: the assault on Queen Morwenna's castle ----------
-    npc("Queen Morwenna", 10, 15, 0, "queen_morwenna.png", notes(
-        "<strong>Dagger (d6). 3 Gift Dice</strong> — casts Fireball, Bubble, Disguise, and Mine!; can cast a spell and use her dagger in the same turn. Carries at least one healing potion. Protected by loyal minions.",
-        "Founder of the Perils & Princesses Society; first Luminary; designer of the Silver Rose Pin; author of the oath — her heart frozen by the <strong>Frostbind curse</strong> her four friends could not break. Everything since is her proving friendship a lie.",
-        "<strong>The Choice:</strong> she can be fought — or saved, if Amy's Powerful Friendship reaches through the curse. See Morwenna, Frost-Crowned for the final phase either way.")),
-    npc("Morwenna, Frost-Crowned", 14, 15, 1, "morwenna_frost_crowned.png", notes(
-        "<strong>Ice Shard (d8, ranged) plus one spell per turn.</strong> Armor 1 (rime). When Queen Morwenna first falls to 0 HP, the Frostbind curse surges: the thorn throne erupts (everyone Nearby: GRACE test or d6), and she rises frost-crowned — the curse itself fighting through her.",
-        "<strong>Fighting the curse with friendship:</strong> a hero who spends a Heart Die while declaring a true memory of friendship (with each other, with an NPC, with Amy) deals d6 damage to the curse that ignores Armor. Amy's Powerful Friendship, if she is present, deals d8 the same way once per round.",
-        "At 0 HP: the ice shatters. If the party chose to reach her, Morwenna collapses weeping — \"You came. After all this time... someone came.\" If they only fought, she falls, and Aurelius mourns his friend.")),
+    npc("Queen Morwenna", 30, 15, 1, "queen_morwenna.png", notes(
+        "<strong>Acts twice a round. Each action: Dagger (d8) and one spell of up to 3 Gift Dice.</strong> 6 Gift Dice: Frostfall (Fireball; GRACE for half), Mine! (RESOLVE), Thorns (Tangle; RESOLVE), Splinters (Magic Dart; cannot be dodged), Bubble (Reaction), Disguise (WITS). One healing potion (2d4+4), drunk at 10 HP or less.",
+        "<strong>Vow Pillars:</strong> up to four stand round the throne, one per founder whose Echo was not freed. While any stands she cannot drop below 1 HP and regains 3 HP per pillar at the start of each round.",
+        "<strong>The throne:</strong> on the dais, all damage to her is halved and she casts Bubble at 1 die as a free Reaction each round. Smooch with a total of at least half her current HP costs her a round and the throne's protection.",
+        "Founder of the Perils &amp; Princesses Society; first Luminary; designer of the Silver Rose Pin; author of the oath. Her heart was frozen by the <strong>Frostbind curse</strong> her four friends could not break. She can be fought or saved. At 0 HP she becomes Morwenna, Frost-Crowned.",
+        "<em>Much harder than the core book's Evil Queen (HP 10) by GM ruling.</em>")),
+    npc("Morwenna, Frost-Crowned", 45, 16, 2, "morwenna_frost_crowned.png", notes(
+        "<strong>Acts twice a round. Each action: two Ice Shards (d10, ranged), or one Shard and a spell.</strong> +5 HP for each Echo that was not freed (45 to 65). Gift Dice restored to 6; same spells as the Queen.",
+        "<strong>Rising:</strong> when the Queen reaches 0 HP the throne erupts: everyone Nearby tests GRACE or takes 2d6. <strong>The ice takes it:</strong> a passed SAVE against a Gift or spell means no damage. <strong>Aura of cold:</strong> a hero starting their turn Nearby tests RESOLVE or becomes Weary. Six vine crawlers rise from the throne each round.",
+        "<strong>Winter's Breath:</strong> she inhales for one action (announce it); on her next action a wide cone a Stone's Throw long deals 16 damage, 8 on GRACE. Once, and once more when she first falls below half HP.",
+        "<strong>Fighting the curse with friendship:</strong> a hero who spends a Heart Die while telling a true memory of friendship deals 2d6 that ignores Armor and allows no SAVE. Amy does the same for 2d8 once per round. If the last damage is friendship damage, Morwenna lives. True Love's Kiss ends the phase outright if all four whispers are known; otherwise 6d6 friendship damage.",
+        "If the Frostbind Well was purified: Armor 0, no Bubble, no second Winter's Breath. At 0 HP the ice shatters: saved, she whispers \"You came. After all this time... someone came.\" Slain, Aurelius mourns his friend.")),
+    npc("Vow Pillar", 10, 1, 2, None, notes(
+        "<strong>No attack.</strong> A column of black ice with a founder's shape frozen inside. One stands in the throne room for each Echo that was <em>not</em> freed (Hilde, Aethelgard, Lirael, Wren).",
+        "While any pillar stands, Queen Morwenna cannot drop below 1 HP and regains 3 HP per pillar each round. Silver, fire, blunt weapons and Vein-Breaker ignore its Armor. A hero holding that founder's keepsake or speaking her whisper shatters it with a touch. When it breaks, everyone Nearby tests GRACE or takes d6.")),
     npc("Thornbound Sentinel", 8, 10, 3, "thornbound_sentinel.png", notes(
         "<strong>Attacks twice: Thorned Halberd (d8).</strong> The empty armor of a PPS Knight-Protector who never left the headquarters, animated by the briars that grew through it. Silver Rose crest still visible under the thorns.",
         "<strong>Fire ignores its Armor.</strong> When destroyed, the briars lash out: everyone Nearby makes a GRACE test or is grappled by vines (RESOLVE test to break free).",
@@ -263,7 +273,7 @@ ACTORS = [
         "<strong>Attacks twice: Bash (d6). 1 GD — casts Tangle.</strong> Angry old forest spirits pressed into the castle's outer defenses. Axes, hatchets, and fire ignore its Armor.",
         "If Wounded by an awakened tree, suffer the <strong>Rootbound Curse</strong>.")),
     npc("Wight", 12, 14, 2, "wight.png", notes(
-        "<strong>Attacks twice: Frozen Blade (d8).</strong> Resistant to normal weapons — silver strikes true. The honored dead of the old headquarters' crypt, risen cold when the curse took the halls.",
+        "<strong>Sword (d8). 2 Gift Dice: Bind and Fog.</strong> Enchanted and silvered weapons ignore its Armor. If Wounded by a wight, test WITS or suffer the Doom Curse. The honored dead of the old headquarters' crypt, risen cold when the curse took the halls.",
         "Optional castle encounter; use sparingly — one wight is a scene, three are a wall.")),
 ]
 
@@ -437,6 +447,12 @@ SCENES = [
     scene("Castle Great Hall", "scenes/castle_great_hall_scene.png"),
     scene("Castle Throne Room", "scenes/castle_throne_scene.png"),
 ]
+
+# Rosehold: six dungeon-crawl levels with walls, doors, lights and GM-only room labels.
+for _lv in rosehold_scenes.LEVELS:
+    _w, _h = png_size(os.path.join(ROOT, "build", "art", _lv["art"]))
+    SCENES.append(rosehold_scenes.build_scene(_lv, did(_lv["name"], "scene"), _w, _h, MODULE_ID))
+
 
 for document in ACTORS + ITEMS + SCENES:
     document["ownership"] = {"default": 0}

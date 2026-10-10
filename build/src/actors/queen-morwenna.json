@@ -19,11 +19,11 @@
       }
     },
     "hp": {
-      "value": 10,
-      "max": 10
+      "value": 30,
+      "max": 30
     },
     "armor": {
-      "value": 0
+      "value": 1
     },
     "level": {
       "value": 1
@@ -41,7 +41,7 @@
     "save": {
       "value": "15"
     },
-    "notes": "<p><strong>Dagger (d6). 3 Gift Dice</strong> — casts Fireball, Bubble, Disguise, and Mine!; can cast a spell and use her dagger in the same turn. Carries at least one healing potion. Protected by loyal minions.</p><p>Founder of the Perils & Princesses Society; first Luminary; designer of the Silver Rose Pin; author of the oath — her heart frozen by the <strong>Frostbind curse</strong> her four friends could not break. Everything since is her proving friendship a lie.</p><p><strong>The Choice:</strong> she can be fought — or saved, if Amy's Powerful Friendship reaches through the curse. See Morwenna, Frost-Crowned for the final phase either way.</p>"
+    "notes": "<p><strong>Acts twice a round. Each action: Dagger (d8) and one spell of up to 3 Gift Dice.</strong> 6 Gift Dice: Frostfall (Fireball; GRACE for half), Mine! (RESOLVE), Thorns (Tangle; RESOLVE), Splinters (Magic Dart; cannot be dodged), Bubble (Reaction), Disguise (WITS). One healing potion (2d4+4), drunk at 10 HP or less.</p><p><strong>Vow Pillars:</strong> up to four stand round the throne, one per founder whose Echo was not freed. While any stands she cannot drop below 1 HP and regains 3 HP per pillar at the start of each round.</p><p><strong>The throne:</strong> on the dais, all damage to her is halved and she casts Bubble at 1 die as a free Reaction each round. Smooch with a total of at least half her current HP costs her a round and the throne's protection.</p><p>Founder of the Perils &amp; Princesses Society; first Luminary; designer of the Silver Rose Pin; author of the oath. Her heart was frozen by the <strong>Frostbind curse</strong> her four friends could not break. She can be fought or saved. At 0 HP she becomes Morwenna, Frost-Crowned.</p><p><em>Much harder than the core book's Evil Queen (HP 10) by GM ruling.</em></p>"
   },
   "prototypeToken": {
     "name": "Queen Morwenna",

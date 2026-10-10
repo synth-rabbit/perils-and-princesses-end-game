@@ -3,10 +3,14 @@
 Hand these to the art agent one at a time. Keep the house style consistent with the
 existing vault art (`npcs/assets/`, `monsters/assets/`):
 
-> **Style header (prepend to every prompt):** Storybook fantasy illustration in a
-> warm painterly style, soft edges, rich colors, whimsical but grounded — the look
-> of a modern illustrated fairy-tale book for all ages. Single character portrait,
-> three-quarter view, plain softly-lit background, no text, no border.
+> **Style header (prepend to every prompt):** Cute fantasy cartoon illustration, like a
+> charming children's fantasy picture book or a cosy tabletop game. Bold, clean, dark ink
+> outlines with a hand-drawn feel. Chunky, rounded, slightly squat proportions: big heads,
+> big hands, short legs, simple expressive faces with large eyes. Flat, bright cartoon
+> colours with simple soft shading and a light watercolour texture. Not painterly, not
+> realistic, not 3D, not anime. Spooky is fine; frightening or gory is not. One subject,
+> full body, centred, on plain cream paper with a few soft pale watercolour wash blots.
+> No text, no border. Match `build/art/portraits/thornbound_sentinel.png`.
 
 When a file is generated, drop it in `build/art/portraits/<filename>`, set the
 actor's art in `tools/generate_src.py`, and re-release.
@@ -38,8 +42,10 @@ actor's art in `tools/generate_src.py`, and re-release.
 
 ## Scene backdrops (castle) — 🔴 high priority
 
-Style header for scenes: same storybook style, wide establishing shot,
-no characters, no text; sized landscape ~1536×1024 or larger.
+Style header for scenes: the same cute fantasy cartoon style (bold ink outlines,
+chunky rounded shapes, flat bright colours, light watercolour texture; not painterly,
+not realistic), wide establishing shot, no characters, no text; sized landscape
+~1536×1024 or larger.
 
 | File | Prompt |
 |---|---|

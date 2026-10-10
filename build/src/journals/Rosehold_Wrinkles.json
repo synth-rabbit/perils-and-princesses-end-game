@@ -1,0 +1,28 @@
+{
+  "_id": "cdb134b8dd87d595",
+  "name": "Rosehold Wrinkles",
+  "pages": [
+    {
+      "_key": "!journal.pages!cdb134b8dd87d595.7b1939ae61ae2755",
+      "_id": "7b1939ae61ae2755",
+      "name": "Rosehold Wrinkles",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>Rosehold Wrinkles</h1>\n<p>The castle is an enemy stronghold: whenever the party <strong>Spends Time</strong> inside @UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.cde61798bfdf1c71]{Rosehold}, roll d4, and on a 1 roll here. Each Wrinkle also raises <strong>the Cold</strong> by 1 (see @UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.fa6597afb86e582d]{rosehold runbook}).</p>\n<p>Roll d6</p>\n<table>\n<thead>\n<tr>\n<th>Roll</th>\n<th>Wrinkle</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td><strong>Patrol.</strong> Four Thornsworn Guards and a sergeant round the corner. They have not seen the party yet: one round to hide, bluff or strike first.</td>\n</tr>\n<tr>\n<td>2</td>\n<td><strong>Wisps.</strong> d4+1 @UUID[Compendium.pnp-end-game.pnp-endgame-actors.Actor.bab3acfcc2084623]{Frostbind Wisps} drift through the wall toward whoever last spent a Heart Die.</td>\n</tr>\n<tr>\n<td>3</td>\n<td><strong>The thorns move.</strong> Black briars creep across the nearest door. Cut through (Spend Time again), burn through (any fire), or find another way round.</td>\n</tr>\n<tr>\n<td>4</td>\n<td><strong>A mirror wakes.</strong> The nearest reflective surface shows the Queen's face. She says one line to one hero (use @UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.1e4073f222b2931e]{Rosehold Whispers}) and that hero tests WITS or is Befuddled.</td>\n</tr>\n<tr>\n<td>5</td>\n<td><strong>Glass ravens.</strong> 2d4 Glass Ravens at a window. Any that escape raise the Cold a second time.</td>\n</tr>\n<tr>\n<td>6</td>\n<td><strong>Deep frost.</strong> The temperature drops. Everyone tests RESOLVE or becomes Weary until they reach a warm room. Anyone carrying a lit torch or wearing Mama Bear's amulet has advantage.</td>\n</tr>\n</tbody>\n</table>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!cdb134b8dd87d595"
+}

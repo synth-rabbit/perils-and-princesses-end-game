@@ -4,3 +4,7 @@ build/packs/
 build/*.zip
 
 /pnp-end-game-0.6.0.zip
+
+# full-size PNG sources for the Rosehold maps (WebP copies ship in build/art/maps)
+build/art_sources/
+/pnp-end-game-0.7.0.zip

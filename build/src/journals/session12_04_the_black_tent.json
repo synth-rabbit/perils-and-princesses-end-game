@@ -1,0 +1,28 @@
+{
+  "_id": "873962c8dddcfca3",
+  "name": "Session 12 Scene 4: The Black Tent",
+  "pages": [
+    {
+      "_key": "!journal.pages!873962c8dddcfca3.443a4a0f6de0bdcb",
+      "_id": "443a4a0f6de0bdcb",
+      "name": "Session 12 Scene 4: The Black Tent",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>Session 12 Scene 4: The Black Tent</h1>\n<blockquote>\n<p><strong>Hub:</strong> @UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.13d197135b66ddb3]{session12 prep} · <strong>Assets:</strong> @UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.7c942240b293606f]{session12 asset checklist}\n<strong>Table time:</strong> 10–15 min · <strong>Foundry:</strong> <strong>Knight Camp</strong> map, then the Scorchwoods overworld for the walk</p>\n</blockquote>\n<p>A short bridge scene: tie off the Scorchwoods and point north. Play it before the break.</p>\n<h2>The tent at the edge of camp</h2>\n<blockquote>\n<p><em>The black tent's flaps are tied from the outside. Nobody guards it and nobody will go near it. Inside: no bedroll. No food. A stand for a suit of armour, empty, and round its feet a ring of dried red mud. On a folding table, a single sheet of paper, weighted with a thorn as long as your hand.</em></p>\n</blockquote>\n<p><strong>Sir Damon and Magus Ulrik</strong> left in the night. A guard, if asked: \"The black knight? Walked off north about midnight. Didn't take a horse. Didn't take a <em>lantern</em>. The wizard went after him looking like he'd had a letter.\"</p>\n<p>⭐ <strong>Vega</strong> recognises the mud: grave-earth and river clay, bound with something that is not water. Whatever stood on that stand was made, not born.</p>\n<p>⭐ <strong>Filly's Sniff</strong> or Tawny: wet earth, old blood, and under it something Tawny knows. Her hackles go up. It is the knight from her dream.</p>\n<blockquote>\n<p><strong>Read aloud: the paper under the thorn</strong></p>\n<p><em>U.</em>\n<em>The girl is found. They will undo it. Let them.</em>\n<em>Come home. Bring the knight. I want them to reach the wall. I want them to bring her to it.</em>\n<em>I want to watch her try.</em>\n<em>— M.</em></p>\n<p><em>On the back, in a different, hurried hand: a sketch map. The Fangtooth peaks. A road. A castle drawn as a rose inside a ring of thorns, and one word written beside it:</em> <strong>ROSEHOLD.</strong></p>\n</blockquote>\n<p>This is the first time the players see the initial <strong>M</strong> and the castle's name. It is also the Queen telling them she is waiting. Do not explain it. If they ask who M is, nobody in camp knows.</p>\n<h2>Sir Finnian, afterwards</h2>\n<p><strong>If he was turned:</strong></p>\n<blockquote>\n<p>\"I have guarded a dragon in a dress for six weeks and called it devotion. I should like to be useful now. Where do you need me?\"</p>\n</blockquote>\n<p>He escorts the prisoner to the cave, and he is available as an <strong>Ally Call</strong> at the castle (@UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.a1d4390573d3737d]{Ally Calls}).</p>\n<p><strong>If he was beaten, not turned:</strong> he is shown the key working (scene 5) and is turned then, with a great deal of noise about it.</p>\n<p><strong>Robin</strong> asks, very quietly, whether the lioness would like some water.</p>\n<h2>The road to the cave</h2>\n<p>One keyed move north, the compass in one hand and the pins in the other. <strong>Embra walks, bound, and complains.</strong> Her talk on the road is the players' chance to decide what they will do with her:</p>\n<ul>\n<li>\n<p>\"You have my pendant on. It doesn't suit you. Nothing I own suits anyone else, that is rather the point of owning it.\"</p>\n</li>\n<li>\n<p>\"She was kind to me. I know what that makes this. You needn't say it.\"</p>\n</li>\n<li>\n<p>\"Go on, then. Ask me. <em>Would you have let them kill her?</em>\" A pause. \"I told myself I'd stop it at the last moment. I have told myself a great many things in two hundred years.\"</p>\n</li>\n<li>\n<p>About the black knight: \"The wizard brought the necklaces. He said a lady in the north would be <em>grateful</em>. I do not care for being used by people with worse manners than mine.\"</p>\n</li>\n</ul>\n<p><strong>Direction:</strong> she is not sorry enough to be forgiven and not wicked enough to make killing her easy. Let the players sit in that.</p>\n<p>☕ <strong>Break here.</strong></p>\n<h2>Scene assets</h2>\n<ul>\n<li>\n<p>Black tent marker on the Knight Camp map. The paper under the thorn is read aloud (text above); it replaces the old \"Ulrik's correspondence\" handout F.</p>\n</li>\n<li>\n<p>No tokens for Damon or Ulrik: they are not here.</p>\n</li>\n</ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!873962c8dddcfca3"
+}

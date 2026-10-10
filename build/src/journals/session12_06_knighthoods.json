@@ -1,0 +1,28 @@
+{
+  "_id": "49ba1b9e34699d43",
+  "name": "Session 12 Scene 6: Knighthoods and Level Four",
+  "pages": [
+    {
+      "_key": "!journal.pages!49ba1b9e34699d43.be3990b4ce893de4",
+      "_id": "be3990b4ce893de4",
+      "name": "Session 12 Scene 6: Knighthoods and Level Four",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>Session 12 Scene 6: Knighthoods and Level Four</h1>\n<blockquote>\n<p><strong>Hub:</strong> @UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.13d197135b66ddb3]{session12 prep} · <strong>Assets:</strong> @UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.7c942240b293606f]{session12 asset checklist}\n<strong>Table time:</strong> 20 min · <strong>Foundry:</strong> <strong>Scorchwoods — The Road Beyond</strong> (module), or the cave exterior</p>\n</blockquote>\n<p>Breathing room. Amy is herself; the party is level 4; the Scorchwoods are done.</p>\n<h2>Amy, restored</h2>\n<blockquote>\n<p><em>She has washed her face in the pool and borrowed Marigold's comb. She is twenty-two, she is shorter than you expected after a week of talking to a dragon, and she will not stop touching her own hair.</em></p>\n</blockquote>\n<p><strong>She asks</strong>, first, about her household: every guard at the camp, by name. Answer honestly. Then:</p>\n<blockquote>\n<p><strong>Amy:</strong> \"Somebody did this to me on purpose. Not Embra — Embra just wanted breakfast. Somebody <em>sent</em> those necklaces.\" <em>She reads the note from the black tent twice.</em> \"She wants to watch me try.\" <em>Her chin comes up.</em> \"She did this because she's afraid of me? Of my magic? Good. Let's give her something to be afraid of.\"</p>\n</blockquote>\n<p><strong>Honorary knighthoods.</strong> Amy has no sword, so she uses Vega's pickaxe, carefully. <em>Dame Filly, Sir Vega, Dame Marigold of Drakenshire.</em> Tawny is knighted separately and at length.</p>\n<p><strong>Reward:</strong> 100 SP each from the hunt's pay chest, and the freedom of Drakenshire. This is the first SP award since session 8; say so.</p>\n<h2>Level 4 reference</h2>\n<p>Applied in scene 5; settle the details here. Core book p. 31.</p>\n<table>\n<thead>\n<tr>\n<th>Gain</th>\n<th>Rule</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Gift Dice</td>\n<td>4 (d6)</td>\n</tr>\n<tr>\n<td>Heart Dice</td>\n<td>4 (d4); <strong>Marigold 5</strong> (Big Heart)</td>\n</tr>\n<tr>\n<td>HP</td>\n<td>+d4 max</td>\n</tr>\n<tr>\n<td>Virtue Deepens</td>\n<td>d20 against RESOLVE, then GRACE, then WITS; a roll <em>higher</em> than the Virtue raises it by 1</td>\n</tr>\n<tr>\n<td>Cap</td>\n<td>Level 4 is the last level. Everything after is items and choices</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Filly — Wild Form.</strong> <em>Transform into an animal you've seen before for up to [DICE]×10 minutes. You have [SUM] HP in this form. At 0 HP you revert and are Wounded. Being an animal will usually give you a specific advantage.</em> Settle her list now: see @UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.fa6597afb86e582d]{rosehold runbook} §5 for the animals seen in play and a suggested ruling on the dragon.</p>\n<p><strong>Vega — Summon.</strong> <em>Summon a small elemental being with [SUM] HP. Friendly, follows directions, amorphous, immune to its own element; all Virtues equal your WITS. Dissolves after [DICE] hours or at 0 HP. Attacks within a Stone's Throw for d6.</em> And his Resistance becomes <strong>immunity to earth and stone damage</strong>. Ask him what it looks like, and what it is called.</p>\n<p><strong>Marigold — True Love's Kiss.</strong> <em>Roll four Gift Dice and bestow true love's kiss: remove one Trauma, wake someone from magical slumber, turn them back from a frog, or end another similar deadly Curse, injury or sickness. Works a single time on any individual.</em> Tell her player, away from the others if you can, that this will matter exactly once more.</p>\n<h2>The Dragonfilch Curse, closed out</h2>\n<p>Record on each sheet how it ended: returned, gifted, bargained, or the dragon's death. Anyone who still holds an ungifted hoard item with Embra alive is <strong>still stage one</strong>, and carries it into the castle (one last test in the Relic Vault).</p>\n<h2>Aurelius arrives</h2>\n<blockquote>\n<p><em>There are hoofbeats on a path too narrow for a horse. Aurelius steps out of the pines with frost on his mane that was not there a week ago, and he looks at Amy for a long moment before he speaks.</em></p>\n<p><strong>Aurelius:</strong> \"The wall on the mountain grew a hand's breadth last night. She knows you are free. Daisy has called the Society. Everyone who owes you three a kindness is already walking north.\" <em>He lowers his head so Amy can reach his neck.</em> \"I can carry one. The rest of you had better have friends with horses.\"</p>\n</blockquote>\n<p>Mari Lwyd's Teeth, if the party still has them: skeletal steeds, \"like mice pulling a fairy godmother's carriage.\"</p>\n<h2>Scene assets</h2>\n<ul>\n<li>\n<p>Background: Dragon's Cave exterior, or module scene <strong>Scorchwoods — The Road Beyond</strong>.</p>\n</li>\n<li>\n<p>Portraits: <a href=\"modules/pnp-end-game/art/tokens/princess_amy.png\">npcs/assets/princess amy.png</a>, npcs/assets/unicorn aurelius full power.png.</p>\n</li>\n</ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!49ba1b9e34699d43"
+}

@@ -1,6 +1,6 @@
 # Perils & Princesses: End Game
 
-Foundry VTT module for the final campaign arc, using the perilsandprincesses system on Foundry v13+. Current release: **0.6.0**.
+Foundry VTT module for the final campaign arc, using the perilsandprincesses system on Foundry v13+. Current release: **0.7.0**.
 
 Install/update manifest:
 
@@ -10,9 +10,9 @@ https://synth-rabbit.github.io/perils-and-princesses-end-game/module.json
 
 ## Contents
 
-- 42 actors: mine/pond, Scorchwoods knight parties and cast, existing castle roster.
+- 43 actors: mine/pond, Scorchwoods knight parties and cast, existing castle roster.
 - 44 draggable items: campaign rewards, story tools, hoard and faire items.
-- 16 gridless scene sources, including new stump entrance and conclusion backdrops; no new walls.
+- 16 gridless scene backdrops, plus **six walled, lit dungeon-crawl levels of Rosehold** (Queen Morwenna's castle) on a square grid. Geometry: `tools/rosehold_scenes.py`.
 - 48 private GM journals, including 20 standalone scene scripts: session 10, complete adventure runbook, hunt tracker, reference material and optional faire.
 - 9 individually releasable handouts, private by default.
 
