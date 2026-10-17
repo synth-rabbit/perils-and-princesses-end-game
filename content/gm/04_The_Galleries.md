@@ -34,7 +34,7 @@ One of the twelve is the [[Mirror_of_Broken_Vows]]. It picks **Filly** first.
 | [[Mirror_of_Broken_Vows]] | 6 | 13 | 2 | None. Each round one hero tests WITS or is Befuddled and cannot spend Heart Dice | Harmed only by silver or blunt. Broken by answering the vision with a true memory |
 
 **What each hero sees** (read to that player only, if you can):
-- **⭐ Filly:** Tawny, walking away without looking back, and behind her Peacock and Pickles, and the mirror says in Filly's own voice: *"They follow you because you feed them. You were never a real princess and every one of them knows."*
+- **⭐ Filly:** Tawny, lying still on the floor of the dragon's cave, and behind her Peacock and Pickles walking away without looking back, and the mirror says in Filly's own voice: *"They follow you because you feed them, and they die because they followed you. You were never a real princess and every one of them knows."* Major Ursa, beside her, is not in the reflection at all.
 - **Vega:** Filly and Marigold at his graveside, already leaving. *"Third time. We can't keep doing this."*
 - **Marigold:** her friends opening the diary she bought back at the Night Market, reading it, and closing it. *"Oh. That's why she ran."*
 

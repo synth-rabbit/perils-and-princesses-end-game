@@ -1,0 +1,28 @@
+{
+  "_id": "0593bc52859789a0",
+  "name": "Session 13 Scene 4: The Frozen Causeway",
+  "pages": [
+    {
+      "_key": "!journal.pages!0593bc52859789a0.62c931134cbcbc47",
+      "_id": "62c931134cbcbc47",
+      "name": "Session 13 Scene 4: The Frozen Causeway",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>Session 13 Scene 4: The Frozen Causeway</h1>\n<blockquote>\n<p><strong>Hub:</strong> @UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.7d4fa8464aee96dc]{session13 prep} · <strong>Assets:</strong> @UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.8e4f149331ff0974]{session13 asset checklist}\n<strong>Table time:</strong> 15 min · <strong>Foundry:</strong> module scene <strong>Rosehold 0 — The Thornwall</strong> (A2)\n🔗 Castle note: @UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.cf5d4639928d11ad]{00 The Thornwall}, A2 · Tracker: @UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.168a20ce123acb41]{rosehold tracker}</p>\n</blockquote>\n<p>The first step inside the Queen's reach. <strong>Start the Cold at 0</strong> and tell the players it exists: <em>\"From here on, the castle notices noise and time. I'll keep a count. When it rises, bad things wake up.\"</em> (Rules: @UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.fa6597afb86e582d]{rosehold runbook}, section 3.)</p>\n<h2>Entry</h2>\n<blockquote>\n<p><em>A spine of rock a wagon wide, glazed with ice, a long fall either side. The wind comes down it like something poured. Halfway along, two dead trees lean over the path with their roots in nothing.</em></p>\n</blockquote>\n<p>Amy rides Aurelius behind the party. The allies wait at the foot of the causeway until the wall is broken.</p>\n<h2>The ice</h2>\n<ul>\n<li>\n<p>Crossing <strong>at a walk</strong> is safe.</p>\n</li>\n<li>\n<p><strong>Running, fighting or riding</strong> calls for <strong>GRACE</strong>. A failure is a slide to the edge: <strong>d6</strong>, and hanging on until helped up (an Action for a friend).</p>\n</li>\n<li>\n<p>Filly's <strong>Natural Climber</strong> gives advantage. <strong>Major Ursa</strong> is a polar bear: he does not slide, and anyone holding on to his fur has advantage too.</p>\n</li>\n<li>\n<p>⭐ <strong>Vega</strong> can Shape grit across the ice: no tests for anyone.</p>\n</li>\n</ul>\n<h2>The two trees</h2>\n<p>They are @UUID[Compendium.pnp-end-game.pnp-endgame-actors.Actor.b948ef4b652142b5]{Awakened Trees}: ents of the low forest, marched up here and frozen angry. They let the party reach the middle, then close in from both ends.</p>\n<table>\n<thead>\n<tr>\n<th>Monster</th>\n<th>HP</th>\n<th>SAVE</th>\n<th>Armor</th>\n<th>Attack</th>\n<th>Special</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>@UUID[Compendium.pnp-end-game.pnp-endgame-actors.Actor.b948ef4b652142b5]{Awakened Tree} ×2</td>\n<td>8</td>\n<td>8</td>\n<td>2</td>\n<td>Twice: Bash (d6)</td>\n<td>Axes, hatchets and fire ignore Armor. 1 GD Tangle. Wounded = Rootbound Curse</td>\n</tr>\n</tbody>\n</table>\n<p>⭐ <strong>Vega spotlight.</strong> He can speak to trees (Elemental Connection, and the <strong>Rosewood Crown</strong> if he wears it). If he asks what they want:</p>\n<blockquote>\n<p><strong>The trees, together, like a floor settling:</strong> <em>\"Down. Where it is green.\"</em></p>\n</blockquote>\n<p>A <strong>GRACE</strong> test (his manners; <strong>advantage</strong> if he mentions the two ents he woke fifty years early in session 6), and they simply walk off down the mountain, past forty astonished princesses. <strong>That is a win and costs no dice.</strong></p>\n<p><strong>If it comes to a fight:</strong> it is loud. <strong>+1 Cold</strong> (a loud fight in the open). Blitzenaxt ignores their Armor.</p>\n<h2>Exit</h2>\n<p>The wall is ahead: @UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.727b673bf45bc312]{The Barrier of Thorns}.</p>\n<h2>Scene assets</h2>\n<ul>\n<li>\n<p><strong>Background:</strong> <strong>Rosehold 0 — The Thornwall</strong> (module 0.7.0, already imported and staged in the world).</p>\n</li>\n<li>\n<p><strong>Tokens:</strong> PCs, Major Ursa, Amy and Aurelius. Two <strong>Awakened Tree</strong> tokens at the causeway's midpoint (<a href=\"modules/pnp-end-game/art/tokens/awakened_tree.png\">monsters/assets/awakened tree.png</a>).</p>\n</li>\n<li>\n<p><strong>GM only:</strong> @UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.168a20ce123acb41]{rosehold tracker} for the Cold.</p>\n</li>\n</ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!0593bc52859789a0"
+}

@@ -2,7 +2,7 @@
 type: session-prep
 campaign: Perils & Princesses
 session: 12
-status: prepared, not yet played
+status: played 2026-10-10 (diverged from prep; see session12_summary)
 planned_date: 2026-10-10
 ---
 

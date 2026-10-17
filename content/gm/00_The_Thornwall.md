@@ -60,7 +60,7 @@ Whatever the party chooses, **Amy and Aurelius must still break the Barrier at A
 
 - Amy has **6 HP**. If she is Wounded the count restarts. If Aurelius is struck by two wisps in a round he staggers and the round does not count.
 - **Ally Calls shine here**: Mama Bear guards Amy for a round; the pixies; the wolf pack.
-- Tawny has **Tawny's Blessing** (immune to corruption): crawlers cannot grab her.
+- **Tawny's Blessing** (immune to corruption) died with Tawny in session 12. [[Major_Ursa|Major Ursa]] has no such protection.
 
 **When it breaks:**
 > *The crack runs top to bottom with a sound like a bell. For a moment the whole wall is lit from inside, rose-gold, and you can see what it was grown over: a gate, and above the gate, carved in stone and half eaten by ice, a rose. The same rose that is pinned to your collar.*

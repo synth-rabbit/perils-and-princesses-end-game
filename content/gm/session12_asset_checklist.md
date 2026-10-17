@@ -33,9 +33,9 @@ status: prepared, not yet played
 
 | Priority | Need | Suggested target or action |
 |---|---|---|
-| 🔴 HIGH | **Knight Camp tokens placed** | Live world; see scene 1's list |
-| 🔴 HIGH | **Module 0.6.0 installed in the world** | Session 11 was missing Raphael's token, the Stones scene and the Ring of Heart: all three are in the module from 0.5.0/0.6.0 except the ring (below) |
-| 🔴 HIGH | **Ring of Heart item** | Not in any module release. Add to `tools/generate_src.py`; text in [[Ring_of_Heart]] |
+| ✅ | **Knight Camp tokens placed** (2026-10-10) | Finnian, Robin, 8 Royal Guards, Embra labelled Princess Amy, Scamp, PCs and Tawny; Sir Raphael hidden in the south-east meadow. Drawing markers for the carriage, fire, mule line, black tent and three attendants. Dragon Cave, The Road Beyond and Castle Approach are staged too |
+| ✅ | **Module updated in the world** (2026-10-10) | 0.7.0 published and active in the live world. Session 12 journals, Ally Calls (players can view) and the Whisper Table are imported into a "Session 12" journal folder |
+| ✅ | **Ring of Heart item** | Vega's hand-made ring was already named Ring of Heart; its description now carries the module wording |
 | 🔴 HIGH | Level 4 sheet changes ready | Per player; rules in [[session12_06_knighthoods]] |
 | 🟢 LOW | Robin, Scamp portraits in the vault | In the module (`robin_squire.png`, `scamp_squirrel.png`), not in `npcs/assets/` |
 | 🟢 LOW | Pippin's Princess Compass item | Hand-made in session 11; add to the module with [[Pippins_Princess_Compass]] |

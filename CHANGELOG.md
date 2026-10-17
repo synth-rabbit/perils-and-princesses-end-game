@@ -1,5 +1,15 @@
 # Release notes
 
+## 0.8.0 — 2026-10-17
+
+**Session 13 and the castle notes brought up to date with session 12**, where the party fought Embra in the dragon's cave instead of at the knight camp, Sir Raphael killed her, and Tawny died.
+
+- **New actor: Major Ursa**, Filly's polar bear (HP 8, SAVE 10, Armor 2; Bite d10 and Claws d6, borrowed from Mama Bear), with portrait and round token.
+- **New GM journals: session 13** (hub, asset checklist, seven scenes): the cave aftermath with Finnian and the paper signed M., the road north, the council below Rosehold, then Level 0 (causeway, Barrier, gatehouse) and an optional start on Level 1.
+- **Updated journals:** Ally Calls (Sir Finnian is now available; the crystal wolves flank with Major Ursa; Raphael's ballad is about the dragon); the Thornwall, Undercroft, Galleries and Frozen Spire (Tawny's beats now use Major Ursa or her memory; the last Dragonfilch test is gone, since the curse ended); Rosehold Treasures (control orb); the castle runbook (session plan, level 4 applied, epilogue); session 12 hub and checklist marked as played.
+
+No scenes changed. Existing document IDs are unchanged. Updating the module does not replace journals already imported into a world: re-import Ally Calls and any castle journals you use, and import the session 13 journals and Major Ursa.
+
 ## 0.7.0 — 2026-10-06
 
 **Rosehold, Queen Morwenna's castle, as a six-level dungeon crawl.** Six new scenes (Thornwall, Outer Ward, Hall of the Rose, Undercroft, Galleries, Frozen Spire) on painted maps, each with a square grid, walls, doors (including locked and secret ones), ambient lights, fog exploration and GM-only room labels. Maps ship as WebP (about 12 MB for all six); full-size PNG sources are kept out of the release in `build/art_sources/`.

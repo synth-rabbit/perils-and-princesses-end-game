@@ -227,6 +227,10 @@ ACTORS = [
         "<strong>Attacks once or twice: Bite (d6) or Claws (d4).</strong> Territorial wolves with diamond-hard fangs and claws.",
         "Boneyard den: 3d4, pups have Pippin's walking stick. Travel Wrinkle: 2d4. Animal speech, food, and trading are valid approaches. No automatic half-pack rout or added pack advantage.")),
 
+    npc("Major Ursa", 8, 10, 2, "major_ursa.png", notes(
+        "<strong>Attacks twice: Bite (d10) and Claws (d6).</strong> Filly's polar bear, whistled up with Give a Little Whistle after Tawny was killed in session 12. Stat line borrowed from the printed Mama Bear, without her cub-defending clause; adjust as the GM likes.",
+        "New to the party: solemn, enormous and keen to be useful. Tawny's Blessing (immunity to corruption) died with Tawny and does not pass to him.")),
+
     npc("Gnomish Warrior Statue", 4, 8, 2, "gnomish_warrior_statues.png", notes(
         "<strong>Stone Swords (d4).</strong> Four crystal-eyed statues ring the gnome village stump; a wrong password animates them.",
         "If defeated, a guard gnome pops out to chastise the party and shoo them off — but may let them in on a successful GRACE test.")),

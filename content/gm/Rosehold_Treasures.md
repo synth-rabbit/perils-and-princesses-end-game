@@ -31,7 +31,7 @@ Given by a freed Echo (see [[The_Four_Founders]]). Each recharges at dawn.
 | Gold coupe with emeralds | C3 | 200 SP. Anyone who drinks from it at the frozen feast is Befuddled. |
 | The scullions' stew | C4 | A hot meal for six. Counts as a Picnic meal and ends Weary. |
 | Portrait of five friends | C5 | Worth nothing. Carrying it into the throne room gives advantage on the first test made to reach Morwenna. |
-| The second control orb | D5 | Commands animals, like Sebastian's. The Queen's side used it on the castle's beasts. Smash it (any blow) or keep it: keeping it is a WITS test for anyone still under the Dragonfilch Curse. |
+| The second control orb | D5 | Commands animals, like Sebastian's. The Queen's side used it on the castle's beasts. Smash it (any blow) or keep it: nobody is under the Dragonfilch Curse any more (ended session 12), so keeping it is simply a choice. |
 | The Grave relics | D5 | The Baron's deliveries: 300 SP of grave goods, and whatever the party remembers him digging for. Returning them to Willowbrook's dead is an epilogue beat. |
 | Aurelius's horn-shavings | D5 | A twist of paper. Sprinkled on a wound: heals 2d4+4, three doses. |
 | Red dragon statue with ruby scales | D5 | 1,000 SP, takes two slots. Not a hoard item; no curse. |

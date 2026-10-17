@@ -1,0 +1,28 @@
+{
+  "_id": "8e4f149331ff0974",
+  "name": "Session 13 Asset Checklist — The Council and the Wall",
+  "pages": [
+    {
+      "_key": "!journal.pages!8e4f149331ff0974.057c26a9e1b35822",
+      "_id": "057c26a9e1b35822",
+      "name": "Session 13 Asset Checklist — The Council and the Wall",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>Session 13 Asset Checklist — The Council and the Wall</h1>\n<blockquote>\n<p><strong>Prep:</strong> @UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.7d4fa8464aee96dc]{session13 prep} · <strong>Castle assets:</strong> rosehold asset list\n<strong>Audit:</strong> 2026-10-16. File presence means the source exists, not that it is imported or placed in the live world. World state is from the 2026-10-10 staging notes in 00 campaign state.</p>\n</blockquote>\n<h2>✅ Existing assets</h2>\n<table>\n<thead>\n<tr>\n<th>Use</th>\n<th>Existing source</th>\n<th>Readiness / setup</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Runnable session</td>\n<td>@UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.7d4fa8464aee96dc]{session13 prep} and seven scene notes</td>\n<td>Complete</td>\n</tr>\n<tr>\n<td>Dragon's Cave (scene 1)</td>\n<td><strong>GM-confirmed existing world map</strong>; module fallback <strong>Dragon Cave Lair</strong></td>\n<td>Reuse. Remove Tawny's token; hide Embra</td>\n</tr>\n<tr>\n<td>The Road Beyond (scene 2)</td>\n<td>Module scene <strong>Scorchwoods — The Road Beyond</strong></td>\n<td>Imported and staged 2026-10-10</td>\n</tr>\n<tr>\n<td>Castle Approach (scenes 2–3)</td>\n<td>Module scene <strong>Castle Approach</strong>; maps/morwennas castle/rosehold 0 thornwall player.png</td>\n<td>In the navigation bar, hidden from players until activated</td>\n</tr>\n<tr>\n<td>Level 0 (scenes 4–6)</td>\n<td>Module scene <strong>Rosehold 0 — The Thornwall</strong></td>\n<td>Imported and populated 2026-10-10; Barrier waves (6 crawlers, 3 wisps) placed hidden. <strong>Copy 6 more crawlers for round 2.</strong> Walls untested in play</td>\n</tr>\n<tr>\n<td>Level 1 (scene 7, optional)</td>\n<td>Module scene <strong>Rosehold 1 — The Outer Ward</strong></td>\n<td>Imported and populated 2026-10-10</td>\n</tr>\n<tr>\n<td>Castle actors</td>\n<td>World \"Rosehold\" actor folder (30 actors): Awakened Tree, Castle Vine Crawler, Frostbind Wisp, Thornheart Construct, Hilde, Thornsworn Guard and Sergeant</td>\n<td>Ready</td>\n</tr>\n<tr>\n<td>Amy (restored), Scamp, Finnian, Robin, Raphael, Royal Guard</td>\n<td>Module actors (0.7.0)</td>\n<td>In the world from session 12</td>\n</tr>\n<tr>\n<td>Daisy of Silverspire</td>\n<td>GM-made actor already in the world</td>\n<td>Scene 3</td>\n</tr>\n<tr>\n<td>Portraits</td>\n<td><a href=\"modules/pnp-end-game/art/tokens/princess_amy.png\">npcs/assets/princess amy.png</a>, <a href=\"modules/pnp-end-game/art/tokens/sir_finnian.png\">npcs/assets/sir finnian.png</a>, <a href=\"modules/pnp-end-game/art/tokens/sir_raphael.png\">npcs/assets/sir raphael.png</a>, npcs/assets/unicorn aurelius full power.png, npcs/assets/nim the badger.png, <a href=\"modules/pnp-end-game/art/tokens/pippin_cobbleton.png\">npcs/assets/pippin cobbleton.png</a>, <a href=\"modules/pnp-end-game/art/tokens/awakened_tree.png\">monsters/assets/awakened tree.png</a>, <a href=\"modules/pnp-end-game/art/tokens/vine_crawler.png\">monsters/assets/vine crawler.png</a></td>\n<td>On disk</td>\n</tr>\n<tr>\n<td>Ally rules</td>\n<td>@UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.a1d4390573d3737d]{Ally Calls} (updated 2026-10-16: Finnian available, Major Ursa replaces Tawny)</td>\n<td>Player-safe</td>\n</tr>\n<tr>\n<td>Tracker</td>\n<td>@UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.168a20ce123acb41]{rosehold tracker}</td>\n<td>Print or keep open; Cold starts at 0</td>\n</tr>\n</tbody>\n</table>\n<h2>❌ Gaps and setup decisions</h2>\n<table>\n<thead>\n<tr>\n<th>Priority</th>\n<th>Need</th>\n<th>Suggested target or action</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>🔴 HIGH</td>\n<td><strong>Major Ursa actor</strong></td>\n<td>Art is done: portrait <a href=\"modules/pnp-end-game/art/tokens/major_ursa.png\">npcs/assets/major ursa.png</a>, token npcs/assets/major ursa token.png, full body npcs/assets/major ursa full.png. Hand-make the actor in the world from @UUID[Compendium.pnp-end-game.pnp-endgame-actors.Actor.420ce96ef2fb0f2c]{Major Ursa} (HP 8, SAVE 10, Armor 2; Bite d10, Claws d6) and upload the two images</td>\n</tr>\n<tr>\n<td>🔴 HIGH</td>\n<td><strong>Players' special items</strong></td>\n<td>Collect designs before play; hand-make each item on the PC's sheet after the GM approves it</td>\n</tr>\n<tr>\n<td>🔴 HIGH</td>\n<td><strong>Ally Calls journal in the world</strong> is the session 12 copy</td>\n<td>Edit it by hand (two rows: crystal wolves → Major Ursa; Finnian now available) or re-import from a new module build</td>\n</tr>\n<tr>\n<td>🟢 LOW</td>\n<td>Dragon-scale armour items (+3 Armor each)</td>\n<td>Hand-make per PC if not done after session 12</td>\n</tr>\n<tr>\n<td>🟢 LOW</td>\n<td>Hilde's Buckler item</td>\n<td>Hand-make if the world has no copy; text in @UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.f4b0b12b4e9ee480]{Rosehold Treasures}</td>\n</tr>\n<tr>\n<td>🟢 LOW</td>\n<td>Session 13 GM journals in Foundry</td>\n<td>Only if wanted; needs a new module build (0.8.0). The vault scene notes are complete without it</td>\n</tr>\n</tbody>\n</table>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!8e4f149331ff0974"
+}

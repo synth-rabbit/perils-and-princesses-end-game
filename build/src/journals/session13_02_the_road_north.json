@@ -1,0 +1,28 @@
+{
+  "_id": "419c077ee8e09318",
+  "name": "Session 13 Scene 2: The Road North",
+  "pages": [
+    {
+      "_key": "!journal.pages!419c077ee8e09318.ababe09c9bcd2806",
+      "_id": "ababe09c9bcd2806",
+      "name": "Session 13 Scene 2: The Road North",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>Session 13 Scene 2: The Road North</h1>\n<blockquote>\n<p><strong>Hub:</strong> @UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.7d4fa8464aee96dc]{session13 prep} · <strong>Assets:</strong> @UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.8e4f149331ff0974]{session13 asset checklist}\n<strong>Table time:</strong> 10 min · <strong>Foundry:</strong> module scene <strong>Scorchwoods — The Road Beyond</strong>, then <strong>Castle Approach</strong> for the last image</p>\n</blockquote>\n<p>A montage. <strong>Do not roll for travel.</strong> One image per player, and one question each.</p>\n<h2>The road</h2>\n<blockquote>\n<p><em>North, and up. The Scorchwoods' crystal gives way to pine, then to bare rock with snow in the cracks. Amy rides Aurelius, Scamp inside her collar. At every crossroads somebody is waiting: a badger in a waistcoat who falls in beside you without a word; a goat on a bridge who says he supposes he had better come and see what all the fuss is; a bear and two cubs who simply appear on the path ahead and start walking.</em></p>\n</blockquote>\n<h2>One question each</h2>\n<p>Ask each player, in turn, and let the answer be the scene:</p>\n<ul>\n<li>\n<p>⭐ <strong>Filly:</strong> <em>\"The cubs want to ride Major. He has never carried anyone but you. What does Filly do?\"</em> (Mama Bear watches the polar bear with professional interest. If Filly lets the cubs on, Major allows it with enormous dignity.)</p>\n</li>\n<li>\n<p>⭐ <strong>Vega:</strong> <em>\"The rock under your boots has changed. You can feel the mountain is hollow somewhere ahead. What do you tell the others, and what do you keep to yourself?\"</em> (It is granite over something hollow: the castle's Undercroft. Grumbold will want his opinion at the council.)</p>\n</li>\n<li>\n<p>⭐ <strong>Marigold:</strong> <em>\"Since the treeline your staff has been pulling, very gently, north. The way it pulled you south in the Rocky Passages. Do you tell anyone?\"</em> (Someone on the other side of the wall knows the staff. It is Aethelgard's, though nobody can say so yet.)</p>\n</li>\n</ul>\n<h2>The first sight of it</h2>\n<blockquote>\n<p><em>The last pines give out below a ridge of bare rock, and above the ridge, filling the pass from wall to wall, black and blue and three storeys high: ice, with thorns in it. Your pins go cold against your collars, all three at once.</em></p>\n</blockquote>\n<p>Amy, quietly: <em>\"Oh. She's been busy.\"</em></p>\n<h2>Exit</h2>\n<p>Over the ridge, the muster: @UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.86dff36c980f2c0a]{The Council Below Rosehold}.</p>\n<h2>Scene assets</h2>\n<ul>\n<li>\n<p><strong>Background:</strong> module <strong>Scorchwoods — The Road Beyond</strong>; switch to <strong>Castle Approach</strong> for the last read-aloud.</p>\n</li>\n<li>\n<p><strong>Tokens:</strong> none needed; this is narration. Optional: Nim, Billy Goat, Mama Bear and cubs if you have them.</p>\n</li>\n<li>\n<p><strong>Portraits:</strong> npcs/assets/nim the badger.png.</p>\n</li>\n</ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!419c077ee8e09318"
+}

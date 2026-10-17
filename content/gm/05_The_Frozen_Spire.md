@@ -36,7 +36,7 @@ Roped together, or mounted on Mari Lwyd's steeds, the party has advantage on all
 
 ## F2. The Antechamber of the Thorn Mark
 
-> *A bare round room. Across the far door, as still as the wall behind him, stands a knight in black armour with an axe in each hand. On his breastplate is a throne made of thorns. Tawny has seen him before. She makes a sound you have never heard her make.*
+> *A bare round room. Across the far door, as still as the wall behind him, stands a knight in black armour with an axe in each hand. On his breastplate is a throne made of thorns. Filly has seen him before, in Tawny's dream.*
 
 | Monster | HP | SAVE | Armor | Attack | Special |
 |---|---|---|---|---|---|
@@ -46,7 +46,7 @@ Roped together, or mounted on Mari Lwyd's steeds, the party has advantage on all
 **Finale tuning for Damon (optional, recommended for level 4):** HP 16, and **the first time he drops to 0 he gets back up at 8** as the blood-clay knits. He does not get up a second time, and does not get up at all if the blow was silver, or if Vega's Shape or Shatter Vein dealt it. He is blood and *earth*.
 
 - **⭐ Vega:** this is his fight. Vein-Breaker ignores a point of Damon's Armor; Shatter Vein strips it; and a level 4 earth elementalist is **immune to an earth construct's damage** if the GM rules the axes as part of him. Rule it that way.
-- **⭐ Tawny** dreamed this knight. She attacks him with advantage, and the first time she hits, tell Filly's player that Tawny has been waiting.
+- **⭐ Filly:** Tawny dreamed this knight, and Tawny did not live to meet him. If Filly carries anything made from **Tawny's silver claws or teeth**, it strikes him with advantage, and the first time it hits, tell Filly's player that Tawny has been waiting. Major Ursa, who never knew Tawny, attacks him anyway, because Filly does.
 - **Ulrik**, if spared and brought along, can order him to stand down. Damon lowers his axes, and then says the only full sentence he has ever spoken: *"What do I do now."* Nobody has an answer prepared. Let the table find one.
 - **The Sentinels** will answer the oath as in the Great Hall.
 
@@ -100,7 +100,7 @@ She talks first. She wants to be understood. She will answer three questions hon
 | **Bubble** | +[DICE] Armor for [SUM] rounds. Reaction. |
 | **Disguise** | Becomes Amy, or one of the heroes, when someone is about to strike. **WITS** to see through; the Spectacles see through at once. |
 
-**Other habits:** she targets Heart Dice. When a hero spends one to help a friend, she answers with Splinters at the helper. She drinks her potion (2d4+4) at 10 HP or less. She never attacks Tawny first.
+**Other habits:** she targets Heart Dice. When a hero spends one to help a friend, she answers with Splinters at the helper. She drinks her potion (2d4+4) at 10 HP or less. She never attacks Filly's animal companion first.
 
 **Smooch and other mercies:** Marigold's Smooch cannot calm 30 HP outright. But if its [SUM] is at least **half her current HP**, *Morwenna* lowers the dagger and says, puzzled, *"Oh."* She loses both actions next round and the throne's protection drops for that round. If no pillar stands when this happens, the curse, which was never her, stands up without her: go straight to phase two, and it counts as reaching her.
 
@@ -151,7 +151,7 @@ Everyone Nearby tests **GRACE** or takes 2d6. She has full HP in the new form an
 | Winter's Breath | 12 / 6 | 16 / 8 | 20 / 10, as a dragon's |
 | Sentinels | none | 2 | 4, and Damon gets up a second time and follows the party in |
 
-**⭐ Filly:** the Frost-Crowned is not an animal and Filly cannot talk it down. But in **Wild Form** she can be the thing the Queen's nightmare sent Damon to kill: a dragon in the throne room, if the GM allows the form, with [SUM] HP. The curse wanted "her fire." Let Filly bring it. Tawny's Roar also still works on the Sentinels.
+**⭐ Filly:** the Frost-Crowned is not an animal and Filly cannot talk it down. But in **Wild Form** she can be the thing the Queen's nightmare sent Damon to kill: a dragon in the throne room, if the GM allows the form, with [SUM] HP. The curse wanted "her fire." Let Filly bring it. Filly's Roar also still works on the Sentinels.
 
 **⭐ Vega:** the throne is thorn, but the dais is stone. Shape can tip it, split it, or raise a wall that stops Winter's Breath cold. A summoned earth elemental can simply hold Amy and refuse to let go. Vein-Breaker ignores the pillars' Armor.
 

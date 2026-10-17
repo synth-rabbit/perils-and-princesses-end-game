@@ -1,0 +1,28 @@
+{
+  "_id": "90c4a54b24ea21cd",
+  "name": "Session 13 Scene 7 (Optional): The Court of Frozen Fountains",
+  "pages": [
+    {
+      "_key": "!journal.pages!90c4a54b24ea21cd.525b49310e31af17",
+      "_id": "525b49310e31af17",
+      "name": "Session 13 Scene 7 (Optional): The Court of Frozen Fountains",
+      "type": "text",
+      "sort": 0,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>Session 13 Scene 7 (Optional): The Court of Frozen Fountains</h1>\n<blockquote>\n<p><strong>Hub:</strong> @UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.7d4fa8464aee96dc]{session13 prep} · <strong>Assets:</strong> @UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.8e4f149331ff0974]{session13 asset checklist}\n<strong>Table time:</strong> 15–20 min, only if the session is running early · <strong>Foundry:</strong> module scene <strong>Rosehold 1 — The Outer Ward</strong> (B1)\n🔗 Castle note: @UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.3425a0f468cbc304]{01 The Outer Ward}, B1</p>\n</blockquote>\n<p>Run this only if the gatehouse finishes with time to spare. It is a good place to stop: the party sees the curse's victims for the first time and catches its first guard.</p>\n<h2>Entry</h2>\n<blockquote>\n<p><em>A wide yard under a hard white sky. Two fountains stand frozen mid-leap. Between them, life-size and rimed with frost, are statues of people running toward the keep: a cook with a ladle, a stable boy, a knight with her helm under her arm. They are not statues.</em></p>\n</blockquote>\n<h2>What is here</h2>\n<ul>\n<li>\n<p><strong>The frozen household:</strong> a dozen of Rosehold's old servants and knights, caught by the curse the night it broke loose. Alive, asleep, and cold. ⭐ <strong>Marigold's Tears</strong> thaw one per tear; <strong>True Love's Kiss is wasted here</strong>. If the castle is saved, they all wake.</p>\n</li>\n<li>\n<p><strong>Wisps:</strong> d4+2 Frostbind Wisps drift among the frozen people and come for anyone who lingers.</p>\n</li>\n<li>\n<p><strong>The patrol</strong> (four Thornsworn guards and a sergeant) arrives on the <strong>second round</strong> of any fight here.</p>\n</li>\n<li>\n<p><strong>The fountains:</strong> the one nearer the keep still has liquid water under the ice. ⭐ <strong>Marigold's staff recharges in it.</strong></p>\n</li>\n</ul>\n<table>\n<thead>\n<tr>\n<th>Monster</th>\n<th>HP</th>\n<th>SAVE</th>\n<th>Armor</th>\n<th>Attack</th>\n<th>Special</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>@UUID[Compendium.pnp-end-game.pnp-endgame-actors.Actor.bab3acfcc2084623]{Frostbind Wisp} ×d4+2</td>\n<td>3</td>\n<td>12</td>\n<td>0</td>\n<td>Frost Touch (d4) + RESOLVE or Weary</td>\n<td>Immune to ordinary weapons</td>\n</tr>\n<tr>\n<td>Thornsworn Guard ×4</td>\n<td>4</td>\n<td>8</td>\n<td>1</td>\n<td>Halberd (d8) / Crossbow (d6)</td>\n<td>Pull the thorn and they surrender. Roar lasts one round</td>\n</tr>\n<tr>\n<td>Thornsworn sergeant</td>\n<td>6</td>\n<td>10</td>\n<td>2</td>\n<td>Twice: Sword (d8)</td>\n<td>As above</td>\n</tr>\n</tbody>\n</table>\n<ul>\n<li>\n<p>A fight in the open court is loud: <strong>+1 Cold</strong>. While the glass ravens in the Raven Tower are alive, anything done here is seen.</p>\n</li>\n<li>\n<p>⭐ <strong>Filly:</strong> <strong>Roar</strong> on Thornsworn lasts only one round (the thorn steadies them). Major, on the other hand, is very large and they have never seen a polar bear.</p>\n</li>\n<li>\n<p>⭐ <strong>Vega:</strong> the court's flagstones answer to Shape; sinking a patrol to the knees ends the fight without a death.</p>\n</li>\n</ul>\n<h2>A captured guard</h2>\n<p>Thorn pulled, he is terrified and helpful:</p>\n<blockquote>\n<p><em>\"I don't know why I'm here. I took the Baron's coin to hunt three princesses and then there was a woman in a mirror and then it's — is it winter? It was summer.\"</em></p>\n</blockquote>\n<p>He knows the patrol route (court → barracks → court), that \"the wizard\" is upstairs, and that <em>\"the black knight never sleeps, he just stands on the stair.\"</em> If Filly mentions Tawny's dream, he goes white: \"Thorns on his chest. A throne of them. Yes.\"</p>\n<h2>End here</h2>\n<blockquote>\n<p><em>Somewhere above you, behind a window in the keep, a curtain moves. Then the ice on the nearest fountain shows a face that is not yours, and a woman's voice, tired and certain, says:</em></p>\n</blockquote>\n<p>Roll on @UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.1e4073f222b2931e]{Rosehold Whispers} or use line 1: <em>\"You wear my pin. Did they tell you who made it? No. They wouldn't.\"</em></p>\n<p>Cut. Session 14 opens in the court.</p>\n<h2>Scene assets</h2>\n<ul>\n<li>\n<p><strong>Background:</strong> <strong>Rosehold 1 — The Outer Ward</strong>, B1 (module 0.7.0, already in the world).</p>\n</li>\n<li>\n<p><strong>Tokens:</strong> Frostbind Wisps (d4+2), four Thornsworn Guards and a Thornsworn Sergeant (GM-made actors in the world's Rosehold folder). Frozen household: markers or untouched map art.</p>\n</li>\n<li>\n<p><strong>GM only:</strong> @UUID[Compendium.pnp-end-game.pnp-endgame-journals.JournalEntry.168a20ce123acb41]{rosehold tracker}.</p>\n</li>\n</ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!journal!90c4a54b24ea21cd"
+}

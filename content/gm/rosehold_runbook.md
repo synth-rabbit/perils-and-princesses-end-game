@@ -7,7 +7,7 @@ status: prepared, unplayed
 
 # Rosehold — Castle Runbook
 
-> **Start:** [[session12_prep]] ends the Scorchwoods and brings the party to the muster. This runbook then stays open for as many sessions as the castle takes.
+> **Start:** [[session13_prep]] carries the unplayed muster forward from session 12 and runs Level 0. This runbook then stays open for as many sessions as the castle takes.
 > **At the table:** [[rosehold_tracker]] · [[Rosehold]] (six level notes) · [[rosehold_asset_list]]
 > **Tables:** [[Ally_Calls]] · [[Rosehold_Wrinkles]] · [[Rosehold_Whispers]] · [[Rosehold_Treasures]]
 > **Source:** campaign original. The core book gives only the Evil Queen's stat line and two minions; everything else here is built on printed stat lines and the companion module's castle roster.
@@ -27,7 +27,7 @@ Six levels, about thirty keyed rooms, three ways in, and one question at the top
 
 ## 2. Session plan
 
-Session 12 is the camp fight, the rescue and the muster ([[session12_prep]]). After that:
+Session 12 ended the Scorchwoods in the dragon's cave; the muster and Level 0 moved to [[session13_prep]]. The GM expects the castle itself to take **about two sessions** after the council, which is the **two-session** row, shifted: session 13 is the council and Level 0, session 14 Level 1 to Level 2, session 15 Level 3 (E1, E3, E4) and Level 4. The table below is the original plan:
 
 | Plan | Session 13 | Session 14 | Session 15 | Session 16 |
 |---|---|---|---|---|
@@ -76,7 +76,7 @@ Everyone the party has helped is at the muster (A1). Rules and the full list: [[
 
 ## 5. Level 4 at this table
 
-Apply after Amy is restored (session 12). From the core book, p. 31, each PC gains: the level 4 Gift ability, **+1 Gift Die (4 GD)**, **+d4 max HP**, **+1 Heart Die**, and Virtue Deepens (roll d20 against each Virtue in order; higher than the Virtue raises it by one). Level 4 is the cap.
+**Applied at the table in session 12.** Kept for reference. From the core book, p. 31, each PC gains: the level 4 Gift ability, **+1 Gift Die (4 GD)**, **+d4 max HP**, **+1 Heart Die**, and Virtue Deepens (roll d20 against each Virtue in order; higher than the Virtue raises it by one). Level 4 is the cap.
 
 | PC | Level 4 ability | Rulings to make before the castle |
 |---|---|---|
@@ -137,5 +137,5 @@ Run whichever the table has earned. Ten minutes each, at most.
 - **Filly.** Morgana Twinkleberry, in person, with an opinion about imposter syndrome and a list of every animal Filly has ever rescued, read aloud.
 - **Vega.** The deed in the library. Rosehold was held in trust "for the instruction of those who come after." The Royal College of Geological Studies needs a founder, and a troll has opinions about the syllabus.
 - **Marigold.** Aethelgard's Sanctum needs a keeper. So does the question of what she ran from, and whether, with these two beside her, it is time to go back and look at it.
-- **Amy.** Honorary knighthoods from Drakenshire, as the book promises, and a standing invitation to bring the lioness.
-- **Tawny.** Gets the swan from the banquet.
+- **Amy.** The knighthoods were given in session 13; in the epilogue, a standing invitation to Drakenshire for the bear.
+- **Major Ursa.** Gets the swan from the banquet. Filly may set a place for Tawny.

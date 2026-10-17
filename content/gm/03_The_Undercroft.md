@@ -54,7 +54,7 @@ Three prisoners.
 **"The girl."** In the last cell, a young princess in a torn travelling cloak, with a rose pin, who says she is an Initiate captured on the causeway. She is frightened, grateful, and asks a great many questions about the party's friends.
 
 It is **Morwenna**, wearing **Disguise**. She wants to look at them before the end.
-- **Spectacles of Discernment** see through it at once. So does Sniff (she smells of nothing, like the gargoyles) and Tawny, who will not go near her.
+- **Spectacles of Discernment** see through it at once. So does Sniff (she smells of nothing, like the gargoyles) and Major Ursa, who will not go near her.
 - Otherwise a **WITS** test with disadvantage, or she walks with them for a room or two, asking: *"And you'd go back for each other? Every time? Even when it's not worth it?"*
 - Unmasked or not, she leaves with **Poof!** when it suits her. If someone was kind to her without knowing, **note who**: in the throne room that hero has advantage on tests to reach her. *"You gave me your cloak. You didn't know who I was."*
 - She does not fight here. Attacked, she casts Bubble and goes.
@@ -94,9 +94,9 @@ Three wights is a wall. Ways through that are not a fight:
 > *Shelves. Crates with the Baron's seal on them, some never opened. This is where it all went: everything dug out of the grave mounds, everything carried north. In the middle of the floor, on a stand, a glass orb with something moving in it.*
 
 - **Glyph trap** on the main door (not the secret stair): a **Fireball** sigil. Opening it without the word: everyone Nearby tests **GRACE**, 3d6, half on a success. Vespera knows the word (*"Mine."*). Parker disarms it. The Spectacles spot it.
-- **The second control orb.** **⭐ Filly:** it is aimed at Tawny the moment the party enters: Tawny SAVEs (use 12) or turns on the nearest hero for one round. Filly grabbing or smashing the orb is one Action, no roll: she has done this before, on a bridge.
+- **The second control orb.** **⭐ Filly:** it is aimed at Major Ursa the moment the party enters (or at Filly herself, if she is in Wild Form): Major SAVEs (10) or turns on the nearest hero for one round. Filly grabbing or smashing the orb is one Action, no roll: she has done this before, on a bridge.
 - **Loot:** see [[Rosehold_Treasures]]: the grave relics (300 SP), **Aurelius's horn-shavings** (three doses of 2d4+4), the **red dragon statue** (1,000 SP).
-- **Dragonfilch temptation:** anyone still carrying the curse tests **WITS** at the sight of all this. Failure advances it a stage. This is the last such test in the campaign.
+- **Dragonfilch temptation:** none. The curse ended for everyone when Embra died (session 12). Describe the pull they no longer feel.
 
 ## D6. The Frostbind Well
 
